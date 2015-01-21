@@ -5,7 +5,7 @@ date:   2015-01-20 16:26:20
 categories: soups
 ---
 
-![](/images/broc-soup.jpg) 
+![]({{site.baseurl}}/images/broc-soup.jpg) 
 
 # Ingredients
 

@@ -5,7 +5,7 @@ date:   2015-01-20 16:26:20
 categories: soups
 ---
 
-![](/images/green-chile-stew.jpg)
+![]({{site.baseurl}}/images/green-chile-stew.jpg)
 
 # Ingredients
 
