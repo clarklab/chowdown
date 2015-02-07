@@ -1,8 +1,14 @@
 ---
+
 layout: post
 title:  "Broccoli Cheese Soup"
 date:   2015-01-20 16:26:20
 categories: soups
+ingredients:
+    - 2 tablespoons butter
+    - 1 cup diced onion
+    - 1 cup shredded carrot
+
 ---
 
 ![]({{site.baseurl}}/images/broc-soup.jpg) 

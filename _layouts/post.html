@@ -8,6 +8,14 @@ layout: default
     <p class="post-meta">{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
 
+  <h3>suh</h3>
+<h4>Ingredients</h4>
+<ul>
+    {% for ingredient in page.ingredients %}
+    <li itemprop="ingredient">{{ ingredient }}</li>
+    {% endfor %}
+</ul>
+
   <article class="post-content">
     {{ content }}
   </article>

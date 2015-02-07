@@ -4,15 +4,15 @@
     <title>Chowdown</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 21 Jan 2015 16:40:17 -0600</pubDate>
-    <lastBuildDate>Wed, 21 Jan 2015 16:40:17 -0600</lastBuildDate>
+    <link>/chowdown/</link>
+    <atom:link href="/chowdown/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 06 Feb 2015 14:39:59 -0600</pubDate>
+    <lastBuildDate>Fri, 06 Feb 2015 14:39:59 -0600</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>Green Chile Stew</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/images/green-chile-stew.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;/chowdown/images/green-chile-stew.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;ingredients&quot;&gt;Ingredients&lt;/h1&gt;
 
@@ -34,8 +34,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Tue, 20 Jan 2015 10:26:20 -0600</pubDate>
-        <link>/soups/2015/01/20/green-chile-stew.html</link>
-        <guid isPermaLink="true">/soups/2015/01/20/green-chile-stew.html</guid>
+        <link>/chowdown/soups/2015/01/20/green-chile-stew.html</link>
+        <guid isPermaLink="true">/chowdown/soups/2015/01/20/green-chile-stew.html</guid>
         
         
         <category>soups</category>
@@ -44,7 +44,7 @@
     
       <item>
         <title>Broccoli Cheese Soup</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/images/broc-soup.jpg&quot; alt=&quot;&quot; /&gt; &lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;/chowdown/images/broc-soup.jpg&quot; alt=&quot;&quot; /&gt; &lt;/p&gt;
 
 &lt;h1 id=&quot;ingredients&quot;&gt;Ingredients&lt;/h1&gt;
 
@@ -75,8 +75,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Tue, 20 Jan 2015 10:26:20 -0600</pubDate>
-        <link>/soups/2015/01/20/broccoli-cheese-soup.html</link>
-        <guid isPermaLink="true">/soups/2015/01/20/broccoli-cheese-soup.html</guid>
+        <link>/chowdown/soups/2015/01/20/broccoli-cheese-soup.html</link>
+        <guid isPermaLink="true">/chowdown/soups/2015/01/20/broccoli-cheese-soup.html</guid>
         
         
         <category>soups</category>
