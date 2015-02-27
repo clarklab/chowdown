@@ -11,10 +11,16 @@
     font-size: 26px;
     line-height: 56px;
     letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
-    position: relative;
-    padding-left: 40px;
+    margin:0;
+    top:0;
+    left:0;
+    text-align:center;
+    position: fixed;
+    width:50px;
+    height:50px;
+    background:blue;
+    display:block;
+    h1{display:none;}
     &,
     &:visited {
         color: $grey-color-dark;
@@ -25,10 +31,11 @@
     svg{
         position: absolute;
         top:50%;
-        left:0;
+        left:10px;
         width: 30px;
         height:auto;
         transform: translateY(-50%);
+        g{fill:#fff}
     }
 }
 
@@ -170,9 +177,6 @@
 /**
  * Page content
  */
-.page-content {
-    padding: $spacing-unit 0;
-}
 
 .page-heading {
     font-size: 20px;
@@ -181,10 +185,10 @@
 .post-list {
     margin-left: 0;
     list-style: none;
-    @include columns(2);
     > li {
         margin-bottom: $spacing-unit;
     }
+    .home & {padding-top:1rem;}
 }
 
 .post-meta {
@@ -203,16 +207,18 @@
  * Posts
  */
 .post-header {
-    margin-bottom: $spacing-unit;
+    margin-bottom: 0;
 }
 
 .post-title {
     font-size: 42px;
     letter-spacing: -1px;
-    line-height: 1;
+    line-height: 40px;
+    margin-bottom:0;
 
     @include media-query($on-laptop) {
-        font-size: 36px;
+        font-size: 22px;
+        padding:0 0 0 70px;
     }
 }
 

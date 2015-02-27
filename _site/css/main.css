@@ -26,7 +26,8 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 .highlight {
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  font-family: "Inconsolata", Helvetica, Arial, sans-serif; }
 
 /**
  * Images
@@ -34,6 +35,9 @@ ul, ol, dl, figure,
 img {
   max-width: 100%;
   vertical-align: middle; }
+
+.post-content img {
+  margin-bottom: 15px; }
 
 /**
  * Figures
@@ -123,12 +127,18 @@ pre {
       padding-right: 15px;
       padding-left: 15px; } }
 
+.container {
+  max-width: 48em; }
+
 /**
  * Clearfix
  */
 .wrapper:after, .footer-col-wrapper:after {
   content: "";
   display: table;
+  clear: both; }
+
+.clearfix {
   clear: both; }
 
 /**
@@ -154,10 +164,17 @@ pre {
   font-size: 26px;
   line-height: 56px;
   letter-spacing: -1px;
-  margin-bottom: 0;
-  float: left;
-  position: relative;
-  padding-left: 40px; }
+  margin: 0;
+  top: 0;
+  left: 0;
+  text-align: center;
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: blue;
+  display: block; }
+  .site-title h1 {
+    display: none; }
   .site-title, .site-title:visited {
     color: #424242; }
   .site-title h1 {
@@ -165,10 +182,12 @@ pre {
   .site-title svg {
     position: absolute;
     top: 50%;
-    left: 0;
+    left: 10px;
     width: 30px;
     height: auto;
     transform: translateY(-50%); }
+    .site-title svg g {
+      fill: #fff; }
 
 .site-nav {
   float: right;
@@ -267,27 +286,16 @@ pre {
 /**
  * Page content
  */
-.page-content {
-  padding: 30px 0; }
-
 .page-heading {
   font-size: 20px; }
 
 .post-list {
   margin-left: 0;
-  list-style: none;
-  -webkit-column-count: 2;
-  -ms-column-count: 2;
-  -moz-column-count: 2;
-  -o-column-count: 2;
-  column-count: 2;
-  -webkit-column-gap: 10;
-  -ms-column-gap: 10;
-  -moz-column-gap: 10;
-  -o-column-gap: 10;
-  column-gap: 10; }
+  list-style: none; }
   .post-list > li {
     margin-bottom: 30px; }
+  .home .post-list {
+    padding-top: 1rem; }
 
 .post-meta {
   font-size: 14px;
@@ -301,15 +309,17 @@ pre {
  * Posts
  */
 .post-header {
-  margin-bottom: 30px; }
+  margin-bottom: 0; }
 
 .post-title {
   font-size: 42px;
   letter-spacing: -1px;
-  line-height: 1; }
+  line-height: 40px;
+  margin-bottom: 0; }
   @media screen and (max-width: 800px) {
     .post-title {
-      font-size: 36px; } }
+      font-size: 22px;
+      padding: 0 0 0 70px; } }
 
 .post-content {
   margin-bottom: 30px; }

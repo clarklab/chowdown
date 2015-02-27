@@ -33,6 +33,7 @@ p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
     margin-bottom: $spacing-unit / 2;
+    font-family: $base-font-family;
 }
 
 
@@ -44,7 +45,9 @@ img {
     max-width: 100%;
     vertical-align: middle;
 }
-
+.post-content img{
+    margin-bottom:15px;
+}
 
 
 /**
@@ -149,7 +152,6 @@ pre {
 }
 
 
-
 /**
  * Wrapper
  */
@@ -170,6 +172,7 @@ pre {
     }
 }
 
+.container{max-width:48em;}
 
 
 /**
@@ -183,6 +186,7 @@ pre {
         clear: both;
     }
 }
+.clearfix{clear:both;}
 
 
 

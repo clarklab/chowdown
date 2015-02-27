@@ -3,21 +3,48 @@ layout: default
 ---
 <div class="post" itemscope itemtype="http://schema.org/Recipe">
 
+<article class="post-content">
+  
   <header class="post-header">
     <h1 class="post-title" itemprop="name">{{ page.title }}</h1>
-    <p class="post-meta">{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
+    
+  {% for image in page.image %}
+    <img itemprop="photo" src="{{site.baseurl}}/images/{{ image }}" />
+  {% endfor %}
+  
+  <div class="px3 mt3 clearfix">
+  
+  <div class="sm-col sm-col-6 lg-col-6">
+  
+  <h4>Ingredients</h4>
 
-  <h3>suh</h3>
-<h4>Ingredients</h4>
-<ul>
+  <ul>
     {% for ingredient in page.ingredients %}
     <li itemprop="ingredient">{{ ingredient }}</li>
     {% endfor %}
-</ul>
+  </ul>
+  
+  </div>
+  
+  <div class="sm-col sm-col-6 lg-col-6">
+  
+  <h4>Directions</h4>
+  
+  <ul itemprop="instructions">
+    {% for direction in page.directions %}
+    <li>{{ direction }}</li>
+    {% endfor %}
+  </ul>
+  
+  </div>
+  
+  </div>
+  
+    {% for category in page.categories %}
+    <p>Category: <span itemprop="recipeCategory">{{ category }}</span></p>
+    {% endfor %}
 
-  <article class="post-content">
-    {{ content }}
   </article>
 
 </div>
