@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Green Chile Stew"
-date:   2015-01-20 16:26:20
+date:   2015-01-20 16:24:20
 categories: soups
 image: green-chile-stew.jpg
 

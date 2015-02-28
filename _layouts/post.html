@@ -14,10 +14,12 @@ layout: default
   </header>
   
   <div class="px2 mt3 clearfix">
+    
+  <div class="mb3">{{page.content}}</div>
   
   <div class="sm-col sm-col-6 lg-col-6">
   
-  <h4>Ingredients</h4>
+  <h4 class="blue">Ingredients</h4>
 
   <ul>
     {% for ingredient in page.ingredients %}
@@ -29,7 +31,7 @@ layout: default
   
   <div class="sm-col sm-col-6 lg-col-6">
   
-  <h4>Directions</h4>
+  <h4 class="blue">Directions</h4>
   
   <ul itemprop="instructions">
     {% for direction in page.directions %}
@@ -39,11 +41,11 @@ layout: default
   
   </div>
   
-  </div>
-  
-    {% for category in page.categories %}
+  {% for category in page.categories %}
     <p>Category: <span itemprop="recipeCategory">{{ category }}</span></p>
-    {% endfor %}
+  {% endfor %}
+    
+  </div>
 
   </article>
 

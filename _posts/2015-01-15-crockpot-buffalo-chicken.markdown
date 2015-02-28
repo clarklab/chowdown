@@ -2,7 +2,7 @@
 
 layout: post
 title:  "Crockpot Buffalo Chicken"
-date:   2015-02-25 16:26:20
+date:   2015-01-15 16:26:20
 categories: meals
 image: crockpot.jpg
 
@@ -18,3 +18,5 @@ directions:
 - Serve with pickles and Hawaiian rolls
 
 ---
+
+This is a party favorite, perfect for a Super Bowl or a game night. It takes a long time, but like most slow cooker recipes, is easy as hell. Bonus: guests love it.
