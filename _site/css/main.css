@@ -165,7 +165,7 @@ pre {
   position: relative; }
 
 .site-title {
-  z-index: 10;
+  z-index: 5;
   font-size: 26px;
   line-height: 56px;
   letter-spacing: -1px;

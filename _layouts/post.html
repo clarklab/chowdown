@@ -23,7 +23,7 @@ layout: default
 
   <ul>
     {% for ingredient in page.ingredients %}
-    <li itemprop="ingredient">{{ ingredient  | markdownify }}</li>
+    <li itemprop="ingredient">{{ ingredient | markdownify }}</li>
     {% endfor %}
   </ul>
   
@@ -35,7 +35,7 @@ layout: default
   
   <ul itemprop="instructions">
     {% for direction in page.directions %}
-    <li>{{ direction }}</li>
+    <li>{{ direction | markdownify }}</li>
     {% endfor %}
   </ul>
   
