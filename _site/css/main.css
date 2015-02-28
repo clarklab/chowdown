@@ -161,6 +161,7 @@ pre {
   position: relative; }
 
 .site-title {
+  z-index: 10;
   font-size: 26px;
   line-height: 56px;
   letter-spacing: -1px;
@@ -289,21 +290,29 @@ pre {
 .page-heading {
   font-size: 20px; }
 
+.page-content {
+  padding-top: 1rem; }
+
 .post-list {
   margin-left: 0;
   list-style: none; }
   .post-list > li {
     margin-bottom: 30px; }
-  .home .post-list {
-    padding-top: 1rem; }
 
 .post-meta {
   font-size: 14px;
   color: #828282; }
 
 .post-link {
+  position: relative;
   display: block;
   font-size: 24px; }
+  .post-link .image {
+    padding-top: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-scroll: fixed; }
 
 /**
  * Posts
@@ -312,14 +321,13 @@ pre {
   margin-bottom: 0; }
 
 .post-title {
-  font-size: 42px;
+  font-size: 32px;
   letter-spacing: -1px;
-  line-height: 40px;
+  line-height: 1;
   margin-bottom: 0; }
   @media screen and (max-width: 800px) {
     .post-title {
-      font-size: 22px;
-      padding: 0 0 0 70px; } }
+      font-size: 32px; } }
 
 .post-content {
   margin-bottom: 30px; }

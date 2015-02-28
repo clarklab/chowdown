@@ -3,17 +3,17 @@ layout: default
 ---
 <div class="post" itemscope itemtype="http://schema.org/Recipe">
 
-<article class="post-content">
-  
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name">{{ page.title }}</h1>
-  </header>
+<article class="post-content px2">
     
   {% for image in page.image %}
     <img itemprop="photo" src="{{site.baseurl}}/images/{{ image }}" />
   {% endfor %}
   
-  <div class="px3 mt3 clearfix">
+  <header class="post-header">
+    <h1 class="post-title center" itemprop="name">{{ page.title }}</h1>
+  </header>
+  
+  <div class="px2 mt3 clearfix">
   
   <div class="sm-col sm-col-6 lg-col-6">
   
@@ -21,7 +21,7 @@ layout: default
 
   <ul>
     {% for ingredient in page.ingredients %}
-    <li itemprop="ingredient">{{ ingredient }}</li>
+    <li itemprop="ingredient">{{ ingredient  | markdownify }}</li>
     {% endfor %}
   </ul>
   

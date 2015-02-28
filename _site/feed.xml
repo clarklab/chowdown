@@ -6,9 +6,22 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 27 Feb 2015 23:50:57 +0000</pubDate>
-    <lastBuildDate>Fri, 27 Feb 2015 23:50:57 +0000</lastBuildDate>
+    <pubDate>Sat, 28 Feb 2015 01:42:14 +0000</pubDate>
+    <lastBuildDate>Sat, 28 Feb 2015 01:42:14 +0000</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Crockpot Buffalo Chicken</title>
+        <description>
+</description>
+        <pubDate>Wed, 25 Feb 2015 16:26:20 +0000</pubDate>
+        <link>/meals/2015/02/25/crockpot-buffalo-chicken.html</link>
+        <guid isPermaLink="true">/meals/2015/02/25/crockpot-buffalo-chicken.html</guid>
+        
+        
+        <category>meals</category>
+        
+      </item>
     
       <item>
         <title>Green Chile Stew</title>
