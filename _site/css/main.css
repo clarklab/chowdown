@@ -313,7 +313,9 @@ pre {
   font-size: 24px; }
   .post-link .image {
     padding-top: 50%;
-    background-size: cover !important; }
+    background-size: cover !important;
+    background-position: center center;
+    background-repeat: no-repeat; }
 
 /**
  * Posts
