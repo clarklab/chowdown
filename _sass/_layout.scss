@@ -206,10 +206,7 @@
     font-size: 24px;
     .image{
     padding-top:50%;
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-position:center center;
-    background-scroll:fixed;
+    background-size:cover !important;
     }
 }
 
