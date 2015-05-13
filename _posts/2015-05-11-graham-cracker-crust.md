@@ -3,7 +3,7 @@
 layout: post
 title:  "Graham Craker Crust"
 date:   2015-01-15 16:26:20
-categories: components
+category: components
 image: graham-cracker-crust.jpg
 
 ingredients:

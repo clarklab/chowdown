@@ -6,12 +6,14 @@ layout: default
 
   <ul class="post-list mb0">
     {% for post in site.posts %}
+     {% unless post.category == "components" %}
       <li class="sm-col sm-col-6 lg-col-6 px2">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
             <div class="image"{% for image in post.image %} style="background-image:url({{site.baseurl}}/images/{{ image }});"{% endfor %}></div>
             <h2 class="title mb0"><span class="highlight highlight--wrapping">{{ post.title }}</span></h2>
           </a>
       </li>
+    {% endunless %} 
     {% endfor %}
   </ul>
 

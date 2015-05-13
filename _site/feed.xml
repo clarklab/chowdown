@@ -6,9 +6,22 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 13 May 2015 01:37:02 +0000</pubDate>
-    <lastBuildDate>Wed, 13 May 2015 01:37:02 +0000</lastBuildDate>
+    <pubDate>Wed, 13 May 2015 03:12:15 +0000</pubDate>
+    <lastBuildDate>Wed, 13 May 2015 03:12:15 +0000</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Red Berry Tart</title>
+        <description>&lt;p&gt;Combine all three, mannn&lt;/p&gt;
+</description>
+        <pubDate>Fri, 01 May 2015 00:00:00 +0000</pubDate>
+        <link>/desserts/2015/05/01/red-berry-tart.html</link>
+        <guid isPermaLink="true">/desserts/2015/05/01/red-berry-tart.html</guid>
+        
+        
+        <category>desserts</category>
+        
+      </item>
     
       <item>
         <title>Broccoli Beer Cheese Soup</title>

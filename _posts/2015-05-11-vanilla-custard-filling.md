@@ -3,7 +3,7 @@
 layout: post
 title:  "Vanilla Custard Filling"
 date:   2015-01-15 16:26:20
-categories: components
+category: components
 image: vanilla-custard.jpg
 
 ingredients:
