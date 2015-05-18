@@ -16,14 +16,18 @@ layout: default
   <div class="px2 mt3 clearfix">
     
   <div class="mb3">{{page.content}}</div>
+
+  {% if page.components %}
   
   <h4 class="blue">Components</h4>
-
+  
   <ul>
     {% for component in page.components %}
     <li>{{ component | markdownify }}</li>
     {% endfor %}
   </ul>
+  
+  {% endif %}
   
   <div class="sm-col sm-col-6 lg-col-6">
   
@@ -50,7 +54,7 @@ layout: default
   </div>
   
   {% for category in page.categories %}
-    <p>Category: <span itemprop="recipeCategory">{{ category }}</span></p>
+    <p class="clearfix">Category: <span itemprop="recipeCategory">{{ category }}</span></p>
   {% endfor %}
     
   </div>

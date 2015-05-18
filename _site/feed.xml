@@ -6,9 +6,22 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 13 May 2015 04:01:04 +0000</pubDate>
-    <lastBuildDate>Wed, 13 May 2015 04:01:04 +0000</lastBuildDate>
+    <pubDate>Mon, 18 May 2015 16:31:48 +0000</pubDate>
+    <lastBuildDate>Mon, 18 May 2015 16:31:48 +0000</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>One Minute Muffin</title>
+        <description>&lt;p&gt;This flax muffin is quick, vertsatile (just mix in other goodies), and only makes one at a time, so you’ve got no huge tray to tempt you. Custom muffins every morning!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 18 May 2015 00:00:00 +0000</pubDate>
+        <link>/breakfast/2015/05/18/one-minute-muffin.html</link>
+        <guid isPermaLink="true">/breakfast/2015/05/18/one-minute-muffin.html</guid>
+        
+        
+        <category>breakfast</category>
+        
+      </item>
     
       <item>
         <title>Red Berry Tart</title>
@@ -40,7 +53,7 @@
     
       <item>
         <title>Green Chile Stew</title>
-        <description>
+        <description>&lt;p&gt;Some Text!&lt;/p&gt;
 </description>
         <pubDate>Tue, 20 Jan 2015 16:24:20 +0000</pubDate>
         <link>/mains/soups/2015/01/20/green-chile-stew.html</link>
