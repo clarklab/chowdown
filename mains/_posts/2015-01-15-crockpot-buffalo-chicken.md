@@ -3,8 +3,7 @@
 layout: post
 title:  "Crockpot Buffalo Chicken"
 date:   2015-01-15 16:26:20
-categories: meals
-image: crockpot.jpg
+image: crockpot-buffalo-chicken.jpg
 
 ingredients:
 - 6-8 chicken breasts

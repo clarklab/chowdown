@@ -2,8 +2,8 @@
 layout: post
 title:  "Green Chile Stew"
 date:   2015-01-20 16:24:20
-categories: soups
 image: green-chile-stew.jpg
+imagecredit: https://flic.kr/p/4CJb65
 
 ingredients:
 - 1 jar of [green chile stew mix](http://amzn.to/1KYXSjo)
@@ -20,4 +20,4 @@ directions:
 
 ---
 
-Some Text!
+This is a simple one, consisting of a pre-made soup mix and whatever you've got around the kitchen (or campsite). Feel free to sub/swap/switch anything in the ingredient list— anything's fair game!

@@ -3,7 +3,6 @@
 layout: post
 title:  "Broccoli Beer Cheese Soup"
 date:   2015-01-20 16:26:20
-categories: soups
 image: broccoli-beer-cheese-soup.jpg
 
 ingredients:

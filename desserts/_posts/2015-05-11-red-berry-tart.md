@@ -3,7 +3,6 @@
 layout: post
 title:  "Red Berry Tart"
 date:   2015-5-1 00:00:00
-category: desserts
 image: red-berry-tart.jpg
 
 ingredients:
