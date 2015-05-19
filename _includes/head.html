@@ -17,9 +17,23 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@chowdownapp">
   <meta name="twitter:creator" content="@clarklab">
-  {% if page.title %}<meta name="twitter:title" content="{{ page.title }}">{% else %}<meta name="twitter:title" content="{{ site.title }}">{% endif %}
-  {% if page.url %}<meta name="twitter:url" content="{{ site.url }}{{ page.url }}">{% endif %}
-  {% if page.content %}<meta name="twitter:description" content="{{ page.content }}">{% else %}<meta name="twitter:description" content="{{ site.description }}">{% endif %}
-  {% if page.image %}<meta name="twitter:image:src" content="/images/{{ page.image }}">{% else %}<meta name="twitter:image:src" content="/images/crockpot-buffalo-chicken.jpg">{% endif %}
+  {% if page.title %}
+    <meta name="twitter:title" content="{{ page.title }}">
+  {% else %}
+    <meta name="twitter:title" content="Chowdown">
+  {% endif %}
+  {% if page.url %}
+    <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+  {% endif %}
+  {% if page.directions %}
+    <meta name="twitter:description" content="{{ page.content | strip_html }}">
+  {% else %}
+    <meta name="twitter:description" content="Chowdown">
+  {% endif %}
+  {% if page.image %}
+    <meta name="twitter:image:src" content="/images/{{ page.image }}">
+  {% else %}
+    <meta name="twitter:image:src" content="/images/crockpot-buffalo-chicken.jpg">
+  {% endif %}
 
 </head>
