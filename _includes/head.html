@@ -23,7 +23,7 @@
     <meta name="twitter:title" content="Chowdown">
   {% endif %}
   {% if page.url %}
-    <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+    <meta name="twitter:url" content="{{ site.baseurl }}{{ page.url }}">
   {% endif %}
   {% if page.directions %}
     <meta name="twitter:description" content="{{ page.content | strip_html }}">
@@ -31,9 +31,9 @@
     <meta name="twitter:description" content="Chowdown">
   {% endif %}
   {% if page.image %}
-    <meta name="twitter:image:src" content="{{ baseurl }}/images/{{ page.image }}">
+    <meta name="twitter:image:src" content="{{site.baseurl}}/images/{{ page.image }}">
   {% else %}
-    <meta name="twitter:image:src" content="{{ baseurl }}/images/crockpot-buffalo-chicken.jpg">
+    <meta name="twitter:image:src" content="{{site.baseurl}}/images/crockpot-buffalo-chicken.jpg">
   {% endif %}
 
 </head>
