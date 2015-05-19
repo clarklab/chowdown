@@ -1,7 +1,6 @@
 ---
-layout: post
+layout: recipe
 title:  "Green Chile Stew"
-date:   2015-01-20 16:24:20
 image: green-chile-stew.jpg
 imagecredit: https://flic.kr/p/4CJb65
 

@@ -1,8 +1,7 @@
 ---
 
-layout: post
+layout: recipe
 title:  "Crockpot Buffalo Chicken"
-date:   2015-01-15 16:26:20
 image: crockpot-buffalo-chicken.jpg
 
 ingredients:

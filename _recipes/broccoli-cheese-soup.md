@@ -1,8 +1,7 @@
 ---
 
-layout: post
+layout: recipe
 title:  "Broccoli Beer Cheese Soup"
-date:   2015-01-20 16:26:20
 image: broccoli-beer-cheese-soup.jpg
 
 ingredients:
@@ -29,3 +28,5 @@ directions:
 - Serve with croutons
 
 ---
+
+This recipe is inspired by Gourmand's Beer Cheese Soup, which used Shiner Bock. Feel free to use whatever you want, then go to [Gourmand's](http://lovethysandwich.com) to have the real thing.

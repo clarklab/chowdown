@@ -11,3 +11,9 @@ github_username:  clarklab
 
 # Build settings
 markdown: kramdown
+
+collections:
+  components:
+    output: true
+  recipes:
+    output: true

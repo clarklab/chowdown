@@ -4,10 +4,32 @@ img {
 .no-line-height {
   line-height: 0; }
 
-.site-title {
-  z-index: 5; }
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
 
-.recipes .image {
+ul li {
+  padding: 0 0 0 25px;
+  position: relative; }
+
+ul li input {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  opacity: 0.5; }
+
+a .image {
+  transition: .2s ease all;
+  opacity: 1; }
+
+a:hover .image {
+  opacity: 0.2; }
+
+.ingredients p {
+  margin-bottom: 0.5rem; }
+
+.ratio {
   padding-top: 50%;
   background-position: center center;
   background-repeat: no-repeat; }

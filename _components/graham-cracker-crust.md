@@ -1,10 +1,9 @@
 ---
 
-layout: post
-title:  "Graham Craker Crust"
-date:   2015-01-15 16:26:20
-category: components
+layout: recipe
+title:  "Graham Cracker Crust"
 image: graham-cracker-crust.jpg
+imagecredit: https://flic.kr/p/atxu75
 
 ingredients:
 - 2 cups graham cracker crumbs

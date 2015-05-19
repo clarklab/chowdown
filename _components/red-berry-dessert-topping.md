@@ -1,10 +1,9 @@
 ---
 
-layout: post
+layout: recipe
 title:  "Red Berry Dessert Topping"
-date:   2015-01-15 16:26:20
-category: components
 image: red-berry-topping.jpg
+imagecredit: https://flic.kr/p/9kczzP
 
 ingredients:
 - 1/2 cup raspberries

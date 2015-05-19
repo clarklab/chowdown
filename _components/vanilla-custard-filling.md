@@ -1,10 +1,9 @@
 ---
 
-layout: post
+layout: recipe
 title:  "Vanilla Custard Filling"
-date:   2015-01-15 16:26:20
-category: components
 image: vanilla-custard.jpg
+imagecredit: https://flic.kr/p/99yJqV
 
 ingredients:
 - 1/2 cup sugar
