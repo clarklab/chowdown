@@ -14,26 +14,12 @@
   <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
   
   <!-- Twitter Cards -->
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@chowdownapp">
   <meta name="twitter:creator" content="@clarklab">
-  {% if page.title %}
-    <meta name="twitter:title" content="{{ page.title }}">
-  {% else %}
-    <meta name="twitter:title" content="Chowdown">
-  {% endif %}
-  {% if page.url %}
-    <meta name="twitter:url" content="{{ site.baseurl }}{{ page.url }}">
-  {% endif %}
-  {% if page.directions %}
-    <meta name="twitter:description" content="{{ page.content | strip_html }}">
-  {% else %}
-    <meta name="twitter:description" content="Chowdown">
-  {% endif %}
-  {% if page.image %}
-    <meta name="twitter:image:src" content="{{site.baseurl}}/images/{{ page.image }}">
-  {% else %}
-    <meta name="twitter:image:src" content="{{site.baseurl}}/images/crockpot-buffalo-chicken.jpg">
-  {% endif %}
+  {% if page.title %}<meta name="twitter:title" content="{{ page.title }}">{% else %}<meta name="twitter:title" content="Chowdown">{% endif %}
+  {% if page.url %}<meta name="twitter:url" content="{{ site.baseurl }}{{ page.url }}">{% endif %}
+  {% if page.directions %}<meta name="twitter:description" content="{{ page.content | strip_html }}">{% else %}<meta name="twitter:description" content="Chowdown">{% endif %}
+  {% if page.image %}<meta name="twitter:image:src" content="{{site.baseurl}}/images/{{ page.image }}">{% else %}<meta name="twitter:image:src" content="{{site.baseurl}}/images/crockpot-buffalo-chicken.jpg">{% endif %}
 
 </head>
