@@ -19,4 +19,8 @@ mini_magick:
     thumbnail:
         source: images
         destination: images/thumbnails
-        resize: "100x100"
+        resize: "400x400"
+    medium:
+        source: images
+        destination: images/medium
+        resize: "1200x1200"
