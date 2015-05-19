@@ -29,6 +29,11 @@ a:hover .image {
 .ingredients p {
   margin-bottom: 0.5rem; }
 
+.sell .sm-col a {
+  text-decoration: none;
+  color: #fff;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5); }
+
 .ratio {
   padding-top: 50%;
   background-position: center center;
