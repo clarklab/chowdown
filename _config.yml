@@ -14,3 +14,9 @@ collections:
     output: true
   recipes:
     output: true
+    
+mini_magick:
+    thumbnail:
+        source: images
+        destination: images/thumbnails
+        resize: "100x100"
