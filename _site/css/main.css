@@ -19,6 +19,9 @@ ul li input {
   left: 0;
   opacity: 0.5; }
 
+.bg-blue {
+  background: #007FFF url(../assets/tile.png); }
+
 a .image {
   transition: .2s ease all;
   opacity: 1; }
