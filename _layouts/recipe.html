@@ -7,7 +7,7 @@ layout: default
   
 <!-- call up the image and image credit link -->
   {% for image in page.image %}
-    <img itemprop="photo" src="{{site.baseurl}}/images/{{ image }}" />
+    <img itemprop="photo" src="{{site.baseurl}}/images/large/{{ image }}" />
     {% if page.imagecredit %}
       {% for imagecredit in page.imagecredit %}
         <a href="{{ imagecredit }}" class="right">
@@ -78,7 +78,7 @@ layout: default
       
       {% for image in recipe.image %}
       <div class="image ratio bg-cover" style="background-image:url({{site.baseurl}}/images/{{ image }});">
-        <img class="hide" itemprop="photo" src="{{site.baseurl}}/images/{{ image }}" />
+        <img class="hide" itemprop="photo" src="{{site.baseurl}}/images/large/{{ image }}" />
       </div>
         {% if recipe.imagecredit %}
           {% for imagecredit in recipe.imagecredit %}

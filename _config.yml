@@ -17,10 +17,14 @@ collections:
     
 mini_magick:
     thumbnail:
-        source: images
-        destination: images/thumbnails
+        source: images/original
+        destination: images/thumbnail
         resize: "400x400"
     medium:
-        source: images
+        source: images/original
         destination: images/medium
         resize: "1200x1200"
+    large:
+        source: images/original
+        destination: images/large
+        resize: "2000x2000"
