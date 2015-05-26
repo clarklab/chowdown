@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+<div id="search" class="fixed top-0">
+  <form action="/search" method="get" class="full-width">
+    <input class="full-width center field-light h3" type="text" id="search-query" name="q" placeholder="what can I get ya?" autocomplete="off">
+    <svg width="20" class="js-geomicon geomicon absolute top-0 right-0 p2 mr1" data-icon="search" viewBox="0 0 32 32" style="fill:#007FFF"><title>search icon</title><path d="M12 0 A12 12 0 0 0 0 12 A12 12 0 0 0 12 24 A12 12 0 0 0 18.5 22.25 L28 32 L32 28 L22.25 18.5 A12 12 0 0 0 24 12 A12 12 0 0 0 12 0 M12 4 A8 8 0 0 1 12 20 A8 8 0 0 1 12 4"></path></svg>
+
+  </form>
+</div>
+
+<section id="search-results" class="mt4 py2 center">
+  <div class="entries px2">
+      <p class="h2 blue bold mt3">Enter a search term above, like <em>beef</em>, <em>carrots</em>, or <em>sous vide</em>.</p>
+      <p class="sm-col-6 mx-auto">This is a full-text search, so you can search a recipe's title, ingredients, and complete directions.</p> 
+  </div>
+</section>
+
+{% raw %}
+<script id="search-results-template" type="text/mustache">
+  {{#entries}}
+    <article>
+      <a href="{{url}}">
+        <h1 class="mt3 mb0">
+          {{title}}
+        </h1>
+      </a>
+    </article>
+  {{/entries}}
+</script>
+{% endraw %}
+
+<script type="text/javascript">
+  $(function() {
+    $('#search-query').lunrSearch({
+      indexUrl: '/js/index.json',   // Url for the .json file containing search index data
+      results : '#search-results',  // selector for containing search results element
+      entries : '.entries',         // selector for search entries containing element (contained within results above)
+      template: '#search-results-template'  // selector for Mustache.js template
+    });
+  });
+</script>
+
+<script src="/js/search.min.js" type="text/javascript" charset="utf-8"></script>
+
+
