@@ -29,4 +29,4 @@ directions:
 
 ---
 
-This recipe is inspired by Gourmand's Beer Cheese Soup, which used Shiner Bock. Feel free to use whatever you want, then go to [Gourmand's](http://lovethysandwich.com) to have the real thing.
+This recipe is inspired by one of my favorites, Gourmand's Beer Cheese Soup, which uses Shiner Bock. Feel free to use whatever you want, then go to [Gourmand's](http://lovethysandwich.com) to have the real thing.
