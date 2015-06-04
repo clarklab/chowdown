@@ -30,3 +30,5 @@ mini_magick:
         source: images/_original
         destination: images/large
         resize: "2000x2000"
+
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']
