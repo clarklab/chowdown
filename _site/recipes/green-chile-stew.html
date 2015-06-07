@@ -15,6 +15,7 @@
   <link rel="canonical" href="/recipes/green-chile-stew.html">
   <link rel="alternate" type="application/rss+xml" title="Chowdown" href="/feed.xml" />
   <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.4/hammer.min.js"></script>
   
   <link rel="icon" href="/favicon.png">
   <link rel="apple-touch-icon" href="/favicon.png">
@@ -30,7 +31,6 @@
   <meta name="twitter:image:src" content="/images/medium/green-chile-stew.jpg">
 
 </head>
-
 
   <body>
 
@@ -60,11 +60,10 @@
 
     <div class="page-content">
         <div class="container" itemscope itemtype="http://schema.org/Recipe">
-
-<article class="post-content px2 mt2">
   
 <!-- call up the image and image credit link -->
   
+  <div class="xs-p2">
     <img itemprop="photo" src="/images/large/green-chile-stew.jpg" />
     
       
@@ -73,11 +72,14 @@
         </a>
       
     
+  </div>
   
+
+<article class="post-content px2">
 
 <!-- call up the main recipe title and content -->
   <header class="post-header">
-    <h1 class="post-title center" itemprop="name">Green Chile Stew</h1>
+    <h1 class="post-title center m1 sm-mt3" itemprop="name">Green Chile Stew</h1>
   </header>
 
   <div class="px2 mt3 clearfix">
@@ -91,7 +93,7 @@
     <div class="sm-col sm-col-6 lg-col-6">
       <!-- check if it's a component-based recipe -->
       
-      <h4 class="blue mt0 mb2">Ingredients</h4>
+      <h4 class="blue mt0 mb2 xs-center">Ingredients</h4>
       <ul>
         <!-- list ingredients that make up recipe -->
         
@@ -115,7 +117,7 @@
     </div>
     
     <div class="sm-col sm-col-6 lg-col-6">
-      <h4 class="blue mt0 mb2">Directions</h4>
+      <h4 class="blue mt0 mb2 xs-center">Directions</h4>
       <ul itemprop="instructions">
         
         <li><p>Start onions in pan, cook down</p>
@@ -134,7 +136,7 @@
     </div>
   
   </div>
-<!-- end up recipe and directions -->
+<!-- end recipe and directions -->
 
 <!-- check if it's a component-based recipe, render it -->
   
@@ -147,9 +149,28 @@
 </div>
 
 <script type="text/javascript">
-  
+
   $( document ).ready(function() {
-  $("ul li").prepend('<input type="checkbox">')
+
+  jQuery.fn.clickToggle = function(a,b) {
+  var ab=[b,a];
+  function cb(){ ab[this._tog^=1].call(this); }
+  return this.on("click", cb);
+  };
+
+  $("ul li").prepend('<input type="checkbox">');
+  $("ul li").clickToggle(function(){
+    $(this).children("input").prop('checked', true);
+    var height = $(this).height();
+    var y = $(window).scrollTop();
+    $('html, body').animate({scrollTop: y+height+16}, 200);
+  }, function(){
+    $(this).children("input").prop('checked', false);
+    var height = $(this).height();
+    var y = $(window).scrollTop();
+    $('html, body').animate({scrollTop: y-height-16}, 200);
+  });
+
   });
   
 </script>

@@ -28,3 +28,11 @@ a:hover .image{opacity:0.2;}
 .left-align{text-align:center;}
 .right-align{text-align:center;}
 }
+
+@media all and (max-width: 300px){
+.title{font-size:1.3rem; text-align:center; box-sizing:border-box; width:100%;}
+.xs-center{text-align: center}
+.site-title{bottom:-28px; top:auto; left:50%; margin-left:-25px; border-radius:200px; transition:.2s ease bottom}
+.site-title:hover{bottom:-14px;}
+.recipes .sm-col{border-bottom:3px solid white}
+}
