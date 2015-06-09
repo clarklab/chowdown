@@ -79,7 +79,7 @@ layout: default
       <h4 class="blue center">{{recipe.title}}</h4>
       
       {% for image in recipe.image %}
-      <div class="image ratio bg-cover" style="background-image:url({{site.baseurl}}/images/{{ image }});">
+      <div class="image ratio bg-cover" style="background-image:url({{site.baseurl}}/images/medium/{{ image }});">
         <img class="hide" itemprop="photo" src="{{site.baseurl}}/images/large/{{ image }}" />
       </div>
         {% if recipe.imagecredit %}
