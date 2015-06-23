@@ -5,8 +5,8 @@
     <description>The plain text recipe database for hackers</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 09 Jun 2015 16:54:05 -0500</pubDate>
-    <lastBuildDate>Tue, 09 Jun 2015 16:54:05 -0500</lastBuildDate>
+    <pubDate>Mon, 22 Jun 2015 20:48:07 -0500</pubDate>
+    <lastBuildDate>Mon, 22 Jun 2015 20:48:07 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -35,6 +35,16 @@
 </description>
         <link>/recipes/green-chile-stew.html</link>
         <guid isPermaLink="true">/recipes/green-chile-stew.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Mongolian Beef</title>
+        <description>&lt;p&gt;This recipe is in progress.&lt;/p&gt;
+</description>
+        <link>/recipes/mongolian-beef.html</link>
+        <guid isPermaLink="true">/recipes/mongolian-beef.html</guid>
         
         
       </item>
@@ -97,16 +107,6 @@
 </description>
         <link>/recipes/roasted-okra.html</link>
         <guid isPermaLink="true">/recipes/roasted-okra.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Smashed Carrots</title>
-        <description>&lt;p&gt;Generally, canned carrots are stinky and not worth eating. Butter and cheese changes that.&lt;/p&gt;
-</description>
-        <link>/recipes/smashed-carrots.html</link>
-        <guid isPermaLink="true">/recipes/smashed-carrots.html</guid>
         
         
       </item>
