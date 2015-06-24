@@ -43,7 +43,7 @@ layout: default
       </ul>
       {% else %}
       <h4 class="blue mt0 mb2 xs-center">Ingredients</h4>
-      <ul>
+      <ul itemprop="ingredients">
         <!-- list ingredients that make up recipe -->
         {% for ingredient in page.ingredients %}
         <li itemprop="ingredient">{{ ingredient | markdownify }}</li>
@@ -92,16 +92,16 @@ layout: default
       {% endfor %}
       
       <h4 class="blue regular xs-center">Ingredients</h4>
-        <ul class="ingredients">
+        <ul class="ingredients" itemprop="ingredients">
         {% for item in recipe.ingredients %}
         <li itemprop="ingredient">{{ item | markdownify }}</li>
         {% endfor %}
       </ul>
       
       <h4 class="blue regular xs-center">Steps</h4>
-        <ul>
+        <ul itemprop="instructions">
         {% for item in recipe.directions %}
-        <li itemprop="ingredient">{{ item | markdownify }}</li>
+        <li>{{ item | markdownify }}</li>
         {% endfor %}
       </ul>
           
