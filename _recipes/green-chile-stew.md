@@ -1,4 +1,5 @@
 ---
+
 layout: recipe
 title:  "Green Chile Stew"
 image: green-chile-stew.jpg
