@@ -1,5 +1,7 @@
 # Chowdown
 
-A simple, plaintext recipe database for hackers
+This project uses the bundler gem to install all the dependicies.
+Run 'bundler install' to get all the dependicies.
 
-[http://clarklab.github.io/chowdown](http://clarklab.github.io/chowdown)
+# TODO
+- fix dependicies
