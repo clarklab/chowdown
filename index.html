@@ -6,15 +6,15 @@ layout: default
 
   <div class="recipes xs-px1 xs-mt2">
     <div class="clearfix">
-    {% for post in site.recipes %}
-      <div class="sm-col sm-col-6 md-col-6 lg-col-4 xs-px1 xs-mb2">
-          <a class="block relative bg-blue" href="{{ post.url | prepend: site.baseurl }}">
-            <div class="image ratio bg-cover"{% for image in post.image %} style="background-image:url({{site.baseurl}}/images/medium/{{ image }});"{% endfor %}></div>
-            <h1 class="title p2 m0 absolute bold white bottom-0 left-0">{{ post.title }}</h1>
-          </a>
-      </div>
-    {% endfor %}
-  </div>
+      {% for post in site.recipes %}
+        <div class="sm-col sm-col-6 md-col-6 lg-col-4 xs-px1 xs-mb2">
+            <a class="block relative bg-blue" href="{{ post.url | prepend: site.baseurl }}">
+              <div class="image ratio bg-cover"{% for image in post.image %} style="background-image:url({{site.baseurl}}/images/medium/{{ image }});"{% endfor %}></div>
+              <h1 class="title p2 m0 absolute bold white bottom-0 left-0">{{ post.title }}</h1>
+            </a>
+        </div>
+      {% endfor %}
+    </div>
   </div>
   
   <div class="sell bg-blue-tile mt4">
@@ -23,22 +23,23 @@ layout: default
         <h1>For the home chef</h1>
         <p>Save recipes in seconds with plain text formatting</p>
         <p>Create beatiful recipe pages with automated ease</p>
-        <p>Use your recipes in any app (our favorite is <a href="http://www.paprikaapp.com/" target="_blank">Paprika</a>)</p>
+        <p>Use your recipes in any app (our favorite is <a href="http://www.paprikaapp.com/">Paprika</a>)</p>
         <p>Share with family and friends (<a href="https://dev.twitter.com/cards/overview">Twitter cards</a>)</p>
       </div>
       <div class="sm-col md-col-6 px2 md-px4 py2 md-py4">
         <h1>For the developer</h1>
         <p>Markdown + Jekyll under the hood</p>
         <p>Recipes stored in plain text, ready for hacking</p>
-        <p>Open source, everything's on GitHub (<a href="https://github.com/clarklab/chowdown">contribute?</a>)</p>
+        <p>Open source, everything's on GitHub (<a href="https://github.com/{{site.github_username}}/{{site.title}}">contribute?</a>)</p>
         <p>Jekyll's new <a href="http://jekyllrb.com/docs/collections/">Collections</a> feature (learn with me!)</p>
       </div>
     </div>
     <div class="clearfix white center">
-      <a href="https://github.com/clarklab/chowdown" class="button button-big button-with-icon button-outline mb4 h2">
-            <svg class="js-geomicon geomicon" width="30" data-icon="github" viewBox="0 0 32 32" style="fill:currentcolor"><title>github icon</title><path d="M0 18 C0 12 3 10 3 9 C2.5 7 2.5 4 3 3 C6 3 9 5 10 6 C12 5 14 5 16 5 C18 5 20 5 22 6 C23 5 26 3 29 3 C29.5 4 29.5 7 29 9 C29 10 32 12 32 18 C32 25 30 30 16 30 C2 30 0 25 0 18 M3 20 C3 24 4 28 16 28 C28 28 29 24 29 20 C29 16 28 14 16 14 C4 14 3 16 3 20 M8 21 A1.5 2.5 0 0 0 13 21 A1.5 2.5 0 0 0 8 21 M24 21 A1.5 2.5 0 0 0 19 21 A1.5 2.5 0 0 0 24 21 z"></path></svg>
-          View on GitHub</a>
-      </div>
+      <a href="https://github.com/{{site.github_username}}/{{site.title}}" class="button button-big button-with-icon button-outline mb4 h2">
+          {% octicon octoface height:32 style:"fill:currentcolor" %}
+          View on GitHub
+      </a>
+    </div>
   </div>
   
   <div class="container mt4 mb4">
