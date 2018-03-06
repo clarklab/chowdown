@@ -10,7 +10,7 @@ layout: default
       <div class="sm-col sm-col-6 md-col-6 lg-col-4 xs-px1 xs-mb2">
           <a class="block relative bg-blue" href="{{ post.url | prepend: site.baseurl }}">
             <div class="image ratio bg-cover"{% for image in post.image %} style="background-image:url({{site.baseurl}}/images/medium/{{ image }});"{% endfor %}></div>
-            <h1 class="title p2 m0 absolute bold white bottom-0 left-0">{{ post.title }}</h1>
+            <h1 class="title p2 m0 absolute bold white bottom-0 left-0 title-shadow">{{ post.title }}</h1>
           </a>
       </div>
     {% endfor %}
@@ -30,7 +30,7 @@ layout: default
         <h1>For the developer</h1>
         <p>Markdown + Jekyll under the hood</p>
         <p>Recipes stored in plain text, ready for hacking</p>
-        <p>Open source, everything's on GitHub (<a href="https://github.com/clarklab/chowdown">contribute?</a>)</p>
+        <p>Open source, everything's on GitHub (<a href="https://github.com/{{site.github_username}}/{{site.title}}">contribute?</a>)</p>
         <p>Jekyll's new <a href="http://jekyllrb.com/docs/collections/">Collections</a> feature (learn with me!)</p>
       </div>
     </div>
