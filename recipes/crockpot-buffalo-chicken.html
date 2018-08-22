@@ -6,13 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Chowdown</title>
-  <meta name="description" content="The plain text recipe database for hackers">
+  <title>Crockpot Buffalo Chicken</title>
+  <meta name="description" content="This is a party favorite, perfect for a Super Bowl or a game night. It takes a long time, but like most slow cooker recipes, is easy as hell. Bonus: guests l...">
 
   <link href='http://fonts.googleapis.com/css?family=Karla:400,700' rel='stylesheet' type='text/css'>
   <link href="http://chowdown.io/css/bass.css" rel="stylesheet">
   <link rel="stylesheet" href="http://chowdown.io/css/main.css">
-  <link rel="canonical" href="http://chowdown.io/search.html">
+  <link rel="canonical" href="http://chowdown.io/recipes/crockpot-buffalo-chicken.html">
   <link rel="alternate" type="application/rss+xml" title="Chowdown" href="http://chowdown.io/feed.xml" />
   <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.4/hammer.min.js"></script>
@@ -24,10 +24,11 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@chowdownapp">
   <meta name="twitter:creator" content="@clarklab">
-  <meta name="twitter:title" content="Chowdown">
-  <meta name="twitter:url" content="http://chowdown.io/search.html">
-  <meta name="twitter:description" content="Chowdown">
-  <meta name="twitter:image:src" content="http://chowdown.io/images/thumbnails/crockpot-buffalo-chicken.jpg">
+  <meta name="twitter:title" content="Crockpot Buffalo Chicken">
+  <meta name="twitter:url" content="http://chowdown.io/recipes/crockpot-buffalo-chicken.html">
+  <meta name="twitter:description" content="This is a party favorite, perfect for a Super Bowl or a game night. It takes a long time, but like most slow cooker recipes, is easy as hell. Bonus: guests love it.
+">
+  <meta name="twitter:image:src" content="http://chowdown.io/images/medium/crockpot-buffalo-chicken.jpg">
 
 </head>
 
@@ -58,50 +59,109 @@
 </a>
 
     <div class="page-content">
-        <div id="search" class="fixed top-0">
-  <form action="/search" method="get" class="full-width">
-    <input class="full-width center field-light h3" type="text" id="search-query" name="q" placeholder="what can I get ya?" autocomplete="off">
-    <svg width="20" class="js-geomicon geomicon absolute top-0 right-0 p2 mr1" data-icon="search" viewBox="0 0 32 32" style="fill:#007FFF"><title>search icon</title><path d="M12 0 A12 12 0 0 0 0 12 A12 12 0 0 0 12 24 A12 12 0 0 0 18.5 22.25 L28 32 L32 28 L22.25 18.5 A12 12 0 0 0 24 12 A12 12 0 0 0 12 0 M12 4 A8 8 0 0 1 12 20 A8 8 0 0 1 12 4"></path></svg>
+        <div class="container" itemscope itemtype="http://schema.org/Recipe">
+  
+<!-- call up the image and image credit link -->
+  
+  <div class="xs-p2">
+    <img itemprop="photo" src="http://chowdown.io/images/large/crockpot-buffalo-chicken.jpg" />
+    
+  </div>
+  
 
-  </form>
+<article class="post-content px2">
+
+<!-- call up the main recipe title and content -->
+  <header class="post-header">
+    <h1 class="post-title center m1 sm-mt3" itemprop="name">Crockpot Buffalo Chicken</h1>
+  </header>
+
+  <div class="px2 mt3 clearfix">
+    <div class="sm-col-8 center mx-auto"><p>This is a party favorite, perfect for a Super Bowl or a game night. It takes a long time, but like most slow cooker recipes, is easy as hell. Bonus: guests love it.</p>
+</div>
+  </div>
+  
+<!-- call up recipe and directions -->
+  <div class="clearfix mt3">
+  
+    <div class="sm-col sm-col-6 lg-col-6">
+      <!-- check if it's a component-based recipe -->
+      
+      <h4 class="blue mt0 mb2 xs-center">Ingredients</h4>
+      <ul itemprop="ingredients">
+        <!-- list ingredients that make up recipe -->
+        
+        <li itemprop="ingredient"><p>6-8 chicken breasts</p>
+</li>
+        
+        <li itemprop="ingredient"><p>1 packet ranch mix</p>
+</li>
+        
+        <li itemprop="ingredient"><p>1 bottle Frank’s Red Hot</p>
+</li>
+        
+        <li itemprop="ingredient"><p>1 stick of butter</p>
+</li>
+        
+      </ul>
+      
+    </div>
+    
+    <div class="sm-col sm-col-6 lg-col-6">
+      <h4 class="blue mt0 mb2 xs-center">Directions</h4>
+      <ul itemprop="instructions">
+        
+        <li><p>Add all the above into a crockpot, cook on low for 6-8 hours</p>
+</li>
+        
+        <li><p>Shred chicken when soft</p>
+</li>
+        
+        <li><p>Serve with pickles and Hawaiian rolls</p>
+</li>
+        
+      </ul>
+    </div>
+  
+  </div>
+<!-- end recipe and directions -->
+
+<!-- check if it's a component-based recipe, render it -->
+  
+<!-- end components -->
+  
+  
+
+  </article>
+
 </div>
 
-<section id="search-results" class="mt4 py2 center">
-  <div class="entries px2">
-      <p class="h2 blue bold mt3">Enter a search term above, like <em>beef</em>, <em>carrots</em>, or <em>sous vide</em>.</p>
-      <p class="sm-col-6 mx-auto">This is a full-text search, so you can search a recipe's title, ingredients, and complete directions.</p> 
-  </div>
-</section>
-
-
-<script id="search-results-template" type="text/mustache">
-  {{#entries}}
-    <article>
-      <a href="{{url}}">
-        <h1 class="mt3 mb0">
-          {{title}}
-        </h1>
-      </a>
-    </article>
-  {{/entries}}
-</script>
-
-
 <script type="text/javascript">
-  $(function() {
-    $('#search-query').lunrSearch({
-      indexUrl: '/js/index.json',   // Url for the .json file containing search index data
-      results : '#search-results',  // selector for containing search results element
-      entries : '.entries',         // selector for search entries containing element (contained within results above)
-      template: '#search-results-template'  // selector for Mustache.js template
-    });
+
+  $( document ).ready(function() {
+
+  jQuery.fn.clickToggle = function(a,b) {
+  var ab=[b,a];
+  function cb(){ ab[this._tog^=1].call(this); }
+  return this.on("click", cb);
+  };
+
+  $("ul li").prepend('<input type="checkbox">');
+  $("ul li").clickToggle(function(){
+    $(this).children("input").prop('checked', true);
+    var height = $(this).height();
+    var y = $(window).scrollTop();
+    $('html, body').animate({scrollTop: y+height+16}, 200);
+  }, function(){
+    $(this).children("input").prop('checked', false);
+    var height = $(this).height();
+    var y = $(window).scrollTop();
+    $('html, body').animate({scrollTop: y-height-16}, 200);
   });
+
+  });
+  
 </script>
-
-<script src="/js/search.min.js" type="text/javascript" charset="utf-8"></script>
-
-
-
     </div>
 
   <footer class="footer bg-darken-1 clearfix py4 mt3">

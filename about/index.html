@@ -6,13 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Chowdown</title>
+  <title>About</title>
   <meta name="description" content="The plain text recipe database for hackers">
 
   <link href='http://fonts.googleapis.com/css?family=Karla:400,700' rel='stylesheet' type='text/css'>
   <link href="http://chowdown.io/css/bass.css" rel="stylesheet">
   <link rel="stylesheet" href="http://chowdown.io/css/main.css">
-  <link rel="canonical" href="http://chowdown.io/search.html">
+  <link rel="canonical" href="http://chowdown.io/about/">
   <link rel="alternate" type="application/rss+xml" title="Chowdown" href="http://chowdown.io/feed.xml" />
   <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.4/hammer.min.js"></script>
@@ -24,8 +24,8 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@chowdownapp">
   <meta name="twitter:creator" content="@clarklab">
-  <meta name="twitter:title" content="Chowdown">
-  <meta name="twitter:url" content="http://chowdown.io/search.html">
+  <meta name="twitter:title" content="About">
+  <meta name="twitter:url" content="http://chowdown.io/about/">
   <meta name="twitter:description" content="Chowdown">
   <meta name="twitter:image:src" content="http://chowdown.io/images/thumbnails/crockpot-buffalo-chicken.jpg">
 
@@ -58,49 +58,18 @@
 </a>
 
     <div class="page-content">
-        <div id="search" class="fixed top-0">
-  <form action="/search" method="get" class="full-width">
-    <input class="full-width center field-light h3" type="text" id="search-query" name="q" placeholder="what can I get ya?" autocomplete="off">
-    <svg width="20" class="js-geomicon geomicon absolute top-0 right-0 p2 mr1" data-icon="search" viewBox="0 0 32 32" style="fill:#007FFF"><title>search icon</title><path d="M12 0 A12 12 0 0 0 0 12 A12 12 0 0 0 12 24 A12 12 0 0 0 18.5 22.25 L28 32 L32 28 L22.25 18.5 A12 12 0 0 0 24 12 A12 12 0 0 0 12 0 M12 4 A8 8 0 0 1 12 20 A8 8 0 0 1 12 4"></path></svg>
+        <div class="post">
 
-  </form>
+  <header class="post-header">
+    <h1 class="post-title">About</h1>
+  </header>
+
+  <article class="post-content">
+    <p>Chowdown, a plain text recipe database for hackers</p>
+
+  </article>
+
 </div>
-
-<section id="search-results" class="mt4 py2 center">
-  <div class="entries px2">
-      <p class="h2 blue bold mt3">Enter a search term above, like <em>beef</em>, <em>carrots</em>, or <em>sous vide</em>.</p>
-      <p class="sm-col-6 mx-auto">This is a full-text search, so you can search a recipe's title, ingredients, and complete directions.</p> 
-  </div>
-</section>
-
-
-<script id="search-results-template" type="text/mustache">
-  {{#entries}}
-    <article>
-      <a href="{{url}}">
-        <h1 class="mt3 mb0">
-          {{title}}
-        </h1>
-      </a>
-    </article>
-  {{/entries}}
-</script>
-
-
-<script type="text/javascript">
-  $(function() {
-    $('#search-query').lunrSearch({
-      indexUrl: '/js/index.json',   // Url for the .json file containing search index data
-      results : '#search-results',  // selector for containing search results element
-      entries : '.entries',         // selector for search entries containing element (contained within results above)
-      template: '#search-results-template'  // selector for Mustache.js template
-    });
-  });
-</script>
-
-<script src="/js/search.min.js" type="text/javascript" charset="utf-8"></script>
-
-
 
     </div>
 
