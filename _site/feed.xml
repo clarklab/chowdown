@@ -3,18 +3,18 @@
   <channel>
     <title>Chowdown</title>
     <description>The plain text recipe database for hackers</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 25 Jun 2015 19:10:57 -0500</pubDate>
-    <lastBuildDate>Thu, 25 Jun 2015 19:10:57 -0500</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <link>http://localhost:4000http://chowdown.io/</link>
+    <atom:link href="http://localhost:4000http://chowdown.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 22 Aug 2018 12:04:36 -0500</pubDate>
+    <lastBuildDate>Wed, 22 Aug 2018 12:04:36 -0500</lastBuildDate>
+    <generator>Jekyll v3.8.2</generator>
     
       <item>
         <title>Broccoli Beer Cheese Soup</title>
         <description>&lt;p&gt;This recipe is inspired by one of my favorites, Gourmand’s Beer Cheese Soup, which uses Shiner Bock. Feel free to use whatever you want, then go to &lt;a href=&quot;http://lovethysandwich.com&quot;&gt;Gourmand’s&lt;/a&gt; to have the real thing.&lt;/p&gt;
 </description>
-        <link>/recipes/broccoli-cheese-soup.html</link>
-        <guid isPermaLink="true">/recipes/broccoli-cheese-soup.html</guid>
+        <link>http://localhost:4000http://chowdown.io/recipes/broccoli-cheese-soup.html</link>
+        <guid isPermaLink="true">http://localhost:4000http://chowdown.io/recipes/broccoli-cheese-soup.html</guid>
         
         
       </item>
@@ -23,8 +23,8 @@
         <title>Crockpot Buffalo Chicken</title>
         <description>&lt;p&gt;This is a party favorite, perfect for a Super Bowl or a game night. It takes a long time, but like most slow cooker recipes, is easy as hell. Bonus: guests love it.&lt;/p&gt;
 </description>
-        <link>/recipes/crockpot-buffalo-chicken.html</link>
-        <guid isPermaLink="true">/recipes/crockpot-buffalo-chicken.html</guid>
+        <link>http://localhost:4000http://chowdown.io/recipes/crockpot-buffalo-chicken.html</link>
+        <guid isPermaLink="true">http://localhost:4000http://chowdown.io/recipes/crockpot-buffalo-chicken.html</guid>
         
         
       </item>
@@ -33,8 +33,8 @@
         <title>Green Chile Stew</title>
         <description>&lt;p&gt;This is a simple one, consisting of a pre-made soup mix and whatever you’ve got around the kitchen (or campsite). Feel free to sub/swap/switch anything in the ingredient list— anything’s fair game!&lt;/p&gt;
 </description>
-        <link>/recipes/green-chile-stew.html</link>
-        <guid isPermaLink="true">/recipes/green-chile-stew.html</guid>
+        <link>http://localhost:4000http://chowdown.io/recipes/green-chile-stew.html</link>
+        <guid isPermaLink="true">http://localhost:4000http://chowdown.io/recipes/green-chile-stew.html</guid>
         
         
       </item>
@@ -43,8 +43,8 @@
         <title>Mongolian Beef</title>
         <description>&lt;p&gt;This recipe is in progress.&lt;/p&gt;
 </description>
-        <link>/recipes/mongolian-beef.html</link>
-        <guid isPermaLink="true">/recipes/mongolian-beef.html</guid>
+        <link>http://localhost:4000http://chowdown.io/recipes/mongolian-beef.html</link>
+        <guid isPermaLink="true">http://localhost:4000http://chowdown.io/recipes/mongolian-beef.html</guid>
         
         
       </item>
@@ -53,8 +53,8 @@
         <title>New York Strip</title>
         <description>&lt;p&gt;Cooking a steak in a water bath is the ultimate, both in terms of flavor and laziness. Dial in a precise temperature, then go take a nap.&lt;/p&gt;
 </description>
-        <link>/recipes/new-york-strip.html</link>
-        <guid isPermaLink="true">/recipes/new-york-strip.html</guid>
+        <link>http://localhost:4000http://chowdown.io/recipes/new-york-strip.html</link>
+        <guid isPermaLink="true">http://localhost:4000http://chowdown.io/recipes/new-york-strip.html</guid>
         
         
       </item>
@@ -63,8 +63,8 @@
         <title>One Minute Muffin</title>
         <description>&lt;p&gt;This flax muffin is quick, vertsatile (just mix in other goodies), and only makes one at a time, so you’ve got no huge tray to tempt you. Custom muffins every morning!&lt;/p&gt;
 </description>
-        <link>/recipes/one-minute-muffin.html</link>
-        <guid isPermaLink="true">/recipes/one-minute-muffin.html</guid>
+        <link>http://localhost:4000http://chowdown.io/recipes/one-minute-muffin.html</link>
+        <guid isPermaLink="true">http://localhost:4000http://chowdown.io/recipes/one-minute-muffin.html</guid>
         
         
       </item>
@@ -73,8 +73,8 @@
         <title>Pork Steaks</title>
         <description>&lt;p&gt;Pork is called “the other white meat”, but this sous vide technique is so dang good I’m gonna graduate it up to “THE white meat”.&lt;/p&gt;
 </description>
-        <link>/recipes/pork-steaks.html</link>
-        <guid isPermaLink="true">/recipes/pork-steaks.html</guid>
+        <link>http://localhost:4000http://chowdown.io/recipes/pork-steaks.html</link>
+        <guid isPermaLink="true">http://localhost:4000http://chowdown.io/recipes/pork-steaks.html</guid>
         
         
       </item>
@@ -83,8 +83,8 @@
         <title>Red Berry Tart</title>
         <description>&lt;p&gt;A favorite when I go to BBQs (parties, hackathons, your folks’ place), this red berry tart is fairly easy to make and packs a huge wow factor.&lt;/p&gt;
 </description>
-        <link>/recipes/red-berry-tart.html</link>
-        <guid isPermaLink="true">/recipes/red-berry-tart.html</guid>
+        <link>http://localhost:4000http://chowdown.io/recipes/red-berry-tart.html</link>
+        <guid isPermaLink="true">http://localhost:4000http://chowdown.io/recipes/red-berry-tart.html</guid>
         
         
       </item>
@@ -95,8 +95,8 @@
 
 &lt;p&gt;We started trying to emulate it, but it’s such a versatile dish, you can make it however you want. Consider this a loose guide.&lt;/p&gt;
 </description>
-        <link>/recipes/roasted-brussels-sprouts.html</link>
-        <guid isPermaLink="true">/recipes/roasted-brussels-sprouts.html</guid>
+        <link>http://localhost:4000http://chowdown.io/recipes/roasted-brussels-sprouts.html</link>
+        <guid isPermaLink="true">http://localhost:4000http://chowdown.io/recipes/roasted-brussels-sprouts.html</guid>
         
         
       </item>
@@ -105,8 +105,8 @@
         <title>Roasted Okra</title>
         <description>&lt;p&gt;I love me some okra, but prep is usually enough to avoid making it. This simple dish requires only a single cut per pod and a dash of seasoning- that’s it.&lt;/p&gt;
 </description>
-        <link>/recipes/roasted-okra.html</link>
-        <guid isPermaLink="true">/recipes/roasted-okra.html</guid>
+        <link>http://localhost:4000http://chowdown.io/recipes/roasted-okra.html</link>
+        <guid isPermaLink="true">http://localhost:4000http://chowdown.io/recipes/roasted-okra.html</guid>
         
         
       </item>

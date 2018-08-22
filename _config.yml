@@ -14,19 +14,5 @@ collections:
     output: true
   recipes:
     output: true
-    
-mini_magick:
-    thumbnail:
-        source: images/_original
-        destination: images/thumbnail
-        resize: "400x400"
-    medium:
-        source: images/_original
-        destination: images/medium
-        resize: "1200x1200"
-    large:
-        source: images/_original
-        destination: images/large
-        resize: "2000x2000"
 
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']

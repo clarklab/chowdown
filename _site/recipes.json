@@ -54,5 +54,10 @@
     {
         "title": "Smashed Carrots",
         "image": "images/large/smashed-carrots.jpg"
+    },
+
+    {
+        "title": "Stuffed Peppers",
+        "image": "images/large/stuffed-peppers.jpg"
     }
 ]
