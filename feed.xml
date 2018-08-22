@@ -5,9 +5,9 @@
     <description>The plain text recipe database for hackers</description>
     <link>http://localhost:4000http://chowdown.io/</link>
     <atom:link href="http://localhost:4000http://chowdown.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 22 Aug 2018 12:04:36 -0500</pubDate>
-    <lastBuildDate>Wed, 22 Aug 2018 12:04:36 -0500</lastBuildDate>
-    <generator>Jekyll v3.8.2</generator>
+    <pubDate>Wed, 22 Aug 2018 12:44:47 -0500</pubDate>
+    <lastBuildDate>Wed, 22 Aug 2018 12:44:47 -0500</lastBuildDate>
+    <generator>Jekyll v3.8.3</generator>
     
       <item>
         <title>Broccoli Beer Cheese Soup</title>
