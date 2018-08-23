@@ -6,7 +6,7 @@ A simple, plaintext recipe database for hackers
 
 # Getting Started
 
-This is a Jekyll build. Make sure you have Jekyll [installed](https://jekyllrb.com/). To install:
+This is a Jekyll build. Make sure you have Jekyll [installed](https://jekyllrb.com/). To install, run this command in the terminal (or iTerm, etc):
 
 ```gem install bundler jekyll```
 
@@ -14,7 +14,7 @@ or to check if you've got it installed already:
 
 ```jekyll -v```
 
-Clone or download this repo. Once inside, run:
+Clone or download this repo. Navigate to the folder in terminal (or iTerm, etc), and then run:
 
 ```jekyll serve```
 
@@ -38,9 +38,9 @@ If you need help with Markdown, here's a [handy cheatsheet](https://github.com/a
 
 A component recipe is a special recipe made up of other recipes. To make a new component recipe:
 
-- place your smaller, single recipes into the _components folder
-- make a new recipe like normal in the _recipes folders
-- in the frontmatter of this new recipe, include your recipes from the _components folder (instead of the usual Ingredeints list)
+- place your smaller, single recipes into the /_components folder
+- make a new recipe like normal in the /_recipes folders
+- in the frontmatter of this new recipe, include your recipes from the /_components folder (instead of the usual Ingredeints list)
 
 You can an example on the Red Berry Tart recipe. 
 
