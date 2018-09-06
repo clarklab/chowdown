@@ -4,6 +4,7 @@ layout: recipe
 title:  "Mongolian Beef"
 image: mongolian-beef.jpg
 imagecredit: https://flic.kr/p/8ANQTc
+tags: mains, meat
 
 ingredients:
 - 2 teaspoons vegetable oil

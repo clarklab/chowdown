@@ -3,6 +3,7 @@
 layout: recipe
 title: "Roasted Okra"
 image: roasted-okra.jpg
+tags: sides, vegetables
 
 ingredients:
 - 1 bunch of okra

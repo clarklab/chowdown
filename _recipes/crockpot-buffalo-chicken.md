@@ -3,6 +3,7 @@
 layout: recipe
 title:  "Crockpot Buffalo Chicken"
 image: crockpot-buffalo-chicken.jpg
+tags: mains, grill, party
 
 ingredients:
 - 6-8 chicken breasts

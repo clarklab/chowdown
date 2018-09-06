@@ -3,6 +3,7 @@
 layout: recipe
 title:  "Roasted Brussels Sprouts"
 image: roasted-brussels-sprouts.jpg
+tags: sides, vegetables
 
 ingredients:
 - 1 bunch of brussels, sliced thin

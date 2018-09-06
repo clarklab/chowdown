@@ -3,6 +3,7 @@
 layout: recipe
 title:  "Stuffed Peppers"
 image: stuffed-peppers.jpg
+tags: side, party
 
 ingredients:
 - 1 jar Peppedew Peppers (or piquante pepper)

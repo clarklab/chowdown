@@ -3,6 +3,7 @@
 layout: recipe
 title:  "Smashed Carrots"
 image: smashed-carrots.jpg
+tags: sides, vegetables
 
 ingredients:
 - 1 can carrots

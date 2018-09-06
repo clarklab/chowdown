@@ -4,6 +4,7 @@ layout: recipe
 title:  "One Minute Muffin"
 image: one-minute-muffin.jpg
 imagecredit: http://divaliciousrecipes.com/2012/04/26/flax-muffin-in-a-mug-in-a-minute-low-carb-and-gluten-free/
+tags: breakfast
 
 ingredients:
 - 1⁄4 cup flax seed meal
