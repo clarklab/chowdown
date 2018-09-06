@@ -41,7 +41,9 @@ layout: default
         <li>{{ component | markdownify }}</li>
         {% endfor %}
       </ul>
-      {% else %}
+      {% endif %}
+
+      {% if page.ingredients %}
       <h4 class="blue mt0 mb2 xs-center">Ingredients</h4>
       <ul itemprop="ingredients">
         <!-- list ingredients that make up recipe -->
