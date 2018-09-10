@@ -29,6 +29,15 @@
   
     {
     
+	    "title"    : "Downtown Marinade",
+		"ingredients"    : "1 cup Italian dressing, 1/4 cup soy sauce, 1/4 cup chili paste (like [sambal oelek](https://amzn.to/2NuqquF)), 1/4 sugar, dash hot sauce (like Texas Champagne or Yellowbird), ",
+		"image"	   : "downtown-marinade.jpg",
+	    "url"      : "/recipes/downtown-chowdown-marinade.html"
+      
+    } ,
+  
+    {
+    
 	    "title"    : "Green Chile Stew",
 		"ingredients"    : "1 jar of [green chile stew mix](http://amzn.to/1KYXSjo), 1lb ground chicken, 1 red onion, 1 green onion, 1 can corn, ",
 		"image"	   : "green-chile-stew.jpg",

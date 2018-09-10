@@ -5,8 +5,8 @@
     <description>The plain text recipe database for hackers</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 09 Sep 2018 23:33:40 -0500</pubDate>
-    <lastBuildDate>Sun, 09 Sep 2018 23:33:40 -0500</lastBuildDate>
+    <pubDate>Sun, 09 Sep 2018 23:50:51 -0500</pubDate>
+    <lastBuildDate>Sun, 09 Sep 2018 23:50:51 -0500</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
     
       <item>
@@ -49,6 +49,20 @@
         <category>grill,</category>
         
         <category>party</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Downtown Marinade</title>
+        <description>&lt;p&gt;This is my go-to marinade for everything from steaks to shrimp to fajitas to pork. Seriously, if I’m cooking or grilling meat, there’s a good chance this is what it’s soaking in. It’s perfect for “street meat” aka cart or truck, like tacos and wraps and kebabs and skewers and everything in between. Start with this base, add spice or herb as desired.&lt;/p&gt;
+</description>
+        <link>http://localhost:4000/recipes/downtown-chowdown-marinade.html</link>
+        <guid isPermaLink="true">http://localhost:4000/recipes/downtown-chowdown-marinade.html</guid>
+        
+        <category>party,</category>
+        
+        <category>meat</category>
         
         
       </item>
@@ -129,22 +143,6 @@
         <guid isPermaLink="true">http://localhost:4000/recipes/red-berry-tart.html</guid>
         
         <category>desserts</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Roasted Brussels Sprouts</title>
-        <description>&lt;p&gt;A lot of places are doing dang good brussels lately, but none can touch &lt;a href=&quot;http://saltysow.com/&quot;&gt;Salty Sow&lt;/a&gt;. They serve them fried, topped with pecorino and golden raisins. Yes, please.&lt;/p&gt;
-
-&lt;p&gt;We started trying to emulate it, but it’s such a versatile dish, you can make it however you want. Consider this a loose guide.&lt;/p&gt;
-</description>
-        <link>http://localhost:4000/recipes/roasted-brussels-sprouts.html</link>
-        <guid isPermaLink="true">http://localhost:4000/recipes/roasted-brussels-sprouts.html</guid>
-        
-        <category>sides,</category>
-        
-        <category>vegetables</category>
         
         
       </item>
