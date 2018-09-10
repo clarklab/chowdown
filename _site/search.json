@@ -2,6 +2,15 @@
   
     {
     
+	    "title"    : "Banana Bread",
+		"ingredients"    : "4 bananas, 1/2 cup butter, 1/2 cup sugar, 2 eggs, 2 cups flour, 1/2 tsp baking soda, 1 tsp baking powder, pinch salt, 1/4 cup nuts (we like pecans), ",
+		"image"	   : "banana-bread.jpg",
+	    "url"      : "/recipes/banana-bread.html"
+      
+    } ,
+  
+    {
+    
 	    "title"    : "Broccoli Beer Cheese Soup",
 		"ingredients"    : "4 tablespoons butter, 1 cup diced onion, 1/2 cup shredded carrot, 1/2 cup diced celery, 1 tablespoon garlic, 1/4 cup flour, 1 quart chicken broth, 1 cup heavy cream, 10 ounces muenster cheese, 1 cup white white wine, 1 cup pale beer, 1 teaspoon Worcestershire sauce, 1/2 teaspoon hot sauce, ",
 		"image"	   : "broccoli-beer-cheese-soup.jpg",

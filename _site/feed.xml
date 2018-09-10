@@ -5,9 +5,23 @@
     <description>The plain text recipe database for hackers</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 09 Sep 2018 21:44:10 -0500</pubDate>
-    <lastBuildDate>Sun, 09 Sep 2018 21:44:10 -0500</lastBuildDate>
+    <pubDate>Sun, 09 Sep 2018 23:33:40 -0500</pubDate>
+    <lastBuildDate>Sun, 09 Sep 2018 23:33:40 -0500</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
+    
+      <item>
+        <title>Banana Bread</title>
+        <description>&lt;p&gt;From Angie’s mom&lt;/p&gt;
+</description>
+        <link>http://localhost:4000/recipes/banana-bread.html</link>
+        <guid isPermaLink="true">http://localhost:4000/recipes/banana-bread.html</guid>
+        
+        <category>breakfast,</category>
+        
+        <category>baking</category>
+        
+        
+      </item>
     
       <item>
         <title>Broccoli Beer Cheese Soup</title>
@@ -127,20 +141,6 @@
 </description>
         <link>http://localhost:4000/recipes/roasted-brussels-sprouts.html</link>
         <guid isPermaLink="true">http://localhost:4000/recipes/roasted-brussels-sprouts.html</guid>
-        
-        <category>sides,</category>
-        
-        <category>vegetables</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Roasted Okra</title>
-        <description>&lt;p&gt;I love me some okra, but prep is usually enough to avoid making it. This simple dish requires only a single cut per pod and a dash of seasoning- that’s it.&lt;/p&gt;
-</description>
-        <link>http://localhost:4000/recipes/roasted-okra.html</link>
-        <guid isPermaLink="true">http://localhost:4000/recipes/roasted-okra.html</guid>
         
         <category>sides,</category>
         

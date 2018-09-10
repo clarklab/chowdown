@@ -2,6 +2,11 @@
 
 [
     {
+        "title": "Banana Bread",
+        "image": "images/large/banana-bread.jpg"
+    },
+
+    {
         "title": "Broccoli Beer Cheese Soup",
         "image": "images/large/broccoli-beer-cheese-soup.jpg"
     },
