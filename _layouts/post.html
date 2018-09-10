@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+  	<div class="hero bg-blue">&nbsp;</div>
+
+  	{% include header.html %}
+
+    <div class="post container max-width-2 px2">
+    	<h1>{{ page.title }}</h1>
+        {{ content }}
+        <p class="meta bg-darken-1 p2 mb4">Posted by <a href="https://github.com/{{ page.author }}">@{{ page.author }}</a> on {{ page.date | date: "%b %e, %Y"}}</p>
+    </div>
+
+
+
+  {% include footer.html %}
+
+  </body>
+
+</html>

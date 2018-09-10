@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<div class="post container max-width-2 px2">
+
+	<h2>Posts</h2>
+
+
+  {% for post in site.posts %}
+  <div class="post mb4">
+    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    <p>{{ post.content | strip_html | truncatewords:20 }} <a href="{{ post.url }}">View Post</a></p>
+  </div>
+  {% endfor %}
+
+
+</div>

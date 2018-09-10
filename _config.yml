@@ -9,6 +9,8 @@ github_username:  clarklab
 # Build settings
 markdown: kramdown
 
+permalink: /:title:output_ext
+
 collections:
   components:
     output: true

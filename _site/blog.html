@@ -6,13 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Roasted Okra</title>
-  <meta name="description" content="I love me some okra, but prep is usually enough to avoid making it. This simple dish requires only a single cut per pod and a dash of seasoning- that’s it.">
+  <title>Chowdown</title>
+  <meta name="description" content="The plain text recipe database for hackers">
 
   <link href='http://fonts.googleapis.com/css?family=Karla:400,700' rel='stylesheet' type='text/css'>
   <link href="/css/bass.css" rel="stylesheet">
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/recipes/roasted-okra.html">
+  <link rel="canonical" href="http://localhost:4000/blog.html">
   <link rel="alternate" type="application/rss+xml" title="Chowdown" href="http://localhost:4000/feed.xml" />
   <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.4/hammer.min.js"></script>
@@ -24,11 +24,10 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@chowdownapp">
   <meta name="twitter:creator" content="@clarklab">
-  <meta name="twitter:title" content="Roasted Okra">
-  <meta name="twitter:url" content="/recipes/roasted-okra.html">
-  <meta name="twitter:description" content="I love me some okra, but prep is usually enough to avoid making it. This simple dish requires only a single cut per pod and a dash of seasoning- that’s it.
-">
-  <meta name="twitter:image:src" content="/images/medium/roasted-okra.jpg">
+  <meta name="twitter:title" content="Chowdown">
+  <meta name="twitter:url" content="/blog.html">
+  <meta name="twitter:description" content="Chowdown">
+  <meta name="twitter:image:src" content="/images/thumbnails/crockpot-buffalo-chicken.jpg">
 
 </head>
 
@@ -59,108 +58,20 @@
 </a>
 
     <div class="page-content">
-        <div class="container" itemscope itemtype="http://schema.org/Recipe">
+        <div class="post container max-width-2 px2">
+
+	<h2>Posts</h2>
+
+
   
-<!-- call up the image and image credit link -->
-  
-  <div class="xs-p2">
-    <img itemprop="photo" src="/images/roasted-okra.jpg" />
-    
+  <div class="post mb4">
+    <h1><a href="/updates-search-blog.html">HTTPS, Live Search, and a new blog</a></h1>
+    <p>After a few years on the backburner, we’re finally moving Chowdown up to a low simmer. We’re back with a... <a href="/updates-search-blog.html">View Post</a></p>
   </div>
   
 
-<article class="post-content px2">
-
-<!-- call up the main recipe title and content -->
-  <header class="post-header">
-    <h1 class="post-title center m1 sm-mt3" itemprop="name">Roasted Okra</h1>
-  </header>
-
-  <div class="px2 mt3 clearfix">
-    <div class="sm-col-8 center mx-auto"><p>I love me some okra, but prep is usually enough to avoid making it. This simple dish requires only a single cut per pod and a dash of seasoning- that’s it.</p>
-</div>
-  </div>
-  
-<!-- call up recipe and directions -->
-  <div class="clearfix mt3">
-  
-    <div class="sm-col sm-col-6 lg-col-6">
-      <!-- check if it's a component-based recipe -->
-      
-
-      
-      <h4 class="blue mt0 mb2 xs-center">Ingredients</h4>
-      <ul itemprop="ingredients">
-        <!-- list ingredients that make up recipe -->
-        
-        <li itemprop="ingredient"><p>1 bunch of okra</p>
-</li>
-        
-        <li itemprop="ingredient"><p>salt, pepper, etc to taste</p>
-</li>
-        
-      </ul>
-      
-    </div>
-    
-    <div class="sm-col sm-col-6 lg-col-6">
-      <h4 class="blue mt0 mb2 xs-center">Directions</h4>
-      <ul itemprop="instructions">
-        
-        <li><p>Wash the okra dang good</p>
-</li>
-        
-        <li><p>Slice in half lengthwise</p>
-</li>
-        
-        <li><p>Toss okra and seasoning on baking sheet (salt + pepper is great, I also really like Simply Asia spicy hibachi seasoing I found at HEB for like $2)</p>
-</li>
-        
-        <li><p>Roast under the broiler for 10-15 mins. Keep an eye on it and pull it when the tips start to blacken.</p>
-</li>
-        
-      </ul>
-    </div>
-  
-  </div>
-<!-- end recipe and directions -->
-
-<!-- check if it's a component-based recipe, render it -->
-  
-<!-- end components -->
-  
-  
-
-  </article>
 
 </div>
-
-<script type="text/javascript">
-
-  $( document ).ready(function() {
-
-  jQuery.fn.clickToggle = function(a,b) {
-  var ab=[b,a];
-  function cb(){ ab[this._tog^=1].call(this); }
-  return this.on("click", cb);
-  };
-
-  $("ul li").prepend('<input type="checkbox">');
-  $("ul li").clickToggle(function(){
-    $(this).children("input").prop('checked', true);
-    var height = $(this).height();
-    var y = $(window).scrollTop();
-    $('html, body').animate({scrollTop: y+height+16}, 200);
-  }, function(){
-    $(this).children("input").prop('checked', false);
-    var height = $(this).height();
-    var y = $(window).scrollTop();
-    $('html, body').animate({scrollTop: y-height-16}, 200);
-  });
-
-  });
-  
-</script>
     </div>
 
   <footer class="footer bg-darken-1 clearfix py4 mt3">
