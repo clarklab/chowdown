@@ -83,7 +83,7 @@
 <!-- call up the image and image credit link -->
   
   <div class="xs-p2">
-    <img itemprop="photo" src="/images/crockpot-buffalo-chicken.jpg" />
+    <img itemprop="image" src="/images/crockpot-buffalo-chicken.jpg" />
     
   </div>
   
@@ -96,7 +96,7 @@
   </header>
 
   <div class="px2 mt3 clearfix">
-    <div class="sm-col-8 center mx-auto"><p>This is a party favorite, perfect for a Super Bowl or a game night. It takes a long time, but like most slow cooker recipes, is easy as hell. Bonus: guests love it.</p>
+    <div class="sm-col-8 center mx-auto" itemprop="description"><p>This is a party favorite, perfect for a Super Bowl or a game night. It takes a long time, but like most slow cooker recipes, is easy as hell. Bonus: guests love it.</p>
 </div>
   </div>
   
@@ -112,16 +112,16 @@
       <ul itemprop="ingredients">
         <!-- list ingredients that make up recipe -->
         
-        <li itemprop="ingredient"><p>6-8 chicken breasts</p>
+        <li itemprop="recipeIngredient"><p>6-8 chicken breasts</p>
 </li>
         
-        <li itemprop="ingredient"><p>1 packet ranch mix</p>
+        <li itemprop="recipeIngredient"><p>1 packet ranch mix</p>
 </li>
         
-        <li itemprop="ingredient"><p>1 bottle Frank’s Red Hot</p>
+        <li itemprop="recipeIngredient"><p>1 bottle Frank’s Red Hot</p>
 </li>
         
-        <li itemprop="ingredient"><p>1 stick of butter</p>
+        <li itemprop="recipeIngredient"><p>1 stick of butter</p>
 </li>
         
       </ul>
@@ -130,7 +130,7 @@
     
     <div class="sm-col sm-col-6 lg-col-6">
       <h4 class="blue mt0 mb2 xs-center">Directions</h4>
-      <ul itemprop="instructions">
+      <ul itemprop="recipeInstructions">
         
         <li><p>Add all the above into a crockpot, cook on low for 6-8 hours</p>
 </li>
@@ -167,7 +167,7 @@
   return this.on("click", cb);
   };
 
-  $("ul li").prepend('<input type="checkbox">');
+  $("ul li").append('<input type="checkbox">');
   $("ul li").clickToggle(function(){
     $(this).children("input").prop('checked', true);
     var height = $(this).height();

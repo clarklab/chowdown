@@ -85,7 +85,7 @@ Fun fact: Peppedew Peppers are basically a new thing. They are the brand name of
 <!-- call up the image and image credit link -->
   
   <div class="xs-p2">
-    <img itemprop="photo" src="/images/stuffed-peppers.jpg" />
+    <img itemprop="image" src="/images/stuffed-peppers.jpg" />
     
   </div>
   
@@ -98,7 +98,7 @@ Fun fact: Peppedew Peppers are basically a new thing. They are the brand name of
   </header>
 
   <div class="px2 mt3 clearfix">
-    <div class="sm-col-8 center mx-auto"><p>We found these during Happy Hour at Chiso’s Grill in Bee Cave, Tx. We’ve since tweaked the recipe a bit. This recipe is just a starting point, add/remove anything you want (like more hot sauce if you’re into that). Sometimes I order the <a href="https://amzn.to/2MGUnam">peppers on Amazon</a>. My favorite hot sauces are Franks Red Hot, Jardine’s Texas Champagne, and of course, <a href="https://amzn.to/2Pw4LAv">Yellowbird</a>.</p>
+    <div class="sm-col-8 center mx-auto" itemprop="description"><p>We found these during Happy Hour at Chiso’s Grill in Bee Cave, Tx. We’ve since tweaked the recipe a bit. This recipe is just a starting point, add/remove anything you want (like more hot sauce if you’re into that). Sometimes I order the <a href="https://amzn.to/2MGUnam">peppers on Amazon</a>. My favorite hot sauces are Franks Red Hot, Jardine’s Texas Champagne, and of course, <a href="https://amzn.to/2Pw4LAv">Yellowbird</a>.</p>
 
 <p>Fun fact: Peppedew Peppers are basically a new thing. They are the brand name of piquante peppers, which were discovered in South Africe in just 1993. Hat tip to <a href="https://en.wikipedia.org/wiki/Peppadew">Wikipedia</a> for the schooling.</p>
 </div>
@@ -116,25 +116,25 @@ Fun fact: Peppedew Peppers are basically a new thing. They are the brand name of
       <ul itemprop="ingredients">
         <!-- list ingredients that make up recipe -->
         
-        <li itemprop="ingredient"><p>1 jar Peppedew Peppers (or piquante pepper)</p>
+        <li itemprop="recipeIngredient"><p>1 jar Peppedew Peppers (or piquante pepper)</p>
 </li>
         
-        <li itemprop="ingredient"><p>4oz goat cheese (any flavor)</p>
+        <li itemprop="recipeIngredient"><p>4oz goat cheese (any flavor)</p>
 </li>
         
-        <li itemprop="ingredient"><p>1 tbsp mayonnaise</p>
+        <li itemprop="recipeIngredient"><p>1 tbsp mayonnaise</p>
 </li>
         
-        <li itemprop="ingredient"><p>1 tbsp sour cream</p>
+        <li itemprop="recipeIngredient"><p>1 tbsp sour cream</p>
 </li>
         
-        <li itemprop="ingredient"><p>1 bunch of chives, chopped</p>
+        <li itemprop="recipeIngredient"><p>1 bunch of chives, chopped</p>
 </li>
         
-        <li itemprop="ingredient"><p>hearty shot of hot sauce (Franks, Yellowbird)</p>
+        <li itemprop="recipeIngredient"><p>hearty shot of hot sauce (Franks, Yellowbird)</p>
 </li>
         
-        <li itemprop="ingredient"><p>hearty crack of pepper</p>
+        <li itemprop="recipeIngredient"><p>hearty crack of pepper</p>
 </li>
         
       </ul>
@@ -143,7 +143,7 @@ Fun fact: Peppedew Peppers are basically a new thing. They are the brand name of
     
     <div class="sm-col sm-col-6 lg-col-6">
       <h4 class="blue mt0 mb2 xs-center">Directions</h4>
-      <ul itemprop="instructions">
+      <ul itemprop="recipeInstructions">
         
         <li><p>combine goat cheese, mayo, sour cream, 2/3rds of your chives, hot sauce, black pepper</p>
 </li>
@@ -183,7 +183,7 @@ Fun fact: Peppedew Peppers are basically a new thing. They are the brand name of
   return this.on("click", cb);
   };
 
-  $("ul li").prepend('<input type="checkbox">');
+  $("ul li").append('<input type="checkbox">');
   $("ul li").clickToggle(function(){
     $(this).children("input").prop('checked', true);
     var height = $(this).height();

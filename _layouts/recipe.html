@@ -6,7 +6,7 @@ layout: default
 <!-- call up the image and image credit link -->
   {% for image in page.image %}
   <div class="xs-p2">
-    <img itemprop="photo" src="{{site.baseurl}}/images/{{ image }}" />
+    <img itemprop="image" src="{{site.baseurl}}/images/{{ image }}" />
     {% if page.imagecredit %}
       {% for imagecredit in page.imagecredit %}
         <a href="{{ imagecredit }}" class="right">
@@ -25,7 +25,7 @@ layout: default
   </header>
 
   <div class="px2 mt3 clearfix">
-    <div class="sm-col-8 center mx-auto">{{page.content}}</div>
+    <div class="sm-col-8 center mx-auto" itemprop="description">{{page.content}}</div>
   </div>
   
 <!-- call up recipe and directions -->
@@ -48,7 +48,7 @@ layout: default
       <ul itemprop="ingredients">
         <!-- list ingredients that make up recipe -->
         {% for ingredient in page.ingredients %}
-        <li itemprop="ingredient">{{ ingredient | markdownify }}</li>
+        <li itemprop="recipeIngredient">{{ ingredient | markdownify }}</li>
         {% endfor %}
       </ul>
       {% endif %}
@@ -56,7 +56,7 @@ layout: default
     
     <div class="sm-col sm-col-6 lg-col-6">
       <h4 class="blue mt0 mb2 xs-center">Directions</h4>
-      <ul itemprop="instructions">
+      <ul itemprop="recipeInstructions">
         {% for direction in page.directions %}
         <li>{{ direction | markdownify }}</li>
         {% endfor %}
@@ -134,7 +134,7 @@ layout: default
   return this.on("click", cb);
   };
 
-  $("ul li").prepend('<input type="checkbox">');
+  $("ul li").append('<input type="checkbox">');
   $("ul li").clickToggle(function(){
     $(this).children("input").prop('checked', true);
     var height = $(this).height();

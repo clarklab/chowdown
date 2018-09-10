@@ -83,7 +83,7 @@
 <!-- call up the image and image credit link -->
   
   <div class="xs-p2">
-    <img itemprop="photo" src="/images/vanilla-custard.jpg" />
+    <img itemprop="image" src="/images/vanilla-custard.jpg" />
     
       
         <a href="https://flic.kr/p/99yJqV" class="right">
@@ -102,7 +102,7 @@
   </header>
 
   <div class="px2 mt3 clearfix">
-    <div class="sm-col-8 center mx-auto"><p>A simple vanilla custard filling, useful for tarts (or alone by itself in a bowl).</p>
+    <div class="sm-col-8 center mx-auto" itemprop="description"><p>A simple vanilla custard filling, useful for tarts (or alone by itself in a bowl).</p>
 </div>
   </div>
   
@@ -118,22 +118,22 @@
       <ul itemprop="ingredients">
         <!-- list ingredients that make up recipe -->
         
-        <li itemprop="ingredient"><p>1/2 cup sugar</p>
+        <li itemprop="recipeIngredient"><p>1/2 cup sugar</p>
 </li>
         
-        <li itemprop="ingredient"><p>1/4 cup all-purpose flour</p>
+        <li itemprop="recipeIngredient"><p>1/4 cup all-purpose flour</p>
 </li>
         
-        <li itemprop="ingredient"><p>1/2 teaspoon salt</p>
+        <li itemprop="recipeIngredient"><p>1/2 teaspoon salt</p>
 </li>
         
-        <li itemprop="ingredient"><p>2 cups milk</p>
+        <li itemprop="recipeIngredient"><p>2 cups milk</p>
 </li>
         
-        <li itemprop="ingredient"><p>2 egg yolks, lightly beaten</p>
+        <li itemprop="recipeIngredient"><p>2 egg yolks, lightly beaten</p>
 </li>
         
-        <li itemprop="ingredient"><p>2 teaspoons vanilla extract</p>
+        <li itemprop="recipeIngredient"><p>2 teaspoons vanilla extract</p>
 </li>
         
       </ul>
@@ -142,7 +142,7 @@
     
     <div class="sm-col sm-col-6 lg-col-6">
       <h4 class="blue mt0 mb2 xs-center">Directions</h4>
-      <ul itemprop="instructions">
+      <ul itemprop="recipeInstructions">
         
         <li><p>In a small saucepan, combine the sugar, flour and salt. Stir in milk until smooth.</p>
 </li>
@@ -188,7 +188,7 @@
   return this.on("click", cb);
   };
 
-  $("ul li").prepend('<input type="checkbox">');
+  $("ul li").append('<input type="checkbox">');
   $("ul li").clickToggle(function(){
     $(this).children("input").prop('checked', true);
     var height = $(this).height();

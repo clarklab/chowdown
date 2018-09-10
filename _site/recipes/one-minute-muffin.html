@@ -83,7 +83,7 @@
 <!-- call up the image and image credit link -->
   
   <div class="xs-p2">
-    <img itemprop="photo" src="/images/one-minute-muffin.jpg" />
+    <img itemprop="image" src="/images/one-minute-muffin.jpg" />
     
       
         <a href="http://divaliciousrecipes.com/2012/04/26/flax-muffin-in-a-mug-in-a-minute-low-carb-and-gluten-free/" class="right">
@@ -102,7 +102,7 @@
   </header>
 
   <div class="px2 mt3 clearfix">
-    <div class="sm-col-8 center mx-auto"><p>This flax muffin is quick, vertsatile (just mix in other goodies), and only makes one at a time, so you’ve got no huge tray to tempt you. Custom muffins every morning!</p>
+    <div class="sm-col-8 center mx-auto" itemprop="description"><p>This flax muffin is quick, vertsatile (just mix in other goodies), and only makes one at a time, so you’ve got no huge tray to tempt you. Custom muffins every morning!</p>
 </div>
   </div>
   
@@ -118,22 +118,22 @@
       <ul itemprop="ingredients">
         <!-- list ingredients that make up recipe -->
         
-        <li itemprop="ingredient"><p>1⁄4 cup flax seed meal</p>
+        <li itemprop="recipeIngredient"><p>1⁄4 cup flax seed meal</p>
 </li>
         
-        <li itemprop="ingredient"><p>1⁄2 teaspoon baking powder</p>
+        <li itemprop="recipeIngredient"><p>1⁄2 teaspoon baking powder</p>
 </li>
         
-        <li itemprop="ingredient"><p>1 teaspoon cinnamon</p>
+        <li itemprop="recipeIngredient"><p>1 teaspoon cinnamon</p>
 </li>
         
-        <li itemprop="ingredient"><p>1 egg</p>
+        <li itemprop="recipeIngredient"><p>1 egg</p>
 </li>
         
-        <li itemprop="ingredient"><p>1 teaspoon oil</p>
+        <li itemprop="recipeIngredient"><p>1 teaspoon oil</p>
 </li>
         
-        <li itemprop="ingredient"><p>sugar to taste (or honey, stevia)</p>
+        <li itemprop="recipeIngredient"><p>sugar to taste (or honey, stevia)</p>
 </li>
         
       </ul>
@@ -142,7 +142,7 @@
     
     <div class="sm-col sm-col-6 lg-col-6">
       <h4 class="blue mt0 mb2 xs-center">Directions</h4>
-      <ul itemprop="instructions">
+      <ul itemprop="recipeInstructions">
         
         <li><p>Mix all ingredients in a coffee mug.</p>
 </li>
@@ -176,7 +176,7 @@
   return this.on("click", cb);
   };
 
-  $("ul li").prepend('<input type="checkbox">');
+  $("ul li").append('<input type="checkbox">');
   $("ul li").clickToggle(function(){
     $(this).children("input").prop('checked', true);
     var height = $(this).height();

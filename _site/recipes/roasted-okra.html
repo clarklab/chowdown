@@ -83,7 +83,7 @@
 <!-- call up the image and image credit link -->
   
   <div class="xs-p2">
-    <img itemprop="photo" src="/images/roasted-okra.jpg" />
+    <img itemprop="image" src="/images/roasted-okra.jpg" />
     
   </div>
   
@@ -96,7 +96,7 @@
   </header>
 
   <div class="px2 mt3 clearfix">
-    <div class="sm-col-8 center mx-auto"><p>I love me some okra, but prep is usually enough to avoid making it. This simple dish requires only a single cut per pod and a dash of seasoning- that’s it.</p>
+    <div class="sm-col-8 center mx-auto" itemprop="description"><p>I love me some okra, but prep is usually enough to avoid making it. This simple dish requires only a single cut per pod and a dash of seasoning- that’s it.</p>
 </div>
   </div>
   
@@ -112,10 +112,10 @@
       <ul itemprop="ingredients">
         <!-- list ingredients that make up recipe -->
         
-        <li itemprop="ingredient"><p>1 bunch of okra</p>
+        <li itemprop="recipeIngredient"><p>1 bunch of okra</p>
 </li>
         
-        <li itemprop="ingredient"><p>salt, pepper, etc to taste</p>
+        <li itemprop="recipeIngredient"><p>salt, pepper, etc to taste</p>
 </li>
         
       </ul>
@@ -124,7 +124,7 @@
     
     <div class="sm-col sm-col-6 lg-col-6">
       <h4 class="blue mt0 mb2 xs-center">Directions</h4>
-      <ul itemprop="instructions">
+      <ul itemprop="recipeInstructions">
         
         <li><p>Wash the okra dang good</p>
 </li>
@@ -164,7 +164,7 @@
   return this.on("click", cb);
   };
 
-  $("ul li").prepend('<input type="checkbox">');
+  $("ul li").append('<input type="checkbox">');
   $("ul li").clickToggle(function(){
     $(this).children("input").prop('checked', true);
     var height = $(this).height();
