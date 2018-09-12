@@ -15,7 +15,7 @@ A quick runthough the new goodness:
 - Changed the default typeface to [Inter UI](https://rsms.me/inter/), from Rasmus Andersson. Previously we were using [Karla](https://fonts.google.com/specimen/Karla).
 - Last but not least, I've added a simple blog template (this one!). That means I'll be posting some updates here on [chowdown.io](https://chowdown.io), but also that you can use the blogging template in your own install (if you're into that).
 
-New features hopefully coming in the new few weeks:
+New features hopefully coming in the next few weeks:
 
 - Reworked templates, including some design tweaks and a swap to the latest version of BassCSS.
 - PWA stuffs, like more "add to homescreen" and offline caching.
