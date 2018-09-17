@@ -65,6 +65,15 @@
   
     {
     
+	    "title"    : "Nilla Wafer French Toast Bake",
+		"ingredients"    : "4 eggs, 1/4 cup heavy cream, 2 tsp vanilla, sprinkle of sugar, 4 cups Nilla Wafers Minis, ",
+		"image"	   : "nilla-wafer.jpg",
+	    "url"      : "/recipes/nilla-wafer-french-toast.html"
+      
+    } ,
+  
+    {
+    
 	    "title"    : "One Minute Muffin",
 		"ingredients"    : "1⁄4 cup flax seed meal, 1⁄2 teaspoon baking powder, 1 teaspoon cinnamon, 1 egg, 1 teaspoon oil, sugar to taste (or honey, stevia), ",
 		"image"	   : "one-minute-muffin.jpg",
