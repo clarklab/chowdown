@@ -18,18 +18,6 @@
   <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/icons/favicon-16x16.png">
   <link rel="manifest" href="{{ site.baseurl }}/icons/site.webmanifest">
   <link rel="mask-icon" href="{{ site.baseurl }}/icons/safari-pinned-tab.svg" color="#007fff">
-  <link rel="shortcut icon" href="{{ site.baseurl }}/icons/favicon.png">
-  <meta name="apple-mobile-web-app-title" content="Chowdown">
-  <meta name="application-name" content="Chowdown">
-  <meta name="msapplication-TileColor" content="#007fff">
-  <meta name="msapplication-config" content="{{ site.baseurl }}/icons/browserconfig.xml">
-  <meta name="theme-color" content="#007fff">
-
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/icons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/icons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/icons/favicon-16x16.png">
-  <link rel="manifest" href="{{ site.baseurl }}/icons/site.webmanifest">
-  <link rel="mask-icon" href="{{ site.baseurl }}/icons/safari-pinned-tab.svg" color="#007fff">
   <link rel="shortcut icon" href="{{ site.baseurl }}/icons/favicon.ico">
   <meta name="msapplication-TileColor" content="#007fff">
   <meta name="msapplication-config" content="{{ site.baseurl }}/icons/browserconfig.xml">
@@ -42,6 +30,6 @@
   {% if page.title %}<meta name="twitter:title" content="{{ page.title }}">{% else %}<meta name="twitter:title" content="Chowdown">{% endif %}
   {% if page.url %}<meta name="twitter:url" content="{{ site.baseurl }}{{ page.url }}">{% endif %}
   {% if page.directions %}<meta name="twitter:description" content="{{ page.content | strip_html }}">{% else %}<meta name="twitter:description" content="Chowdown">{% endif %}
-  {% if page.image %}<meta name="twitter:image:src" content="{{site.baseurl}}/images/medium/{{ page.image }}">{% else %}<meta name="twitter:image:src" content="{{site.baseurl}}/images/thumbnails/crockpot-buffalo-chicken.jpg">{% endif %}
+  {% if page.image %}<meta name="twitter:image:src" content="{{site.baseurl}}/images/{{ page.image }}">{% else %}<meta name="twitter:image:src" content="{{site.baseurl}}/images/crockpot-buffalo-chicken.jpg">{% endif %}
 
 </head>
