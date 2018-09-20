@@ -32,6 +32,10 @@
 	color: var(--light);
 }
 
+.blue, a.blue{
+	color: var(--blue);
+}
+
 .bg-blue{
 	background:var(--blue);
 	color:var(--white);
@@ -43,6 +47,10 @@ body{
 	font-family: 'Inter UI', sans-serif;
 	font-size:1rem;
 	line-height: 1.25;
+}
+
+a{
+	color:var(--blue);
 }
 
 nav{
@@ -114,6 +122,7 @@ nav .label{
 #slider{
 	width:400%;
 	transition: .3s ease all;
+	display: flex;
 }
 
 #slider.recipes{
@@ -126,7 +135,7 @@ nav .label{
 #slider.books{
 	transform: translateX(-50%);
 }
-#slider.updates{
+#slider.blog{
 	transform: translateX(-75%);
 }
 
@@ -134,7 +143,27 @@ input{
 	width:100%;
 	padding:.75rem;
 	box-sizing: border-box;
+	font-size:1rem;
+	font-family: 'Inter UI', sans-serif;
 }
+
+.blog{
+	height: 100%;
+	background: var(--light);
+}
+
+.card{
+	background:var(--white);
+	padding:1rem;
+	text-decoration: none;
+}
+.card .action{
+	text-transform: uppercase;
+	font-size: 75%;
+	font-weight: bold;
+	margin-bottom:0;
+}
+
 
 @keyframes zap {
     0% {
@@ -288,13 +317,30 @@ input{
 
 <div class="books col col-3">
 	
-	<div class="px2"><h2>Coming Soon!</h2></div>
+	<div class="px2"><h2 class="mt4 pt4 center">Coming Soon!</h2><p class="px3 center">Collections like brunch, grilling, and quick dinners.</p></div>
 
 </div>
 
-<div class="updates col col-3">
+<div class="blog col col-3">
 	
-	<div class="px2"><h2>Coming Soon!</h2></div>
+	<div class="posts container max-width-2 mx-auto p2">
+
+	  
+	  <a class="post card mb2 block" href="/new-beta-cookin.html">
+	    <h3 class="my1">Hot stuff! New /beta now cookin...</h3>
+	    <p class="mt1 dark">Just a quick note to say I’ve started work on the overhaul of the front-end templates. You can follow along...</p>
+	    <p class="action">View Post</p>
+	  </a>
+	  
+	  <a class="post card mb2 block" href="/updates-search-blog.html">
+	    <h3 class="my1">HTTPS, Live Search, and a new blog</h3>
+	    <p class="mt1 dark">After a few years on the backburner, we’re finally moving Chowdown up to a low simmer. We’re back with a...</p>
+	    <p class="action">View Post</p>
+	  </a>
+	  
+
+
+	</div>
 
 </div>
 
@@ -339,7 +385,7 @@ input{
 		    <path d="M14.796 15.907c-.484-.968-.51-1.98-.14-2.672l-3.312.984c.149.957.461 1.963.95 2.94a10.03 10.03 0 0 0 1.784 2.523l2.78-2.063c-.794-.125-1.596-.78-2.062-1.712zM12.014 24.6a59.376 59.376 0 0 0-4.988 1.388L8.89 29.71c.28.561.765.982 1.365 1.18a2.34 2.34 0 0 0 1.8-.124l.324-.161a2.364 2.364 0 0 0 1.055-3.167l-1.42-2.839z"/>
 		  </g>
 		</svg>
-		<p class="label">Books</p>
+		<p class="label">Updates</p>
 	</a>
 </nav>
 
@@ -386,7 +432,7 @@ SimpleJekyllSearch({
 	});
 
 	$(".item.updates").click(function() {
-	    $('#slider').removeClass().addClass('updates');
+	    $('#slider').removeClass().addClass('blog');
 	    $('.item').removeClass('active');
 	    $(this).addClass('active');
 	    

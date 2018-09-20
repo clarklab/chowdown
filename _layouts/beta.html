@@ -32,6 +32,10 @@
 	color: var(--light);
 }
 
+.blue, a.blue{
+	color: var(--blue);
+}
+
 .bg-blue{
 	background:var(--blue);
 	color:var(--white);
@@ -43,6 +47,10 @@ body{
 	font-family: 'Inter UI', sans-serif;
 	font-size:1rem;
 	line-height: 1.25;
+}
+
+a{
+	color:var(--blue);
 }
 
 nav{
@@ -114,6 +122,7 @@ nav .label{
 #slider{
 	width:400%;
 	transition: .3s ease all;
+	display: flex;
 }
 
 #slider.recipes{
@@ -126,7 +135,7 @@ nav .label{
 #slider.books{
 	transform: translateX(-50%);
 }
-#slider.updates{
+#slider.blog{
 	transform: translateX(-75%);
 }
 
@@ -134,7 +143,27 @@ input{
 	width:100%;
 	padding:.75rem;
 	box-sizing: border-box;
+	font-size:1rem;
+	font-family: 'Inter UI', sans-serif;
 }
+
+.blog{
+	height: 100%;
+	background: var(--light);
+}
+
+.card{
+	background:var(--white);
+	padding:1rem;
+	text-decoration: none;
+}
+.card .action{
+	text-transform: uppercase;
+	font-size: 75%;
+	font-weight: bold;
+	margin-bottom:0;
+}
+
 
 @keyframes zap {
     0% {
@@ -190,13 +219,24 @@ input{
 
 <div class="books col col-3">
 	
-	<div class="px2"><h2>Coming Soon!</h2></div>
+	<div class="px2"><h2 class="mt4 pt4 center">Coming Soon!</h2><p class="px3 center">Collections like brunch, grilling, and quick dinners.</p></div>
 
 </div>
 
-<div class="updates col col-3">
+<div class="blog col col-3">
 	
-	<div class="px2"><h2>Coming Soon!</h2></div>
+	<div class="posts container max-width-2 mx-auto p2">
+
+	  {% for post in site.posts %}
+	  <a class="post card mb2 block" href="{{ post.url }}">
+	    <h3 class="my1">{{ post.title }}</h3>
+	    <p class="mt1 dark">{{ post.content | strip_html | truncatewords:20 }}</p>
+	    <p class="action">View Post</p>
+	  </a>
+	  {% endfor %}
+
+
+	</div>
 
 </div>
 
@@ -288,7 +328,7 @@ SimpleJekyllSearch({
 	});
 
 	$(".item.updates").click(function() {
-	    $('#slider').removeClass().addClass('updates');
+	    $('#slider').removeClass().addClass('blog');
 	    $('.item').removeClass('active');
 	    $(this).addClass('active');
 	    
