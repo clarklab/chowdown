@@ -301,11 +301,6 @@ SimpleJekyllSearch({
 
 	$( document ).ready(function() {
 
-	$('#search-input').on('input', function() {
-	  currentHeight = $('#search-container').outerHeight();
-	  $('.search').addClass('used').css('height', currentHeight);
-	});
-
 	$(".item.recipes").click(function() {
 	    $('#slider').removeClass().addClass('recipes');
 	    $('.item').removeClass('active');
