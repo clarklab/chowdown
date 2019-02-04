@@ -2,7 +2,7 @@
 
 layout: recipe
 title:  "Kohlrabi Pfanne"
-image: stuffed-peppers.jpg
+image: kohlrabi_pfanne.jpg
 tags: schnell
 
 ingredients:
