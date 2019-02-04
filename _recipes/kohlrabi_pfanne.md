@@ -3,7 +3,7 @@
 layout: recipe
 title:  "Kohlrabi Pfanne"
 image: kohlrabi_pfanne.jpg
-tags: schnell
+tags: hauptgericht, schnell, simpel
 
 ingredients:
 - 2 Kohlrabi

@@ -2,7 +2,27 @@
 
 [
     {
+        "title": "Arme Leute Gemüse",
+        "image": "images/large/arme_leute_gemuese.jpg"
+    },
+
+    {
+        "title": "Cannelloni mit Ricotta und Radicchio",
+        "image": "images/large/cannelloni_radicchio.jpg"
+    },
+
+    {
+        "title": "Gemüselasagne",
+        "image": "images/large/gemueselasagne.jpg"
+    },
+
+    {
         "title": "Kohlrabi Pfanne",
         "image": "images/large/kohlrabi_pfanne.jpg"
+    },
+
+    {
+        "title": "Pizzateig",
+        "image": "images/large/pizzateig.jpg"
     }
 ]

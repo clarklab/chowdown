@@ -5,9 +5,54 @@
     <description>The plain text recipe database for hackers</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 04 Feb 2019 11:35:31 +0100</pubDate>
-    <lastBuildDate>Mon, 04 Feb 2019 11:35:31 +0100</lastBuildDate>
+    <pubDate>Mon, 04 Feb 2019 15:54:00 +0100</pubDate>
+    <lastBuildDate>Mon, 04 Feb 2019 15:54:00 +0100</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>Arme Leute Gemüse</title>
+        <description>&lt;p&gt;Rezept von meiner Großmutter&lt;/p&gt;
+</description>
+        <link>http://localhost:4000/recipes/arme_leute_gemuese.html</link>
+        <guid isPermaLink="true">http://localhost:4000/recipes/arme_leute_gemuese.html</guid>
+        
+        <category>hauptgericht,</category>
+        
+        <category>schnell,</category>
+        
+        <category>simpel</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Cannelloni mit Ricotta und Radicchio</title>
+        <description>&lt;p&gt;Kann auch mit Spinat statt Radicchio gemacht werden.&lt;/p&gt;
+
+</description>
+        <link>http://localhost:4000/recipes/cannelloni_radicchio.html</link>
+        <guid isPermaLink="true">http://localhost:4000/recipes/cannelloni_radicchio.html</guid>
+        
+        <category>hauptgericht,</category>
+        
+        <category>backen</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Gemüselasagne</title>
+        <description>
+</description>
+        <link>http://localhost:4000/recipes/gemueselasagne.html</link>
+        <guid isPermaLink="true">http://localhost:4000/recipes/gemueselasagne.html</guid>
+        
+        <category>hauptgericht,</category>
+        
+        <category>backen</category>
+        
+        
+      </item>
     
       <item>
         <title>Kohlrabi Pfanne</title>
@@ -18,7 +63,25 @@
         <link>http://localhost:4000/recipes/kohlrabi_pfanne.html</link>
         <guid isPermaLink="true">http://localhost:4000/recipes/kohlrabi_pfanne.html</guid>
         
-        <category>schnell</category>
+        <category>hauptgericht,</category>
+        
+        <category>schnell,</category>
+        
+        <category>simpel</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Pizzateig</title>
+        <description>&lt;p&gt;Simpler Pizzateig&lt;/p&gt;
+</description>
+        <link>http://localhost:4000/recipes/pizzateig.html</link>
+        <guid isPermaLink="true">http://localhost:4000/recipes/pizzateig.html</guid>
+        
+        <category>simpel,</category>
+        
+        <category>backen</category>
         
         
       </item>

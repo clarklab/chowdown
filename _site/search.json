@@ -2,11 +2,51 @@
   
     {
     
+      "title"    : "Arme Leute Gemüse",
+    "tags"    : "hauptgericht,, schnell,, simpel, ",
+		"ingredients"    : "1 Zucchini, 1-2 Paprika, 1 Gemüsezwiebel, Gemüsebrühe, Paprikapulver, Knoblauchpulver, ",
+		"image"	   : "arme_leute_gemuese.jpg",
+	    "url"      : "/recipes/arme_leute_gemuese.html"
+      
+    } ,
+  
+    {
+    
+      "title"    : "Cannelloni mit Ricotta und Radicchio",
+    "tags"    : "hauptgericht,, backen, ",
+		"ingredients"    : "30 Cannelloni ohne vorkochen, 500g Radicchio, 4 in Öl eingelegte getrocknete Tomaten, 2 Knoblauchzehen, 500g weicher Ricotta, 150g frisch geriebener Parmesan, 2 Eier (Größe M), 1 EL Butter, 1 1/2 EL Mehl, 500ml Milch, 1 EL Tomatenmark, ",
+		"image"	   : "cannelloni_radicchio.jpg",
+	    "url"      : "/recipes/cannelloni_radicchio.html"
+      
+    } ,
+  
+    {
+    
+      "title"    : "Gemüselasagne",
+    "tags"    : "hauptgericht,, backen, ",
+		"ingredients"    : "150g Zucchini, 150g Paprikaschote(n), rot, 150g Paprikaschote(n), gelb, 150g Zwiebel(n) (Gemüsezwiebeln), 1 Zehe/n Knoblauch, 3 EL Olivenöl, 400ml Tomatenpüree (Passato die Promodoro), 100ml Gemüsebrühe, 2 EL Basilikum, frisch gehackt, 200g Mascarpone, 50ml Milch, 1 Ei(er), 200g Lasagneplatte(n), 150g Käse (Fontina), gerieben, 4 EL Parmesan, frisch gerieben, ",
+		"image"	   : "gemueselasagne.jpg",
+	    "url"      : "/recipes/gemueselasagne.html"
+      
+    } ,
+  
+    {
+    
       "title"    : "Kohlrabi Pfanne",
-    "tags"    : "schnell, ",
+    "tags"    : "hauptgericht,, schnell,, simpel, ",
 		"ingredients"    : "2 Kohlrabi, Gemüsebrühe, 1 Esslöffel Mehl, Milch, ",
 		"image"	   : "kohlrabi_pfanne.jpg",
 	    "url"      : "/recipes/kohlrabi_pfanne.html"
+      
+    } ,
+  
+    {
+    
+      "title"    : "Pizzateig",
+    "tags"    : "simpel,, backen, ",
+		"ingredients"    : "500g Mehl, 1/2 Würfel Hefe, 2 TL Salz, 200ml Milch, lauwarm, 20ml Bier, ",
+		"image"	   : "pizzateig.jpg",
+	    "url"      : "/recipes/pizzateig.html"
       
     } 
   
