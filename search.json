@@ -4,7 +4,8 @@
   {% for post in site.recipes %}
     {
     
-	    "title"    : "{{ post.title | escape }}",
+      "title"    : "{{ post.title | escape }}",
+      "tags"      : "{{ post.tags | escape }}",
 		{% if post.ingredients %}"ingredients"    : "{% for ingredient in post.ingredients %}{{ ingredient | escape }}, {% endfor %}",{% endif %}
 		"image"	   : "{{ post.image }}",
 	    "url"      : "{{ site.baseurl }}{{ post.url }}"
