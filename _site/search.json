@@ -3,9 +3,9 @@
     {
     
       "title"    : "Kohlrabi Pfanne",
-      "tags"      : "[&quot;schnell&quot;]",
+    "tags"    : "schnell, ",
 		"ingredients"    : "2 Kohlrabi, Gemüsebrühe, 1 Esslöffel Mehl, Milch, ",
-		"image"	   : "stuffed-peppers.jpg",
+		"image"	   : "kohlrabi_pfanne.jpg",
 	    "url"      : "/recipes/kohlrabi_pfanne.html"
       
     } 
