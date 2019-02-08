@@ -45,6 +45,15 @@ layout: default
 
       {% if page.ingredients %}
       <h4 class="blue mt0 mb2 xs-center">Ingredients</h4>
+      <div id='scaleSelect' , align="left" , class="select-scale">
+        <select name="selectRecipeScale" , onchange="liveScaleRecipe.call(this, event)">
+          <option value=0.5>&frac12;</option>
+          <option selected value=1>1</option>
+          <option value=1.5>1 &frac12;</option>
+          <option value=2>2</option>
+          <option value=3>3</option>
+        </select>
+      </div>
       <ul itemprop="ingredients">
         <!-- list ingredients that make up recipe -->
         {% for ingredient in page.ingredients %}
@@ -150,3 +159,4 @@ layout: default
   });
   
 </script>
+<script src="/js/scale_recipes.js"></script>
