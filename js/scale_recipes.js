@@ -123,19 +123,19 @@ function preprocessIngredients(){
     // Now I need to write this array to a file in the document tree
     let div = document.createElement('div');
     div.id = 'ingredient-quantities';
-    div.dataset.quantities = quantityArray.toString()
+    div.dataset.quantities = quantityArray.join(';')
     document.body.appendChild(div)
     // Now for the base ingredients
     let div2 = document.createElement('div');
     div2.id = 'ingredient-bases';
-    div2.dataset.ingredients = ingredientBaseArray.toString()
+    div2.dataset.ingredients = ingredientBaseArray.join(';')
     document.body.appendChild(div2)
 }
 
 function scaleRecipe(scale = 1){
     let ingredients = document.querySelectorAll('li[itemprop=recipeIngredient]')
-    let quantities = document.getElementById('ingredient-quantities').dataset.quantities.split(',');
-    let bases = document.getElementById('ingredient-bases').dataset.ingredients.split(',');
+    let quantities = document.getElementById('ingredient-quantities').dataset.quantities.split(';');
+    let bases = document.getElementById('ingredient-bases').dataset.ingredients.split(';');
     for (let i = 0; i < ingredients.length; i++) {
         let ingredient = ingredients[i].firstElementChild;
         // Now, run the code to modify the ingredient
