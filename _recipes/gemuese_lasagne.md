@@ -2,7 +2,7 @@
 
 layout: recipe
 title:  "Gemüselasagne"
-image: gemueselasagne.jpg
+image: gemuese_lasagne.jpg
 tags: hauptgericht, backen
 
 ingredients:
