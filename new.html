@@ -1,0 +1,150 @@
+---
+layout: default
+---
+
+<div class="container">
+    <h2 class="center mb3 blue" style="margin-bottom: 15px; margin-top: 30px;">New Recipe</h2>
+    <div class="row justify-content-md-center">
+        <input type="text" class="form-control center col-12 col-md-10 col-lg-8" id="title" placeholder="Title"
+            aria-label="Title">
+        <input type="text" class="form-control center col-12 col-md-10 col-lg-8" id="tags" placeholder="Tags"
+            aria-label="Tags">
+    </div>
+
+    <h4 class="mb3 blue" style="margin-bottom: 15px; margin-top: 15px;">Ingredients <a href="#"
+            id="new-ingredient">(+)</a></h4>
+    <div id="ingredients" class="col-12" style="margin-bottom: 20px;">
+
+    </div>
+    <h4 class="mb3 blue" style="margin-bottom: 15px;">Directions <a href="#" id="new-direction">(+)</a></h4>
+    <div id="directions" class="col-12" style="margin-bottom: 20px;">
+    </div>
+    <div class="row justify-content-md-center">
+        <button type="button" class="btn btn-primary col-12 col-md-8 col-lg-6" id="save" style="margin-left: 10px;">Save Receipt</button>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <form>
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Provide Github Credentials</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" class="form-control" id="username" aria-describedby="usernameHelp"
+                            placeholder="Enter username">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Password">
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="https://unpkg.com/github-api/dist/GitHub.bundle.min.js" type="text/javascript"></script>
+
+<!-- Configuration -->
+<script>
+    $('#save').on('click', function() {
+        $('#loginModal form').trigger("reset");
+        $('#loginModal').modal('show');
+    });
+
+    $('#loginModal form').submit(e => {
+        e.preventDefault();
+        var github = new GitHub({
+            username: $('#username').val(),
+            password: $('#password').val(),
+            auth: 'basic'
+        });
+
+        var repository = github.getRepo($('#username').val(), 'chowdown');
+
+        var file = constructFile();
+
+        // Creates a new file (or updates it if the file already exists)
+        // with the content provided
+        repository.writeFile(
+            'gh-pages', // e.g. 'master'
+            '_recipes/' + file.name, // e.g. 'blog/index.md'
+            file.content, // e.g. 'Hello world, this is my new content'
+            'Added new recipe file: ' + file.name, // e.g. 'Created new index'
+            function(err) {
+                if(err) {
+                    console.error('An error occurred when submitting the file');
+                }
+            }
+        );
+
+        $('#loginModal').modal('hide');
+
+        window.location.href = '/';
+    });
+
+    $('#new-ingredient').on('click', function () {
+        $('#ingredients').append('<div style="display: flex; margin-bottom: 5px;">' +
+            '<input type="text" class="form-control ingredient" placeholder="Ingredient" aria-label="Ingredient">' +
+            '<button type="button" class="btn btn-warning remove-item" style="margin-left: 10px;">Remove</button>' +
+            '</div>');
+    });
+
+    $('#new-direction').on('click', function () {
+        $('#directions').append('<div style="display: flex; margin-bottom: 5px;">' +
+            '<input type="text" class="form-control direction" placeholder="Direction" aria-label="Direction">' +
+            '<button type="button" class="btn btn-warning remove-item" style="margin-left: 10px;">Remove</button>' +
+            '</div>');
+    });
+
+    $(document).on('click', '.remove-item', function () {
+        $(this).parent().remove();
+    });
+
+    function constructFile() {
+        var result = '---\n';
+        result += '\n';
+
+        // Basics
+        result += 'title: ' + $('#title').val() + '\n';
+        result += 'image: ' + $('#title').val().toLowerCase() + '.png\n';
+        result += 'tags: ' + $('#tags').val() + '\n';
+        result += '\n';
+
+        // ingredients
+        result += 'ingredients: \n';
+        $('.ingredient').each(function (index) {
+            result += '- ' + $(this).val() + '\n';
+        });
+        result += '\n';
+
+        // directions
+        result += 'directions: \n';
+        $('.direction').each(function (index) {
+            result += '- ' + $(this).val() + '\n';
+        });
+        result += '\n';
+
+        result += '---';
+
+        var name = $('#title').val().toLowerCase().split(' ').join('_').replace('ä', 'ae').replace('ö', 'oe').replace('ü', 'ue').replace('ß', 'ss');
+
+        return {
+            name: name + '.md',
+            content: result
+        };
+    }
+</script>

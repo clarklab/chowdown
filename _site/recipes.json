@@ -12,8 +12,23 @@
     },
 
     {
+        "title": "Cannelloni mit Spinat",
+        "image": "images/large/cannelloni_spinat.jpg"
+    },
+
+    {
+        "title": "Chili con Carne mit Pommes käseüberbacken",
+        "image": "images/large/chili_cheese_fries.jpg"
+    },
+
+    {
+        "title": "Gemüse Bruschetta",
+        "image": "images/large/gemuese_bruschetta.jpg"
+    },
+
+    {
         "title": "Gemüselasagne",
-        "image": "images/large/gemueselasagne.jpg"
+        "image": "images/large/gemuese_lasagne.jpg"
     },
 
     {
@@ -24,5 +39,35 @@
     {
         "title": "Pizzateig",
         "image": "images/large/pizzateig.jpg"
+    },
+
+    {
+        "title": "Ratatouille",
+        "image": "images/large/ratatouille.jpg"
+    },
+
+    {
+        "title": "Spaghetti Carbonara",
+        "image": "images/large/spaghetti_carbonara.jpg"
+    },
+
+    {
+        "title": "Spinat Lasange",
+        "image": "images/large/spinat_lasange.jpg"
+    },
+
+    {
+        "title": "Spinat Quiche",
+        "image": "images/large/spinat_quiche.jpg"
+    },
+
+    {
+        "title": "Tarte au Chocolat",
+        "image": "images/large/tarte_au_chocolat.jpg"
+    },
+
+    {
+        "title": "Tiramisu",
+        "image": "images/large/tiramisu.jpg"
     }
 ]

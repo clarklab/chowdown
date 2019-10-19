@@ -22,11 +22,41 @@
   
     {
     
+      "title"    : "Cannelloni mit Spinat",
+    "tags"    : "hauptgericht,, mittel,, schwere, kost,, monopoly, ",
+		"ingredients"    : ", ",
+		"image"	   : "cannelloni_spinat.jpg",
+	    "url"      : "/recipes/cannelloni_spinat.html"
+      
+    } ,
+  
+    {
+    
+      "title"    : "Chili con Carne mit Pommes käseüberbacken",
+    "tags"    : "hauptgericht,, mittel,, schwere, kost,, monopoly, ",
+		"ingredients"    : ", ",
+		"image"	   : "chili_cheese_fries.jpg",
+	    "url"      : "/recipes/chili_cheese_fries.html"
+      
+    } ,
+  
+    {
+    
+      "title"    : "Gemüse Bruschetta",
+    "tags"    : "hauptgericht,, leicht,, monopoly, ",
+		"ingredients"    : ", ",
+		"image"	   : "gemuese_bruschetta.jpg",
+	    "url"      : "/recipes/gemuese_bruschetta.html"
+      
+    } ,
+  
+    {
+    
       "title"    : "Gemüselasagne",
     "tags"    : "hauptgericht,, backen, ",
 		"ingredients"    : "150g Zucchini, 150g Paprikaschote(n), rot, 150g Paprikaschote(n), gelb, 150g Zwiebel(n) (Gemüsezwiebeln), 1 Zehe/n Knoblauch, 3 EL Olivenöl, 400ml Tomatenpüree (Passato die Promodoro), 100ml Gemüsebrühe, 2 EL Basilikum, frisch gehackt, 200g Mascarpone, 50ml Milch, 1 Ei(er), 200g Lasagneplatte(n), 150g Käse (Fontina), gerieben, 4 EL Parmesan, frisch gerieben, ",
-		"image"	   : "gemueselasagne.jpg",
-	    "url"      : "/recipes/gemueselasagne.html"
+		"image"	   : "gemuese_lasagne.jpg",
+	    "url"      : "/recipes/gemuese_lasagne.html"
       
     } ,
   
@@ -47,6 +77,66 @@
 		"ingredients"    : "500g Mehl, 1/2 Würfel Hefe, 2 TL Salz, 200ml Milch, lauwarm, 20ml Bier, ",
 		"image"	   : "pizzateig.jpg",
 	    "url"      : "/recipes/pizzateig.html"
+      
+    } ,
+  
+    {
+    
+      "title"    : "Ratatouille",
+    "tags"    : "hauptgericht,, schnell,, simpel, ",
+		"ingredients"    : "3 Paprikaschote(n), rot, grün, gelb, 1 Zucchini, 1 Zwiebel(n), 1 Aubergine(n), 2 Tomate(n), Knoblauch, Thymian, ",
+		"image"	   : "ratatouille.jpg",
+	    "url"      : "/recipes/ratatouille.html"
+      
+    } ,
+  
+    {
+    
+      "title"    : "Spaghetti Carbonara",
+    "tags"    : "hauptgericht,, leicht,, monopoly, ",
+		"ingredients"    : ", ",
+		"image"	   : "spaghetti_carbonara.jpg",
+	    "url"      : "/recipes/spaghetti_carbonara.html"
+      
+    } ,
+  
+    {
+    
+      "title"    : "Spinat Lasange",
+    "tags"    : "hauptgericht,, mittel,, schwere, kost,, monopoly, ",
+		"ingredients"    : ", ",
+		"image"	   : "spinat_lasange.jpg",
+	    "url"      : "/recipes/spinat_lasange.html"
+      
+    } ,
+  
+    {
+    
+      "title"    : "Spinat Quiche",
+    "tags"    : "hauptgericht,, leicht,, mittelschwere, kost,, monopoly, ",
+		"ingredients"    : "Quiche Teig, 400g Blattspinat, 200g Feta, 200g Schmand, 200g Sahne, 1 Ei, 1 Knoblauchzehe, ",
+		"image"	   : "spinat_quiche.jpg",
+	    "url"      : "/recipes/spinat_quiche.html"
+      
+    } ,
+  
+    {
+    
+      "title"    : "Tarte au Chocolat",
+    "tags"    : "nachtisch,, schnell,, simpel, ",
+		"ingredients"    : "200g Bitterschokolade, 100g Vollmilchschokolade, 200g Süßrahmbutter, 5 große Eier, 180g Zucker, 2 Eßlöffel Mehl, ",
+		"image"	   : "tarte_au_chocolat.jpg",
+	    "url"      : "/recipes/tarte_au_chocolat.html"
+      
+    } ,
+  
+    {
+    
+      "title"    : "Tiramisu",
+    "tags"    : "nachtisch,, leicht,, mittlere, kost,, monopoly, ",
+		"ingredients"    : "500g Mascarpone, 250g Löffelbiskuit, 100g Puderzucker, 4 Tassen Espresso, 4 Eigelb, 2 Eiweiß, 2cl Amaretto, Orangen-Zeste, Kakao, ",
+		"image"	   : "tiramisu.jpg",
+	    "url"      : "/recipes/tiramisu.html"
       
     } 
   
