@@ -195,6 +195,7 @@
     var title = "Graham Cracker Crust";
     var path = "_components/graham-cracker-crust.md";
     var tags = "";
+    var description = $('div[itemprop="description"]').text();
 
     var ingredients = [];
     
@@ -220,6 +221,7 @@
       title: title,
       path: path,
       tags: tags,
+      description: description,
       ingredients: ingredients,
       directions: directions
     });
