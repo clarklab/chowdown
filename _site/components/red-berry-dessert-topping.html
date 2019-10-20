@@ -101,7 +101,7 @@
 
 <!-- call up the main recipe title and content -->
   <header class="post-header">
-    <h1 class="post-title center m1 sm-mt3" itemprop="name">Red Berry Dessert Topping</h1>
+    <h1 class="post-title center m1 sm-mt3" itemprop="name">Red Berry Dessert Topping <a href="#" id="edit">(Edit)</a></h1>
   </header>
 
   <div class="px2 mt3 clearfix">
@@ -141,13 +141,13 @@
       <h4 class="blue mt0 mb2 xs-center">Directions</h4>
       <ul itemprop="recipeInstructions">
         
-        <li><p>Dice berries</p>
+        <li itemprop="recipeInstruction"><p>Dice berries</p>
 </li>
         
-        <li><p>Combine all ingredients</p>
+        <li itemprop="recipeInstruction"><p>Combine all ingredients</p>
 </li>
         
-        <li><p>Let rest for 15 mins</p>
+        <li itemprop="recipeInstruction"><p>Let rest for 15 mins</p>
 </li>
         
       </ul>
@@ -189,6 +189,43 @@
     $('html, body').animate({scrollTop: y-height-16}, 200);
   });
 
+  });
+
+  $('#edit').on('click', function() {
+    var title = "Red Berry Dessert Topping";
+    var path = "_components/red-berry-dessert-topping.md";
+    var tags = "";
+
+    var ingredients = [];
+    
+      ingredients.push("1/2 cup raspberries");
+    
+      ingredients.push("1/2 cup strawberries");
+    
+      ingredients.push("1/4 white sugar");
+    
+      ingredients.push("1 squirt honey");
+    
+
+    var directions = [];
+    
+      directions.push("Dice berries");
+    
+      directions.push("Combine all ingredients");
+    
+      directions.push("Let rest for 15 mins");
+    
+
+    var json = JSON.stringify({
+      title: title,
+      path: path,
+      tags: tags,
+      ingredients: ingredients,
+      directions: directions
+    });
+
+    localStorage.setItem("recipe", json);
+    window.location.href = "/edit.html";
   });
   
 </script>

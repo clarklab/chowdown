@@ -1,8 +1,8 @@
 ---
 
 layout: recipe
-title:  "Arme Leute Gemüse"
-image: arme_leute_gemuese.jpg
+title:  "Gemüse Pfanne"
+image: gemuese_pfanne.jpg
 tags: hauptgericht, schnell, simpel
 
 ingredients:

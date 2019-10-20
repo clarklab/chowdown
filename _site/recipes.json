@@ -2,11 +2,6 @@
 
 [
     {
-        "title": "Arme Leute Gemüse",
-        "image": "images/large/arme_leute_gemuese.jpg"
-    },
-
-    {
         "title": "Cannelloni mit Ricotta und Radicchio",
         "image": "images/large/cannelloni_radicchio.jpg"
     },
@@ -29,6 +24,11 @@
     {
         "title": "Gemüselasagne",
         "image": "images/large/gemuese_lasagne.jpg"
+    },
+
+    {
+        "title": "Gemüse Pfanne",
+        "image": "images/large/gemuese_pfanne.jpg"
     },
 
     {

@@ -3,11 +3,12 @@ layout: default
 ---
 
 <div class="container">
-    <h2 class="center mb3 blue" style="margin-bottom: 15px; margin-top: 30px;">New Recipe</h2>
+    <h2 class="center mb3 blue" style="margin-bottom: 15px; margin-top: 30px;">Edit Recipe</h2>
     <div class="col-12">
         <div class="row justify-content-md-center">
             <input type="text" class="form-control center col-12 col-md-10 col-lg-8" id="title" placeholder="Title"
                 aria-label="Title">
+            <input type="hidden" id="path">
             <input type="text" class="form-control center col-12 col-md-10 col-lg-8" id="tags" placeholder="Tags"
                 aria-label="Tags">
         </div>
@@ -61,24 +62,53 @@ layout: default
 </div>
 
 <div class="modal fade" id="loadingModal" tabindex="-1" role="dialog" aria-labelledby="loginModal" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-                <div class="modal-body">
-                    <div class="d-flex justify-content-center" style="margin-top: 25px;"> 
-                        <div class="spinner-border" role="status" style="width: 4rem; height: 4rem;">
-                            <span class="sr-only">Loading...</span>
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="d-flex justify-content-center" style="margin-top: 25px;"> 
+                            <div class="spinner-border" role="status" style="width: 4rem; height: 4rem;">
+                                <span class="sr-only">Loading...</span>
+                            </div>
                         </div>
-                    </div>
-                <p>Creating commit and pushing to Github...<br><br><small>It may take a few minutes for the backend to update and show the change file.</small></p>
+                    <p>Creating commit and pushing to Github...<br><br><small>It may take a few minutes for the backend to update and show the change file.</small></p>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
 <script src="https://unpkg.com/github-api/dist/GitHub.bundle.min.js" type="text/javascript"></script>
 
 <!-- Configuration -->
 <script>
+    function onLoad() {
+        var recipe = localStorage.getItem('recipe');
+
+        if (recipe === null) {
+            window.location.href = "/new.html";
+            return;
+        }
+
+        recipe = JSON.parse(recipe);
+
+        $('#title').val(recipe.title);
+        $('#path').val(recipe.path);
+        $('#tags').val(recipe.tags);
+
+        for (var i = 0; i < recipe.ingredients.length; i++) {
+            $('#ingredients').append('<div style="display: flex; margin-bottom: 5px;">' +
+                '<input type="text" class="form-control ingredient" placeholder="Ingredient" aria-label="Ingredient" value="' + recipe.ingredients[i] + '">' +
+                '<button type="button" class="btn btn-warning remove-item" style="margin-left: 10px;">Remove</button>' +
+                '</div>');
+        }
+
+        for (var i = 0; i < recipe.directions.length; i++) {
+            $('#directions').append('<div style="display: flex; margin-bottom: 5px;">' +
+                '<input type="text" class="form-control direction" placeholder="Direction" aria-label="Direction" value="' + recipe.directions[i] + '">' +
+                '<button type="button" class="btn btn-warning remove-item" style="margin-left: 10px;">Remove</button>' +
+                '</div>');
+        }
+    }
+
     $('#save').on('click', function () {
         $('#loginModal form').trigger("reset");
         $('#loginModal').modal('show');
@@ -102,21 +132,18 @@ layout: default
         // with the content provided
         repository.writeFile(
             'gh-pages', // e.g. 'master'
-            '_recipes/' + file.name, // e.g. 'blog/index.md'
+            file.path, // e.g. 'blog/index.md'
             file.content, // e.g. 'Hello world, this is my new content'
-            'Added new recipe file: ' + file.name, // e.g. 'Created new index'
-            function (err) {
+            'Edited recipe: ' + $('#title').val(), // e.g. 'Created new index'
+            function (err, res, val) {
                 if (err) {
                     console.error('An error occurred when submitting the file');
                 } else {
                     window.location.href = '/';
                 }
-
                 $('#loadingModal').modal('hide');
             }
         );
-        
-
     });
 
     $('#new-ingredient').on('click', function () {
@@ -163,11 +190,13 @@ layout: default
 
         result += '---';
 
-        var name = $('#title').val().toLowerCase().split(' ').join('_').replace('ä', 'ae').replace('ö', 'oe').replace('ü', 'ue').replace('ß', 'ss');
+        var path = $('#path').val();
 
         return {
-            name: name + '.md',
+            path: path,
             content: result
         };
     }
+
+    onLoad();
 </script>

@@ -101,7 +101,7 @@
 
 <!-- call up the main recipe title and content -->
   <header class="post-header">
-    <h1 class="post-title center m1 sm-mt3" itemprop="name">Vanilla Custard Filling</h1>
+    <h1 class="post-title center m1 sm-mt3" itemprop="name">Vanilla Custard Filling <a href="#" id="edit">(Edit)</a></h1>
   </header>
 
   <div class="px2 mt3 clearfix">
@@ -147,22 +147,22 @@
       <h4 class="blue mt0 mb2 xs-center">Directions</h4>
       <ul itemprop="recipeInstructions">
         
-        <li><p>In a small saucepan, combine the sugar, flour and salt. Stir in milk until smooth.</p>
+        <li itemprop="recipeInstruction"><p>In a small saucepan, combine the sugar, flour and salt. Stir in milk until smooth.</p>
 </li>
         
-        <li><p>Cook and stir over medium-high heat until thickened and bubbly.</p>
+        <li itemprop="recipeInstruction"><p>Cook and stir over medium-high heat until thickened and bubbly.</p>
 </li>
         
-        <li><p>Reduce heat; cook and stir 2 minutes longer.</p>
+        <li itemprop="recipeInstruction"><p>Reduce heat; cook and stir 2 minutes longer.</p>
 </li>
         
-        <li><p>Remove from the heat. Stir a small amount of hot filling into egg yolks; return all to the pan.</p>
+        <li itemprop="recipeInstruction"><p>Remove from the heat. Stir a small amount of hot filling into egg yolks; return all to the pan.</p>
 </li>
         
-        <li><p>Bring to a gentle boil, stirring constantly; cook and stir 2 minutes longer.</p>
+        <li itemprop="recipeInstruction"><p>Bring to a gentle boil, stirring constantly; cook and stir 2 minutes longer.</p>
 </li>
         
-        <li><p>Remove from the heat. Gently stir in vanilla.</p>
+        <li itemprop="recipeInstruction"><p>Remove from the heat. Gently stir in vanilla.</p>
 </li>
         
       </ul>
@@ -204,6 +204,53 @@
     $('html, body').animate({scrollTop: y-height-16}, 200);
   });
 
+  });
+
+  $('#edit').on('click', function() {
+    var title = "Vanilla Custard Filling";
+    var path = "_components/vanilla-custard-filling.md";
+    var tags = "";
+
+    var ingredients = [];
+    
+      ingredients.push("1/2 cup sugar");
+    
+      ingredients.push("1/4 cup all-purpose flour");
+    
+      ingredients.push("1/2 teaspoon salt");
+    
+      ingredients.push("2 cups milk");
+    
+      ingredients.push("2 egg yolks, lightly beaten");
+    
+      ingredients.push("2 teaspoons vanilla extract");
+    
+
+    var directions = [];
+    
+      directions.push("In a small saucepan, combine the sugar, flour and salt. Stir in milk until smooth.");
+    
+      directions.push("Cook and stir over medium-high heat until thickened and bubbly.");
+    
+      directions.push("Reduce heat; cook and stir 2 minutes longer.");
+    
+      directions.push("Remove from the heat. Stir a small amount of hot filling into egg yolks; return all to the pan.");
+    
+      directions.push("Bring to a gentle boil, stirring constantly; cook and stir 2 minutes longer.");
+    
+      directions.push("Remove from the heat. Gently stir in vanilla.");
+    
+
+    var json = JSON.stringify({
+      title: title,
+      path: path,
+      tags: tags,
+      ingredients: ingredients,
+      directions: directions
+    });
+
+    localStorage.setItem("recipe", json);
+    window.location.href = "/edit.html";
   });
   
 </script>

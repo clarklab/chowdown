@@ -101,7 +101,7 @@
 
 <!-- call up the main recipe title and content -->
   <header class="post-header">
-    <h1 class="post-title center m1 sm-mt3" itemprop="name">Graham Cracker Crust</h1>
+    <h1 class="post-title center m1 sm-mt3" itemprop="name">Graham Cracker Crust <a href="#" id="edit">(Edit)</a></h1>
   </header>
 
   <div class="px2 mt3 clearfix">
@@ -141,13 +141,13 @@
       <h4 class="blue mt0 mb2 xs-center">Directions</h4>
       <ul itemprop="recipeInstructions">
         
-        <li><p>pulse graham cracker in food processor or use muddler to crumb in bowl</p>
+        <li itemprop="recipeInstruction"><p>pulse graham cracker in food processor or use muddler to crumb in bowl</p>
 </li>
         
-        <li><p>combine melted butter, graham cracker crumbs, sugar, and cinnamon in a bowl</p>
+        <li itemprop="recipeInstruction"><p>combine melted butter, graham cracker crumbs, sugar, and cinnamon in a bowl</p>
 </li>
         
-        <li><p>press into pan, forming into crust shape</p>
+        <li itemprop="recipeInstruction"><p>press into pan, forming into crust shape</p>
 </li>
         
       </ul>
@@ -189,6 +189,43 @@
     $('html, body').animate({scrollTop: y-height-16}, 200);
   });
 
+  });
+
+  $('#edit').on('click', function() {
+    var title = "Graham Cracker Crust";
+    var path = "_components/graham-cracker-crust.md";
+    var tags = "";
+
+    var ingredients = [];
+    
+      ingredients.push("2 cups graham cracker crumbs");
+    
+      ingredients.push("6 tbs butter (melted)");
+    
+      ingredients.push("1/3 cup white sugar");
+    
+      ingredients.push("1 tsp cinnamon");
+    
+
+    var directions = [];
+    
+      directions.push("pulse graham cracker in food processor or use muddler to crumb in bowl");
+    
+      directions.push("combine melted butter, graham cracker crumbs, sugar, and cinnamon in a bowl");
+    
+      directions.push("press into pan, forming into crust shape");
+    
+
+    var json = JSON.stringify({
+      title: title,
+      path: path,
+      tags: tags,
+      ingredients: ingredients,
+      directions: directions
+    });
+
+    localStorage.setItem("recipe", json);
+    window.location.href = "/edit.html";
   });
   
 </script>
