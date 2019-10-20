@@ -1,5 +1,6 @@
 ---
 
+layout: recipe
 title: Pizzateig
 image: pizzateig.png
 tags: simpel,backen
