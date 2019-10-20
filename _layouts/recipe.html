@@ -21,7 +21,7 @@ layout: default
 
 <!-- call up the main recipe title and content -->
   <header class="post-header">
-    <h1 class="post-title center m1 sm-mt3" itemprop="name">{{ page.title }}</h1>
+    <h1 class="post-title center m1 sm-mt3" itemprop="name">{{ page.title }} <a href="#" id="edit">(Edit)</a></h1>
   </header>
 
   <div class="px2 mt3 clearfix">
@@ -58,7 +58,7 @@ layout: default
       <h4 class="blue mt0 mb2 xs-center">Directions</h4>
       <ul itemprop="recipeInstructions">
         {% for direction in page.directions %}
-        <li>{{ direction | markdownify }}</li>
+        <li itemprop="recipeInstruction">{{ direction | markdownify }}</li>
         {% endfor %}
       </ul>
     </div>
@@ -103,7 +103,7 @@ layout: default
       <h4 class="blue regular xs-center">Steps</h4>
         <ul itemprop="instructions">
         {% for item in recipe.directions %}
-        <li>{{ item | markdownify }}</li>
+        <li itemprop="instruction">{{ item | markdownify }}</li>
         {% endfor %}
       </ul>
           
@@ -147,6 +147,35 @@ layout: default
     $('html, body').animate({scrollTop: y-height-16}, 200);
   });
 
+  });
+
+  $('#edit').on('click', function() {
+    var title = "{{ page.title }}";
+    var path = "{{ page.path }}";
+    var tags = "{{page.tags}}";
+    var description = $('div[itemprop="description"]').text();
+
+    var ingredients = [];
+    {% for ingredient in page.ingredients %}
+      ingredients.push("{{ingredient}}");
+    {% endfor %}
+
+    var directions = [];
+    {% for direction in page.directions %}
+      directions.push("{{direction}}");
+    {% endfor %}
+
+    var json = JSON.stringify({
+      title: title,
+      path: path,
+      tags: tags,
+      description: description,
+      ingredients: ingredients,
+      directions: directions
+    });
+
+    localStorage.setItem("recipe", json);
+    window.location.href = "/edit.html";
   });
   
 </script>

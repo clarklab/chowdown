@@ -22,8 +22,13 @@
     },
 
     {
+<<<<<<< HEAD
         "title": "Green Chile Stew",
         "image": "images/large/green-chile-stew.jpg"
+=======
+        "title": "Gemüselasagne",
+        "image": "images/large/gemüselasagne.png"
+>>>>>>> gh-pages
     },
 
     {

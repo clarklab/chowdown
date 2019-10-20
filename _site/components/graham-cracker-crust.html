@@ -7,15 +7,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Graham Cracker Crust</title>
-  <meta name="description" content="A simple graham cracker crust, perfect for cheesecakes or tarts.">
+  <meta name="description"
+    content="A simple graham cracker crust, perfect for cheesecakes or tarts.">
 
   <link href="/css/bass.css" rel="stylesheet">
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://localhost:4000/components/graham-cracker-crust.html">
-  <link rel="alternate" type="application/rss+xml" title="Chowdown" href="http://localhost:4000/feed.xml" />
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.4/hammer.min.js"></script>
-  
+  <link rel="alternate" type="application/rss+xml" title="Chowdown"
+    href="http://localhost:4000/feed.xml" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+
   <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
@@ -25,15 +37,19 @@
   <meta name="msapplication-TileColor" content="#007fff">
   <meta name="msapplication-config" content="/icons/browserconfig.xml">
   <meta name="theme-color" content="#007fff">
-  
+
   <!-- Twitter Cards -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@chowdownapp">
   <meta name="twitter:creator" content="@clarklab">
+  
   <meta name="twitter:title" content="Graham Cracker Crust">
+  
   <meta name="twitter:url" content="/components/graham-cracker-crust.html">
+  
   <meta name="twitter:description" content="A simple graham cracker crust, perfect for cheesecakes or tarts.
 ">
+  
   <meta name="twitter:image:src" content="/images/graham-cracker-crust.jpg">
 
 </head>
@@ -85,7 +101,7 @@
 
 <!-- call up the main recipe title and content -->
   <header class="post-header">
-    <h1 class="post-title center m1 sm-mt3" itemprop="name">Graham Cracker Crust</h1>
+    <h1 class="post-title center m1 sm-mt3" itemprop="name">Graham Cracker Crust <a href="#" id="edit">(Edit)</a></h1>
   </header>
 
   <div class="px2 mt3 clearfix">
@@ -125,13 +141,13 @@
       <h4 class="blue mt0 mb2 xs-center">Directions</h4>
       <ul itemprop="recipeInstructions">
         
-        <li><p>pulse graham cracker in food processor or use muddler to crumb in bowl</p>
+        <li itemprop="recipeInstruction"><p>pulse graham cracker in food processor or use muddler to crumb in bowl</p>
 </li>
         
-        <li><p>combine melted butter, graham cracker crumbs, sugar, and cinnamon in a bowl</p>
+        <li itemprop="recipeInstruction"><p>combine melted butter, graham cracker crumbs, sugar, and cinnamon in a bowl</p>
 </li>
         
-        <li><p>press into pan, forming into crust shape</p>
+        <li itemprop="recipeInstruction"><p>press into pan, forming into crust shape</p>
 </li>
         
       </ul>
@@ -174,6 +190,45 @@
   });
 
   });
+
+  $('#edit').on('click', function() {
+    var title = "Graham Cracker Crust";
+    var path = "_components/graham-cracker-crust.md";
+    var tags = "";
+    var description = $('div[itemprop="description"]').text();
+
+    var ingredients = [];
+    
+      ingredients.push("2 cups graham cracker crumbs");
+    
+      ingredients.push("6 tbs butter (melted)");
+    
+      ingredients.push("1/3 cup white sugar");
+    
+      ingredients.push("1 tsp cinnamon");
+    
+
+    var directions = [];
+    
+      directions.push("pulse graham cracker in food processor or use muddler to crumb in bowl");
+    
+      directions.push("combine melted butter, graham cracker crumbs, sugar, and cinnamon in a bowl");
+    
+      directions.push("press into pan, forming into crust shape");
+    
+
+    var json = JSON.stringify({
+      title: title,
+      path: path,
+      tags: tags,
+      description: description,
+      ingredients: ingredients,
+      directions: directions
+    });
+
+    localStorage.setItem("recipe", json);
+    window.location.href = "/edit.html";
+  });
   
 </script>
     </div>
@@ -182,13 +237,12 @@
 
   <div class="container px3 sm-px4">
 
-    
     <div class="clearfix">
       <div class="sm-col sm-col-6">
-        <p class="left-align rss-subscribe mb2"><a href="/search">Search</a>  | <a href="/blog">Blog</a> | </a>Subscribe <a href="/feed.xml">via RSS</a></p>
+        <p class="left-align mb2"><a href="/search">Search</a>  | <a href="/blog">Blog</a> | Subscribe <a href="/feed.xml">via RSS</a></p>
       </div>
       <div class="sm-col sm-col-6">
-        <p class="right-align mb2">Made with <svg class="js-geomicon geomicon" height="0.8em" data-icon="heart" viewBox="0 0 32 32" style="fill:#007FFF"><title>heart icon</title><path d="M0 10 C0 6, 3 2, 8 2 C12 2, 15 5, 16 6 C17 5, 20 2, 24 2 C30 2, 32 6, 32 10 C32 18, 18 29, 16 30 C14 29, 0 18, 0 10"></path></svg> by <a href="http://twiter.com/clarklab">@clarklab</a></p>
+        <p class="right-align mb2">Made with <svg class="js-geomicon geomicon" height="0.8em" data-icon="heart" viewBox="0 0 32 32" style="fill:#007FFF"><title>heart icon</title><path d="M0 10 C0 6, 3 2, 8 2 C12 2, 15 5, 16 6 C17 5, 20 2, 24 2 C30 2, 32 6, 32 10 C32 18, 18 29, 16 30 C14 29, 0 18, 0 10"></path></svg> by <a href="http://twitter.com/clarklab">@clarklab</a></p>
       </div>
     </div>
     

@@ -1,0 +1,207 @@
+---
+layout: default
+---
+
+<div class="container">
+    <h2 class="center mb3 blue" style="margin-bottom: 15px; margin-top: 30px;">Edit Recipe</h2>
+    <div class="col-12">
+        <div class="row justify-content-md-center">
+            <input type="text" class="form-control center col-12 col-md-10 col-lg-8" id="title" placeholder="Title"
+                aria-label="Title" style="margin-bottom:5px;">
+            <input type="hidden" id="path">
+            <textarea class="form-control center col-12 col-md-10 col-lg-8" id="description" rows="3" placeholder="Description" style="margin-bottom:5px;"></textarea>
+            <input type="text" class="form-control center col-12 col-md-10 col-lg-8" id="tags" placeholder="Tags"
+                aria-label="Tags" style="margin-bottom:5px;">
+        </div>
+    </div>
+
+    <h4 class="mb3 blue" style="margin-bottom: 15px; margin-top: 15px;">Ingredients <a href="#"
+            id="new-ingredient">(+)</a></h4>
+    <div id="ingredients" class="col-12" style="margin-bottom: 20px;">
+
+    </div>
+    <h4 class="mb3 blue" style="margin-bottom: 15px;">Directions <a href="#" id="new-direction">(+)</a></h4>
+    <div id="directions" class="col-12" style="margin-bottom: 20px;">
+    </div>
+    <div class="col-12">
+        <div class="row justify-content-md-center">
+            <button type="button" class="btn btn-primary col-12 col-md-8 col-lg-6" id="save">Save Receipt</button>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <form>
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Provide Github Credentials</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" class="form-control" id="username" aria-describedby="usernameHelp"
+                            placeholder="Enter username">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Password">
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="loadingModal" tabindex="-1" role="dialog" aria-labelledby="loginModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="d-flex justify-content-center" style="margin-top: 25px; margin-bottom: 15px;"> 
+                            <div class="spinner-border" role="status" style="width: 4rem; height: 4rem;">
+                                <span class="sr-only">Loading...</span>
+                            </div>
+                        </div>
+                    <p>Creating commit and pushing to Github...<br><br><small>It may take a few minutes for the backend to update and show the change file.</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="https://unpkg.com/github-api/dist/GitHub.bundle.min.js" type="text/javascript"></script>
+
+<!-- Configuration -->
+<script>
+    function onLoad() {
+        var recipe = localStorage.getItem('recipe');
+
+        if (recipe === null) {
+            window.location.href = "/new.html";
+            return;
+        }
+
+        recipe = JSON.parse(recipe);
+
+        $('#title').val(recipe.title);
+        $('#description').val(recipe.description);
+        $('#path').val(recipe.path);
+        $('#tags').val(recipe.tags);
+
+        for (var i = 0; i < recipe.ingredients.length; i++) {
+            $('#ingredients').append('<div style="display: flex; margin-bottom: 5px;">' +
+                '<input type="text" class="form-control ingredient" placeholder="Ingredient" aria-label="Ingredient" value="' + recipe.ingredients[i] + '">' +
+                '<button type="button" class="btn btn-warning remove-item" style="margin-left: 10px;">Remove</button>' +
+                '</div>');
+        }
+
+        for (var i = 0; i < recipe.directions.length; i++) {
+            $('#directions').append('<div style="display: flex; margin-bottom: 5px;">' +
+                '<input type="text" class="form-control direction" placeholder="Direction" aria-label="Direction" value="' + recipe.directions[i] + '">' +
+                '<button type="button" class="btn btn-warning remove-item" style="margin-left: 10px;">Remove</button>' +
+                '</div>');
+        }
+    }
+
+    $('#save').on('click', function () {
+        $('#loginModal form').trigger("reset");
+        $('#loginModal').modal('show');
+    });
+
+    $('#loginModal form').submit(e => {
+        $('#loginModal').modal('hide');
+        $('#loadingModal').modal('show');
+        e.preventDefault();
+        var github = new GitHub({
+            username: $('#username').val(),
+            password: $('#password').val(),
+            auth: 'basic'
+        });
+
+        var repository = github.getRepo($('#username').val(), 'chowdown');
+
+        var file = constructFile();
+
+        // Creates a new file (or updates it if the file already exists)
+        // with the content provided
+        repository.writeFile(
+            'gh-pages', // e.g. 'master'
+            file.path, // e.g. 'blog/index.md'
+            file.content, // e.g. 'Hello world, this is my new content'
+            'Edited recipe: ' + $('#title').val(), // e.g. 'Created new index'
+            function (err, res, val) {
+                if (err) {
+                    console.error('An error occurred when submitting the file');
+                } else {
+                    window.location.href = '/';
+                }
+                $('#loadingModal').modal('hide');
+            }
+        );
+    });
+
+    $('#new-ingredient').on('click', function () {
+        $('#ingredients').append('<div style="display: flex; margin-bottom: 5px;">' +
+            '<input type="text" class="form-control ingredient" placeholder="Ingredient" aria-label="Ingredient">' +
+            '<button type="button" class="btn btn-warning remove-item" style="margin-left: 10px;">Remove</button>' +
+            '</div>');
+    });
+
+    $('#new-direction').on('click', function () {
+        $('#directions').append('<div style="display: flex; margin-bottom: 5px;">' +
+            '<input type="text" class="form-control direction" placeholder="Direction" aria-label="Direction">' +
+            '<button type="button" class="btn btn-warning remove-item" style="margin-left: 10px;">Remove</button>' +
+            '</div>');
+    });
+
+    $(document).on('click', '.remove-item', function () {
+        $(this).parent().remove();
+    });
+
+    function constructFile() {
+        var result = '---\n';
+        result += '\n';
+
+        // Basics
+        result += 'layout: recipe\n';
+        result += 'title: ' + $('#title').val() + '\n';
+        result += 'image: ' + $('#title').val().toLowerCase() + '.jpg\n';
+        result += 'tags: ' + $('#tags').val() + '\n';
+        result += '\n';
+
+        // ingredients
+        result += 'ingredients: \n';
+        $('.ingredient').each(function (index) {
+            result += '- ' + $(this).val() + '\n';
+        });
+        result += '\n';
+
+        // directions
+        result += 'directions: \n';
+        $('.direction').each(function (index) {
+            result += '- ' + $(this).val() + '\n';
+        });
+        result += '\n';
+
+        result += '---\n';
+
+        result += $('#description').val();
+
+        var path = $('#path').val();
+
+        return {
+            path: path,
+            content: result
+        };
+    }
+
+    onLoad();
+</script>
