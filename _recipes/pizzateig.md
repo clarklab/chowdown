@@ -2,7 +2,7 @@
 
 layout: recipe
 title: Pizzateig
-image: pizzateig.png
+image: pizzateig.jpg
 tags: simpel,backen
 
 ingredients: 
