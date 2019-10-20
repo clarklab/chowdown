@@ -5,171 +5,148 @@
     <description>The plain text recipe database for hackers</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 20 Oct 2019 17:27:35 +0200</pubDate>
-    <lastBuildDate>Sun, 20 Oct 2019 17:27:35 +0200</lastBuildDate>
+    <pubDate>Sun, 20 Oct 2019 17:52:40 +0200</pubDate>
+    <lastBuildDate>Sun, 20 Oct 2019 17:52:40 +0200</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
       <item>
-        <title>Cannelloni mit Ricotta und Radicchio</title>
-        <description>&lt;p&gt;Kann auch mit Spinat statt Radicchio gemacht werden.&lt;/p&gt;
+        <title>Banana Bread</title>
+        <description>&lt;p&gt;From Angie’s mom&lt;/p&gt;
+</description>
+        <link>http://localhost:4000/recipes/banana-bread.html</link>
+        <guid isPermaLink="true">http://localhost:4000/recipes/banana-bread.html</guid>
+        
+        <category>breakfast,</category>
+        
+        <category>baking</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Broccoli Beer Cheese Soup</title>
+        <description>&lt;p&gt;This recipe is inspired by one of my favorites, Gourmand’s Beer Cheese Soup, which uses Shiner Bock. Feel free to use whatever you want, then go to &lt;a href=&quot;http://lovethysandwich.com&quot;&gt;Gourmand’s&lt;/a&gt; to have the real thing.&lt;/p&gt;
+</description>
+        <link>http://localhost:4000/recipes/broccoli-cheese-soup.html</link>
+        <guid isPermaLink="true">http://localhost:4000/recipes/broccoli-cheese-soup.html</guid>
+        
+        <category>sides,</category>
+        
+        <category>soups</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Crockpot Buffalo Chicken</title>
+        <description>&lt;p&gt;This is a party favorite, perfect for a Super Bowl or a game night. It takes a long time, but like most slow cooker recipes, is easy as hell. Bonus: guests love it.&lt;/p&gt;
+</description>
+        <link>http://localhost:4000/recipes/crockpot-buffalo-chicken.html</link>
+        <guid isPermaLink="true">http://localhost:4000/recipes/crockpot-buffalo-chicken.html</guid>
+        
+        <category>mains,</category>
+        
+        <category>grill,</category>
+        
+        <category>party</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Downtown Marinade</title>
+        <description>&lt;p&gt;This is my go-to marinade for everything from steaks to shrimp to fajitas to pork. Seriously, if I’m cooking or grilling meat, there’s a good chance this is what it’s soaking in. It’s perfect for “street meat” aka cart or truck, like tacos and wraps and kebabs and skewers and everything in between. Start with this base, add spice or herb as desired.&lt;/p&gt;
+</description>
+        <link>http://localhost:4000/recipes/downtown-chowdown-marinade.html</link>
+        <guid isPermaLink="true">http://localhost:4000/recipes/downtown-chowdown-marinade.html</guid>
+        
+        <category>party,</category>
+        
+        <category>meat</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Green Chile Stew</title>
+        <description>&lt;p&gt;This is a simple one, consisting of a pre-made soup mix and whatever you’ve got around the kitchen (or campsite). Feel free to sub/swap/switch anything in the ingredient list— anything’s fair game!&lt;/p&gt;
+</description>
+        <link>http://localhost:4000/recipes/green-chile-stew.html</link>
+        <guid isPermaLink="true">http://localhost:4000/recipes/green-chile-stew.html</guid>
+        
+        <category>sides,</category>
+        
+        <category>soups</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Mongolian Beef</title>
+        <description>&lt;p&gt;A quick go-to dinner. Can be made with almost any meat. I often used ground. Works perfect for lettuce wraps. Try replacing the onion with thinly sliced fennel.&lt;/p&gt;
 
+&lt;p&gt;Optional: spice this thing up, with a dose of your favorite chili paste/sauce.&lt;/p&gt;
 </description>
-        <link>http://localhost:4000/recipes/cannelloni_radicchio.html</link>
-        <guid isPermaLink="true">http://localhost:4000/recipes/cannelloni_radicchio.html</guid>
+        <link>http://localhost:4000/recipes/mongolian-beef.html</link>
+        <guid isPermaLink="true">http://localhost:4000/recipes/mongolian-beef.html</guid>
         
-        <category>hauptgericht,</category>
+        <category>mains,</category>
         
-        <category>backen</category>
+        <category>meat</category>
         
         
       </item>
     
       <item>
-        <title>Cannelloni mit Spinat</title>
-        <description>
+        <title>New York Strip</title>
+        <description>&lt;p&gt;Cooking a steak in a water bath is the ultimate, both in terms of flavor and laziness. Dial in a precise temperature, then go take a nap.&lt;/p&gt;
 </description>
-        <link>http://localhost:4000/recipes/cannelloni_spinat.html</link>
-        <guid isPermaLink="true">http://localhost:4000/recipes/cannelloni_spinat.html</guid>
+        <link>http://localhost:4000/recipes/new-york-strip.html</link>
+        <guid isPermaLink="true">http://localhost:4000/recipes/new-york-strip.html</guid>
         
-        <category>hauptgericht,</category>
+        <category>mains,</category>
         
-        <category>mittel,</category>
-        
-        <category>schwere</category>
-        
-        <category>kost,</category>
-        
-        <category>monopoly</category>
+        <category>meat</category>
         
         
       </item>
     
       <item>
-        <title>Chili con Carne mit Pommes käseüberbacken</title>
-        <description>
+        <title>Nilla Wafer French Toast</title>
+        <description>&lt;p&gt;From a weird Sunday morning when I realized we didn’t have bread. Solid hitter. Served with &lt;a href=&quot;https://amzn.to/2QBpGCH&quot;&gt;Treehive&lt;/a&gt; Syrup, my new favorite breakfast obsession (it’s mixed with honey, vanilla, and cinnamon, oof).&lt;/p&gt;
 </description>
-        <link>http://localhost:4000/recipes/chili_cheese_fries.html</link>
-        <guid isPermaLink="true">http://localhost:4000/recipes/chili_cheese_fries.html</guid>
+        <link>http://localhost:4000/recipes/nilla-wafer-french-toast.html</link>
+        <guid isPermaLink="true">http://localhost:4000/recipes/nilla-wafer-french-toast.html</guid>
         
-        <category>hauptgericht,</category>
+        <category>breakfast,</category>
         
-        <category>mittel,</category>
-        
-        <category>schwere</category>
-        
-        <category>kost,</category>
-        
-        <category>monopoly</category>
+        <category>baking</category>
         
         
       </item>
     
       <item>
-        <title>Gemüse Bruschetta</title>
-        <description>
+        <title>One Minute Muffin</title>
+        <description>&lt;p&gt;This flax muffin is quick, vertsatile (just mix in other goodies), and only makes one at a time, so you’ve got no huge tray to tempt you. Custom muffins every morning!&lt;/p&gt;
 </description>
-        <link>http://localhost:4000/recipes/gemuese_bruschetta.html</link>
-        <guid isPermaLink="true">http://localhost:4000/recipes/gemuese_bruschetta.html</guid>
+        <link>http://localhost:4000/recipes/one-minute-muffin.html</link>
+        <guid isPermaLink="true">http://localhost:4000/recipes/one-minute-muffin.html</guid>
         
-        <category>hauptgericht,</category>
-        
-        <category>leicht,</category>
-        
-        <category>monopoly</category>
+        <category>breakfast</category>
         
         
       </item>
     
       <item>
-        <title>Gemüselasagne</title>
-        <description>
+        <title>Pork Steaks</title>
+        <description>&lt;p&gt;Pork is called “the other white meat”, but this sous vide technique is so dang good I’m gonna graduate it up to “THE white meat”.&lt;/p&gt;
 </description>
-        <link>http://localhost:4000/recipes/gemuese_lasagne.html</link>
-        <guid isPermaLink="true">http://localhost:4000/recipes/gemuese_lasagne.html</guid>
+        <link>http://localhost:4000/recipes/pork-steaks.html</link>
+        <guid isPermaLink="true">http://localhost:4000/recipes/pork-steaks.html</guid>
         
-        <category>hauptgericht,</category>
+        <category>mains,</category>
         
-        <category>backen</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Gemüse Pfanne</title>
-        <description>&lt;p&gt;Rezept von meiner Großmutter&lt;/p&gt;
-</description>
-        <link>http://localhost:4000/recipes/gemuese_pfanne.html</link>
-        <guid isPermaLink="true">http://localhost:4000/recipes/gemuese_pfanne.html</guid>
-        
-        <category>hauptgericht,</category>
-        
-        <category>schnell,</category>
-        
-        <category>simpel</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Kohlrabi Pfanne</title>
-        <description>&lt;p&gt;Diese Rezept geht sehr schnell und einfach, gut für ein Abendessen geeignet.&lt;/p&gt;
-
-&lt;p&gt;Rezept von meiner Mutter&lt;/p&gt;
-</description>
-        <link>http://localhost:4000/recipes/kohlrabi_pfanne.html</link>
-        <guid isPermaLink="true">http://localhost:4000/recipes/kohlrabi_pfanne.html</guid>
-        
-        <category>hauptgericht,</category>
-        
-        <category>schnell,</category>
-        
-        <category>simpel</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Pizzateig</title>
-        <description>&lt;p&gt;Simpler Pizzateig&lt;/p&gt;
-</description>
-        <link>http://localhost:4000/recipes/pizzateig.html</link>
-        <guid isPermaLink="true">http://localhost:4000/recipes/pizzateig.html</guid>
-        
-        <category>simpel,</category>
-        
-        <category>backen</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Ratatouille</title>
-        <description>
-</description>
-        <link>http://localhost:4000/recipes/ratatouille.html</link>
-        <guid isPermaLink="true">http://localhost:4000/recipes/ratatouille.html</guid>
-        
-        <category>hauptgericht,</category>
-        
-        <category>schnell,</category>
-        
-        <category>simpel</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Spaghetti Carbonara</title>
-        <description>
-</description>
-        <link>http://localhost:4000/recipes/spaghetti_carbonara.html</link>
-        <guid isPermaLink="true">http://localhost:4000/recipes/spaghetti_carbonara.html</guid>
-        
-        <category>hauptgericht,</category>
-        
-        <category>leicht,</category>
-        
-        <category>monopoly</category>
+        <category>meat</category>
         
         
       </item>

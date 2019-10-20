@@ -2,141 +2,151 @@
   
     {
     
-      "title"    : "Cannelloni mit Ricotta und Radicchio",
-    "tags"    : "hauptgericht,, backen, ",
-		"ingredients"    : "30 Cannelloni ohne vorkochen, 500g Radicchio, 4 in Öl eingelegte getrocknete Tomaten, 2 Knoblauchzehen, 500g weicher Ricotta, 150g frisch geriebener Parmesan, 2 Eier (Größe M), 1 EL Butter, 1 1/2 EL Mehl, 500ml Milch, 1 EL Tomatenmark, ",
-		"image"	   : "cannelloni_radicchio.jpg",
-	    "url"      : "/recipes/cannelloni_radicchio.html"
+      "title"    : "Banana Bread",
+    "tags"    : "breakfast,, baking, ",
+		"ingredients"    : "4 bananas, 1/2 cup butter, 1/2 cup sugar, 2 eggs, 2 cups flour, 1/2 tsp baking soda, 1 tsp baking powder, pinch salt, 1/4 cup nuts (we like pecans), ",
+		"image"	   : "banana-bread.jpg",
+	    "url"      : "/recipes/banana-bread.html"
       
     } ,
   
     {
     
-      "title"    : "Cannelloni mit Spinat",
-    "tags"    : "hauptgericht,, mittel,, schwere, kost,, monopoly, ",
-		"ingredients"    : ", ",
-		"image"	   : "cannelloni_spinat.jpg",
-	    "url"      : "/recipes/cannelloni_spinat.html"
+      "title"    : "Broccoli Beer Cheese Soup",
+    "tags"    : "sides,, soups, ",
+		"ingredients"    : "4 tablespoons butter, 1 cup diced onion, 1/2 cup shredded carrot, 1/2 cup diced celery, 1 tablespoon garlic, 1/4 cup flour, 1 quart chicken broth, 1 cup heavy cream, 10 ounces muenster cheese, 1 cup white white wine, 1 cup pale beer, 1 teaspoon Worcestershire sauce, 1/2 teaspoon hot sauce, ",
+		"image"	   : "broccoli-beer-cheese-soup.jpg",
+	    "url"      : "/recipes/broccoli-cheese-soup.html"
       
     } ,
   
     {
     
-      "title"    : "Chili con Carne mit Pommes käseüberbacken",
-    "tags"    : "hauptgericht,, mittel,, schwere, kost,, monopoly, ",
-		"ingredients"    : ", ",
-		"image"	   : "chili_cheese_fries.jpg",
-	    "url"      : "/recipes/chili_cheese_fries.html"
+      "title"    : "Crockpot Buffalo Chicken",
+    "tags"    : "mains,, grill,, party, ",
+		"ingredients"    : "6-8 chicken breasts, 1 packet ranch mix, 1 bottle Frank&#39;s Red Hot, 1 stick of butter, ",
+		"image"	   : "crockpot-buffalo-chicken.jpg",
+	    "url"      : "/recipes/crockpot-buffalo-chicken.html"
       
     } ,
   
     {
     
-      "title"    : "Gemüse Bruschetta",
-    "tags"    : "hauptgericht,, leicht,, monopoly, ",
-		"ingredients"    : ", ",
-		"image"	   : "gemuese_bruschetta.jpg",
-	    "url"      : "/recipes/gemuese_bruschetta.html"
+      "title"    : "Downtown Marinade",
+    "tags"    : "party,, meat, ",
+		"ingredients"    : "1 cup Italian dressing, 1/4 cup soy sauce, 1/4 cup chili paste (like [sambal oelek](https://amzn.to/2NuqquF)), 1/4 sugar, dash hot sauce (like Texas Champagne or Yellowbird), ",
+		"image"	   : "downtown-marinade.jpg",
+	    "url"      : "/recipes/downtown-chowdown-marinade.html"
       
     } ,
   
     {
     
-      "title"    : "Gemüselasagne",
-    "tags"    : "hauptgericht,, backen, ",
-		"ingredients"    : "150g Zucchini, 150g Paprikaschote(n), rot, 150g Paprikaschote(n), gelb, 150g Zwiebel(n) (Gemüsezwiebeln), 1 Zehe/n Knoblauch, 3 EL Olivenöl, 400ml Tomatenpüree (Passato die Promodoro), 100ml Gemüsebrühe, 2 EL Basilikum, frisch gehackt, 200g Mascarpone, 50ml Milch, 1 Ei(er), 200g Lasagneplatte(n), 150g Käse (Fontina), gerieben, 4 EL Parmesan, frisch gerieben, ",
-		"image"	   : "gemuese_lasagne.jpg",
-	    "url"      : "/recipes/gemuese_lasagne.html"
+      "title"    : "Green Chile Stew",
+    "tags"    : "sides,, soups, ",
+		"ingredients"    : "1 jar of [green chile stew mix](http://amzn.to/1KYXSjo), 1lb ground chicken, 1 red onion, 1 green onion, 1 can corn, ",
+		"image"	   : "green-chile-stew.jpg",
+	    "url"      : "/recipes/green-chile-stew.html"
       
     } ,
   
     {
     
-      "title"    : "Gemüse Pfanne",
-    "tags"    : "hauptgericht,, schnell,, simpel, ",
-		"ingredients"    : "1 Zucchini, 1-2 Paprika, 1 Gemüsezwiebel, Gemüsebrühe, Paprikapulver, Knoblauchpulver, ",
-		"image"	   : "gemuese_pfanne.jpg",
-	    "url"      : "/recipes/gemuese_pfanne.html"
+      "title"    : "Mongolian Beef",
+    "tags"    : "mains,, meat, ",
+		"ingredients"    : "vegetable oil, 1⁄2 teaspoon ginger, 1 tablespoon garlic, 1⁄2 cup soy sauce, 1⁄2 cup water, 3⁄4 cup dark brown sugar, 1 lb flank steak, 1 yellow onion, 2 large green onions, ",
+		"image"	   : "mongolian-beef.jpg",
+	    "url"      : "/recipes/mongolian-beef.html"
       
     } ,
   
     {
     
-      "title"    : "Kohlrabi Pfanne",
-    "tags"    : "hauptgericht,, schnell,, simpel, ",
-		"ingredients"    : "2 Kohlrabi, Gemüsebrühe, 1 Esslöffel Mehl, Milch, ",
-		"image"	   : "kohlrabi_pfanne.jpg",
-	    "url"      : "/recipes/kohlrabi_pfanne.html"
+      "title"    : "New York Strip",
+    "tags"    : "mains,, meat, ",
+		"ingredients"    : "NY Strip Steak(s), salt to taste, ",
+		"image"	   : "new-york-strip.jpg",
+	    "url"      : "/recipes/new-york-strip.html"
       
     } ,
   
     {
     
-      "title"    : "Pizzateig",
-    "tags"    : "simpel,, backen, ",
-		"ingredients"    : "500g Mehl, 1/2 Würfel Hefe, 2 TL Salz, 200ml Milch, lauwarm, 20ml Bier, ",
-		"image"	   : "pizzateig.jpg",
-	    "url"      : "/recipes/pizzateig.html"
+      "title"    : "Nilla Wafer French Toast",
+    "tags"    : "breakfast,, baking, ",
+		"ingredients"    : "4 eggs, 1/4 cup heavy cream, 2 tsp vanilla, sprinkle of sugar, 4 cups Nilla Wafers Minis, ",
+		"image"	   : "nilla-wafer.jpg",
+	    "url"      : "/recipes/nilla-wafer-french-toast.html"
       
     } ,
   
     {
     
-      "title"    : "Ratatouille",
-    "tags"    : "hauptgericht,, schnell,, simpel, ",
-		"ingredients"    : "3 Paprikaschote(n), rot, grün, gelb, 1 Zucchini, 1 Zwiebel(n), 1 Aubergine(n), 2 Tomate(n), Knoblauch, Thymian, ",
-		"image"	   : "ratatouille.jpg",
-	    "url"      : "/recipes/ratatouille.html"
+      "title"    : "One Minute Muffin",
+    "tags"    : "breakfast, ",
+		"ingredients"    : "1⁄4 cup flax seed meal, 1⁄2 teaspoon baking powder, 1 teaspoon cinnamon, 1 egg, 1 teaspoon oil, sugar to taste (or honey, stevia), ",
+		"image"	   : "one-minute-muffin.jpg",
+	    "url"      : "/recipes/one-minute-muffin.html"
       
     } ,
   
     {
     
-      "title"    : "Spaghetti Carbonara",
-    "tags"    : "hauptgericht,, leicht,, monopoly, ",
-		"ingredients"    : ", ",
-		"image"	   : "spaghetti_carbonara.jpg",
-	    "url"      : "/recipes/spaghetti_carbonara.html"
+      "title"    : "Pork Steaks",
+    "tags"    : "mains,, meat, ",
+		"ingredients"    : "pork shoulder (or other cheap cut), immerison circulator (we like the [Anova](http://www.amazon.com/gp/product/B00UKPBXM4/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B00UKPBXM4&amp;linkCode=as2&amp;tag=repl-20&amp;linkId=XMRXWQ35OJNCZVGE)), ",
+		"image"	   : "pork-steaks.jpg",
+	    "url"      : "/recipes/pork-steaks.html"
       
     } ,
   
     {
     
-      "title"    : "Spinat Lasange",
-    "tags"    : "hauptgericht,, mittel,, schwere, kost,, monopoly, ",
-		"ingredients"    : ", ",
-		"image"	   : "spinat_lasange.jpg",
-	    "url"      : "/recipes/spinat_lasange.html"
+      "title"    : "Red Berry Tart",
+    "tags"    : "desserts, ",
+		
+		"image"	   : "red-berry-tart.jpg",
+	    "url"      : "/recipes/red-berry-tart.html"
       
     } ,
   
     {
     
-      "title"    : "Spinat Quiche",
-    "tags"    : "hauptgericht,, leicht,, mittelschwere, kost,, monopoly, ",
-		"ingredients"    : "Quiche Teig, 400g Blattspinat, 200g Feta, 200g Schmand, 200g Sahne, 1 Ei, 1 Knoblauchzehe, ",
-		"image"	   : "spinat_quiche.jpg",
-	    "url"      : "/recipes/spinat_quiche.html"
+      "title"    : "Roasted Brussels Sprouts",
+    "tags"    : "sides,, vegetables, ",
+		"ingredients"    : "1 bunch of brussels, sliced thin, 2 tbsp olive oil, (optional) grated hard cheese, (optional) gold raisins or sweetened cranberries, (optional) assorted veggies, sliced thin, salt, pepper, etc to taste, ",
+		"image"	   : "roasted-brussels-sprouts.jpg",
+	    "url"      : "/recipes/roasted-brussels-sprouts.html"
       
     } ,
   
     {
     
-      "title"    : "Tarte au Chocolat",
-    "tags"    : "nachtisch,, schnell,, simpel, ",
-		"ingredients"    : "200g Bitterschokolade, 100g Vollmilchschokolade, 200g Süßrahmbutter, 5 große Eier, 180g Zucker, 2 Eßlöffel Mehl, ",
-		"image"	   : "tarte_au_chocolat.jpg",
-	    "url"      : "/recipes/tarte_au_chocolat.html"
+      "title"    : "Roasted Okra",
+    "tags"    : "sides,, vegetables, ",
+		"ingredients"    : "1 bunch of okra, salt, pepper, etc to taste, ",
+		"image"	   : "roasted-okra.jpg",
+	    "url"      : "/recipes/roasted-okra.html"
       
     } ,
   
     {
     
-      "title"    : "Tiramisu",
-    "tags"    : "nachtisch,, leicht,, mittlere, kost,, monopoly, ",
-		"ingredients"    : "500g Mascarpone, 250g Löffelbiskuit, 100g Puderzucker, 4 Tassen Espresso, 4 Eigelb, 2 Eiweiß, 2cl Amaretto, Orangen-Zeste, Kakao, ",
-		"image"	   : "tiramisu.jpg",
-	    "url"      : "/recipes/tiramisu.html"
+      "title"    : "Smashed Carrots",
+    "tags"    : "sides,, vegetables, ",
+		"ingredients"    : "1 can carrots, 1 tbsp butter, 2 tbsp parmesan cheese, salt &amp; pepper to taste, ",
+		"image"	   : "smashed-carrots.jpg",
+	    "url"      : "/recipes/smashed-carrots.html"
+      
+    } ,
+  
+    {
+    
+      "title"    : "Stuffed Peppers",
+    "tags"    : "side,, party, ",
+		"ingredients"    : "1 jar Peppedew Peppers (or piquante pepper), 4oz goat cheese (any flavor), 1 tbsp mayonnaise, 1 tbsp sour cream, 1 bunch of chives, chopped, hearty shot of hot sauce (Franks, Yellowbird), hearty crack of pepper, ",
+		"image"	   : "stuffed-peppers.jpg",
+	    "url"      : "/recipes/stuffed-peppers.html"
       
     } 
   

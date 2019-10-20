@@ -2,72 +2,77 @@
 
 [
     {
-        "title": "Cannelloni mit Ricotta und Radicchio",
-        "image": "images/large/cannelloni_radicchio.jpg"
+        "title": "Banana Bread",
+        "image": "images/large/banana-bread.jpg"
     },
 
     {
-        "title": "Cannelloni mit Spinat",
-        "image": "images/large/cannelloni_spinat.jpg"
+        "title": "Broccoli Beer Cheese Soup",
+        "image": "images/large/broccoli-beer-cheese-soup.jpg"
     },
 
     {
-        "title": "Chili con Carne mit Pommes käseüberbacken",
-        "image": "images/large/chili_cheese_fries.jpg"
+        "title": "Crockpot Buffalo Chicken",
+        "image": "images/large/crockpot-buffalo-chicken.jpg"
     },
 
     {
-        "title": "Gemüse Bruschetta",
-        "image": "images/large/gemuese_bruschetta.jpg"
+        "title": "Downtown Marinade",
+        "image": "images/large/downtown-marinade.jpg"
     },
 
     {
-        "title": "Gemüselasagne",
-        "image": "images/large/gemuese_lasagne.jpg"
+        "title": "Green Chile Stew",
+        "image": "images/large/green-chile-stew.jpg"
     },
 
     {
-        "title": "Gemüse Pfanne",
-        "image": "images/large/gemuese_pfanne.jpg"
+        "title": "Mongolian Beef",
+        "image": "images/large/mongolian-beef.jpg"
     },
 
     {
-        "title": "Kohlrabi Pfanne",
-        "image": "images/large/kohlrabi_pfanne.jpg"
+        "title": "New York Strip",
+        "image": "images/large/new-york-strip.jpg"
     },
 
     {
-        "title": "Pizzateig",
-        "image": "images/large/pizzateig.jpg"
+        "title": "Nilla Wafer French Toast",
+        "image": "images/large/nilla-wafer.jpg"
     },
 
     {
-        "title": "Ratatouille",
-        "image": "images/large/ratatouille.jpg"
+        "title": "One Minute Muffin",
+        "image": "images/large/one-minute-muffin.jpg"
     },
 
     {
-        "title": "Spaghetti Carbonara",
-        "image": "images/large/spaghetti_carbonara.jpg"
+        "title": "Pork Steaks",
+        "image": "images/large/pork-steaks.jpg"
     },
 
     {
-        "title": "Spinat Lasange",
-        "image": "images/large/spinat_lasange.jpg"
+        "title": "Red Berry Tart",
+        "image": "images/large/red-berry-tart.jpg"
     },
 
     {
-        "title": "Spinat Quiche",
-        "image": "images/large/spinat_quiche.jpg"
+        "title": "Roasted Brussels Sprouts",
+        "image": "images/large/roasted-brussels-sprouts.jpg"
     },
 
     {
-        "title": "Tarte au Chocolat",
-        "image": "images/large/tarte_au_chocolat.jpg"
+        "title": "Roasted Okra",
+        "image": "images/large/roasted-okra.jpg"
     },
 
     {
-        "title": "Tiramisu",
-        "image": "images/large/tiramisu.jpg"
+        "title": "Smashed Carrots",
+        "image": "images/large/smashed-carrots.jpg"
+    },
+
+    {
+        "title": "Stuffed Peppers",
+        "image": "images/large/stuffed-peppers.jpg"
     }
 ]
