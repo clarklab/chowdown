@@ -142,20 +142,21 @@ layout: default
         result += '\n';
 
         // Basics
+        result += 'layout: recipe';
         result += 'title: ' + $('#title').val() + '\n';
         result += 'image: ' + $('#title').val().toLowerCase() + '.png\n';
         result += 'tags: ' + $('#tags').val() + '\n';
         result += '\n';
 
         // ingredients
-        result += 'ingredients: \n';
+        result += 'ingredients:\n';
         $('.ingredient').each(function (index) {
             result += '- ' + $(this).val() + '\n';
         });
         result += '\n';
 
         // directions
-        result += 'directions: \n';
+        result += 'directions:\n';
         $('.direction').each(function (index) {
             result += '- ' + $(this).val() + '\n';
         });
