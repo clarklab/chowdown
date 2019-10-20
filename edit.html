@@ -171,7 +171,7 @@ layout: default
         result += '\n';
 
         // Basics
-        result += 'layout: recipe';
+        result += 'layout: recipe\n';
         result += 'title: ' + $('#title').val() + '\n';
         result += 'image: ' + $('#title').val().toLowerCase() + '.jpg\n';
         result += 'tags: ' + $('#tags').val() + '\n';
@@ -191,7 +191,7 @@ layout: default
         });
         result += '\n';
 
-        result += '---\n\n';
+        result += '---\n';
 
         result += $('#description').val();
 
