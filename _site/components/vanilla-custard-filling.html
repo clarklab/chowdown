@@ -210,6 +210,7 @@
     var title = "Vanilla Custard Filling";
     var path = "_components/vanilla-custard-filling.md";
     var tags = "";
+    var description = $('div[itemprop="description"]').text();
 
     var ingredients = [];
     
@@ -245,6 +246,7 @@
       title: title,
       path: path,
       tags: tags,
+      description: description,
       ingredients: ingredients,
       directions: directions
     });

@@ -153,6 +153,7 @@ layout: default
     var title = "{{ page.title }}";
     var path = "{{ page.path }}";
     var tags = "{{page.tags}}";
+    var description = $('div[itemprop="description"]').text();
 
     var ingredients = [];
     {% for ingredient in page.ingredients %}
@@ -168,6 +169,7 @@ layout: default
       title: title,
       path: path,
       tags: tags,
+      description: description,
       ingredients: ingredients,
       directions: directions
     });

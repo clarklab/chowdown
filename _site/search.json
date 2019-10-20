@@ -42,11 +42,19 @@
   
     {
     
+<<<<<<< HEAD
       "title"    : "Green Chile Stew",
     "tags"    : "sides,, soups, ",
 		"ingredients"    : "1 jar of [green chile stew mix](http://amzn.to/1KYXSjo), 1lb ground chicken, 1 red onion, 1 green onion, 1 can corn, ",
 		"image"	   : "green-chile-stew.jpg",
 	    "url"      : "/recipes/green-chile-stew.html"
+=======
+      "title"    : "Gemüselasagne",
+    "tags"    : "hauptgericht,backen, ",
+		"ingredients"    : "150g Zucchini, 150g Paprikaschote(n), rot, 150g Paprikaschote(n), gelb, 150g Zwiebel(n) (Gemüsezwiebeln), 1 Zehe/n Knoblauch, 3 EL Olivenöl, 400ml Tomatenpüree (Passato di Pomodoro), 100ml Gemüsebrühe, 2 EL Basilikum, frisch gehackt, 200g Mascarpone, 50ml Milch, 1 Ei(er), 200g Lasagneplatte(n), 150g Käse (Fontina), gerieben, 4 EL Parmesan, frisch gerieben, ",
+		"image"	   : "gemüselasagne.png",
+	    "url"      : "/recipes/gemuese_lasagne.html"
+>>>>>>> gh-pages
       
     } ,
   
@@ -72,11 +80,19 @@
   
     {
     
+<<<<<<< HEAD
       "title"    : "Nilla Wafer French Toast",
     "tags"    : "breakfast,, baking, ",
 		"ingredients"    : "4 eggs, 1/4 cup heavy cream, 2 tsp vanilla, sprinkle of sugar, 4 cups Nilla Wafers Minis, ",
 		"image"	   : "nilla-wafer.jpg",
 	    "url"      : "/recipes/nilla-wafer-french-toast.html"
+=======
+      "title"    : "Pizzateig",
+    "tags"    : "simpel,backen, ",
+		"ingredients"    : "500g Mehl, 1/2 Würfel Hefe, 2 TL Salz, 200ml Milch, lauwarm, 20ml Bier, ",
+		"image"	   : "pizzateig.jpg",
+	    "url"      : "/recipes/pizzateig.html"
+>>>>>>> gh-pages
       
     } ,
   

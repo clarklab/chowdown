@@ -7,10 +7,11 @@ layout: default
     <div class="col-12">
         <div class="row justify-content-md-center">
             <input type="text" class="form-control center col-12 col-md-10 col-lg-8" id="title" placeholder="Title"
-                aria-label="Title">
+                aria-label="Title" style="margin-bottom:5px;">
             <input type="hidden" id="path">
+            <textarea class="form-control center col-12 col-md-10 col-lg-8" id="description" rows="3" placeholder="Description" style="margin-bottom:5px;"></textarea>
             <input type="text" class="form-control center col-12 col-md-10 col-lg-8" id="tags" placeholder="Tags"
-                aria-label="Tags">
+                aria-label="Tags" style="margin-bottom:5px;">
         </div>
     </div>
 
@@ -65,7 +66,7 @@ layout: default
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                     <div class="modal-body">
-                        <div class="d-flex justify-content-center" style="margin-top: 25px;"> 
+                        <div class="d-flex justify-content-center" style="margin-top: 25px; margin-bottom: 15px;"> 
                             <div class="spinner-border" role="status" style="width: 4rem; height: 4rem;">
                                 <span class="sr-only">Loading...</span>
                             </div>
@@ -91,6 +92,7 @@ layout: default
         recipe = JSON.parse(recipe);
 
         $('#title').val(recipe.title);
+        $('#description').val(recipe.description);
         $('#path').val(recipe.path);
         $('#tags').val(recipe.tags);
 
@@ -169,7 +171,7 @@ layout: default
         result += '\n';
 
         // Basics
-        result += 'layout: recipe';
+        result += 'layout: recipe\n';
         result += 'title: ' + $('#title').val() + '\n';
         result += 'image: ' + $('#title').val().toLowerCase() + '.jpg\n';
         result += 'tags: ' + $('#tags').val() + '\n';
@@ -189,7 +191,9 @@ layout: default
         });
         result += '\n';
 
-        result += '---';
+        result += '---\n';
+
+        result += $('#description').val();
 
         var path = $('#path').val();
 
