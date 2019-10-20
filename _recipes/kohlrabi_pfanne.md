@@ -1,6 +1,7 @@
 ---
 
-layout: recipetitle: Kohlrabi Pfanne
+layout: recipe
+title: Kohlrabi Pfanne
 image: kohlrabi pfanne.jpg
 tags: hauptgericht,schnell,simpel
 
