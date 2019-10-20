@@ -1,6 +1,7 @@
 ---
 
-layout: recipetitle: Ratatouille
+layout: recipe
+title: Ratatouille
 image: ratatouille.jpg
 tags: hauptgericht,schnell,simpel
 
