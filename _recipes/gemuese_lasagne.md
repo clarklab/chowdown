@@ -1,18 +1,17 @@
 ---
 
-layout: recipe
-title:  "Gemüselasagne"
-image: gemuese_lasagne.jpg
-tags: hauptgericht, backen
+title: Gemüselasagne
+image: gemüselasagne.png
+tags: hauptgericht,backen
 
-ingredients:
+ingredients: 
 - 150g Zucchini
 - 150g Paprikaschote(n), rot
 - 150g Paprikaschote(n), gelb
 - 150g Zwiebel(n) (Gemüsezwiebeln)
 - 1 Zehe/n Knoblauch
 - 3 EL Olivenöl
-- 400ml Tomatenpüree (Passato die Promodoro)
+- 400ml Tomatenpüree (Passato di Pomodoro)
 - 100ml Gemüsebrühe
 - 2 EL Basilikum, frisch gehackt
 - 200g Mascarpone
@@ -22,7 +21,7 @@ ingredients:
 - 150g Käse (Fontina), gerieben
 - 4 EL Parmesan, frisch gerieben
 
-directions:
+directions: 
 - Gemüse putzen, waschen, in ca. 1 cm große Würfel schneiden
 - Knoblauchzehe schälen, fein hacken
 - Backofen auf 200 Grad vorheizen
@@ -37,4 +36,3 @@ directions:
 - Die letzten 3 bis 5 Minuten Alufolie entfernen
 
 ---
-
