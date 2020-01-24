@@ -21,6 +21,6 @@ layout: none
     ],
     "theme_color": "{{ site.color }}",
     "background_color": "{{ site.color }}",
-    "start_url": "https://chowdown.io/beta",
+    "start_url": "https://chowdown.io",
     "display": "standalone"
 }
