@@ -6,6 +6,6 @@ layout: null
 [{% for post in site.recipes %}
     {
         "title": "{{ post.title }}",
-        "image": "images/large/{{ post.image }}"
+        "image": "{{ site.baseurl }}/images/{{ post.image }}"
     }{% if counter == total %}{% else %},{% endif %}
 {% assign counter = counter |plus: 1 %}{% endfor %}]
