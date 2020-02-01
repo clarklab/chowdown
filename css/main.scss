@@ -47,3 +47,21 @@ a:hover .image{opacity:0.2;}
 .site-title:hover{bottom:-14px;}
 .recipes .sm-col{border-bottom:3px solid white}
 }
+
+div[itemprop="nutrition"] {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: stretch;
+  .nutrient {
+    margin: 0 .2rem .2rem 0;
+    border-width: 1px;
+    h5 {
+      text-transform: capitalize;
+      margin: 0;
+      padding: 0.4rem;
+    }
+  }
+
+}
