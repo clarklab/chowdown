@@ -6,9 +6,9 @@ image: crispy-carrots.jpg
 tags: veg, party
 
 ingredients:
-- 1lb carrot sticks (or baby carrots)
-- oranges (or any citrus)
-- 2tbsp butter
+- 1 lb carrot sticks (or baby carrots)
+- 2 oranges (or any citrus)
+- 2 tbsp butter
 - 1 package phyllo dough
 - 1/2 cup honey
 - sesame seeds to top
@@ -26,4 +26,4 @@ directions:
 
 ---
 
-This is another recipe we saw on Jamie Oliver's TV show, and we can't stop making it. It's perfect for parties, and pairs well with any rich dip (we've been doing greek yogurt topped with hot sauce and tahini). We've also rolled things other than carrots, so go wild!
+This is another recipe we saw on Jamie Oliver's TV show, and we can't stop making it. It's perfect for parties, and pairs well with any rich dip (we've been doing greek yogurt topped with hot sauce and tahini). We've also rolled things other than carrots, changed the flavors, made news dips— go wild!
