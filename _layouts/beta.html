@@ -37,8 +37,8 @@
 	color: var(--primary);
 }
 
-.bg-blue{
-	background:var(--primary);
+.bg-primary{
+	background-color:var(--primary);
 	color:var(--white);
 }
 
@@ -51,6 +51,10 @@ body{
 }
 
 a{
+	color:var(--primary);
+}
+
+a.black:hover{
 	color:var(--primary);
 }
 
@@ -100,11 +104,18 @@ nav .label{
 }
 
 .recipe .image{
-	transition: .2s ease opacity;
+	
 }
 
 .recipe:hover .image{
-	opacity:.6;
+	
+}
+
+.title{
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	overflow: hidden; 
 }
 
 .ratio{
@@ -141,14 +152,16 @@ nav .label{
 
 	nav .item{
 		text-align: left;
-		font-size:1.4rem;
+		font-size:1.25rem;
 		padding:.5rem 0 0 2rem;
 		margin-bottom:1rem;
+		position: relative;
 	}
 
 	nav .item svg{
 		position: absolute;
-		left:1rem;
+		left:-1rem;
+		top:.25rem;
 	}
 
 }
@@ -228,10 +241,10 @@ input:focus{
     
     {% assign sorted = site.recipes | sort:"date" %}
     {% for post in sorted %}
-      <div class="recipe sm-col sm-col-6 md-col-4 py1">
-          <a class="block relative bg-blue mx1" href="{{ post.url | prepend: site.baseurl }}">
-            <div class="image ratio bg-cover" {% for image in post.image %} style="background-image:url({{site.baseurl}}/images/{{ image }});"{% endfor %}></div>
-            <h1 class="title p2 m0 absolute bold white bottom-0 left-0">{{ post.title }}</h1>
+      <div class="recipe sm-col sm-col-6 lg-col-4 py1 pb2">
+          <a class="block relative mx1 text-decoration-none black" href="{{ post.url | prepend: site.baseurl }}">
+            <div class="image ratio bg-primary bg-cover" {% for image in post.image %} style="background-image:url({{site.baseurl}}/images/{{ image }});"{% endfor %}></div>
+            <h3 class="title pt1 m0 bold">{{ post.title }}</h3>
           </a>
       </div>
     {% endfor %}
@@ -331,7 +344,7 @@ SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('results-container'),
   json: '/search.json',
-  searchResultTemplate: '<div class="recipe sm-col sm-col-6 md-col-4 py1"><a class="block relative bg-blue mx1" href="{url}"><div class="image ratio bg-cover" style="background-image:url({image});"></div><h1 class="title p2 m0 absolute bold white bottom-0 left-0">{title}yo</h1></a></div>'
+  searchResultTemplate: '<div class="recipe sm-col sm-col-6 lg-col-4 py1 pb2"><a class="block black relative mx1 text-decoration-none" href="{url}"><div class="image ratio bg-primary bg-cover" style="background-image:url({image});"></div><h3 class="title pt1 m0 bold">{title}</h3></a></div>'
 })
 </script>
 
