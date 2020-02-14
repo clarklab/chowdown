@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="container" itemscope itemtype="http://schema.org/Recipe">
-  
+
 <!-- call up the image and image credit link -->
   {% for image in page.image %}
   <div class="xs-p2">
@@ -27,10 +27,16 @@ layout: default
   <div class="px2 mt3 clearfix">
     <div class="sm-col-8 mx-auto" itemprop="description">{{page.content}}</div>
   </div>
-  
-<!-- call up recipe and directions -->
+
+  <div class="mt3 clearfix">
+    <div class="sm-col sm-col-12 lg-col-12">
+      {% include nutritional-information.html %}
+    </div>
+  </div>
+
+  <!-- call up recipe and directions -->
   <div class="clearfix mt3">
-  
+
     <div class="sm-col sm-col-6 lg-col-6">
       <!-- check if it's a component-based recipe -->
       {% if page.components %}
@@ -53,9 +59,8 @@ layout: default
       </ul>
       {% endif %}
 
-      {% include nutritional-information.html %}
     </div>
-    
+
     <div class="sm-col sm-col-6 lg-col-6">
       <h4 class="blue mt0 mb2 xs-center">Directions</h4>
       <ul itemprop="recipeInstructions">
@@ -64,24 +69,24 @@ layout: default
         {% endfor %}
       </ul>
     </div>
-  
+
   </div>
 <!-- end recipe and directions -->
 
 <!-- check if it's a component-based recipe, render it -->
   {% if page.components %}
-  
+
   <div class="components bg-darken-2 p2 mt3 mb3 center">
     &darr; This is a <strong class="blue">component-based recipe</strong> (fancy talk for making the dish in pieces, then assembling). &darr;
   </div>
-  
+
   <div class="clearfix mxn2">
   {% for component in page.components %}
     <div class="sm-col sm-col-4 px2">
     {% for recipe in site.components %}
     {% if recipe.title == component %}
       <h4 class="blue center">{{recipe.title}}</h4>
-      
+
       {% for image in recipe.image %}
       <div class="image ratio bg-cover" style="background-image:url({{site.baseurl}}/images/{{ image }});">
         <img class="hide" itemprop="photo" src="{{site.baseurl}}/images/{{ image }}" />
@@ -94,30 +99,30 @@ layout: default
           {% endfor %}
         {% endif %}
       {% endfor %}
-      
+
       <h4 class="blue regular xs-center">Ingredients</h4>
         <ul class="ingredients" itemprop="ingredients">
         {% for item in recipe.ingredients %}
         <li itemprop="ingredient">{{ item | markdownify }}</li>
         {% endfor %}
       </ul>
-      
+
       <h4 class="blue regular xs-center">Steps</h4>
         <ul itemprop="instructions">
         {% for item in recipe.directions %}
         <li>{{ item | markdownify }}</li>
         {% endfor %}
       </ul>
-          
+
     {% endif %}
     {% endfor %}
     </div>
   {% endfor %}
   </div>
-  
+
   {% endif %}
 <!-- end components -->
-  
+
   {% for category in page.categories %}
     <p class="clearfix">Category: <span itemprop="recipeCategory">{{ category }}</span></p>
   {% endfor %}
@@ -150,5 +155,5 @@ layout: default
   });
 
   });
-  
+
 </script>
