@@ -25,5 +25,6 @@ directions:
   - sprinkle more breadcrumbs and smooth out with the spoon
   - transfer the patty to a tray and repeat
   - freeze the patties
+  - Fry in a skillet at a med-high heat for about 3-4mins per side, or until lightly browned.
 
 ---
