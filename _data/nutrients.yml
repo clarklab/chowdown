@@ -1,0 +1,61 @@
+# See https://schema.org/NutritionInformation
+servingSize:
+  name: serving size
+  type: Text
+  description: The serving size, in terms of the number of volume or mass.
+  unit:
+calories:
+  name: calories
+  type: Energy
+  description: The number of calories.
+  unit: kcal
+carbohydrateContent:
+  name: carbs
+  type: Mass
+  description: The number of grams of carbohydrates.
+  unit: g
+cholesterolContent:
+  name: cholesterol
+  type: Mass
+  description: The number of milligrams of cholesterol.
+  unit: g
+fatContent:
+  name: fat
+  type: Mass
+  description: The number of grams of fat.
+  unit: g
+fiberContent:
+  name: fiber
+  type: Mass
+  description: The number of grams of fiber.
+  unit: g
+proteinContent:
+  name: protein
+  type: Mass
+  description: The number of grams of protein.
+  unit: g
+saturatedFatContent:
+  name: saturates
+  type: Mass
+  description: The number of grams of saturated fat.
+  unit: g
+sodiumContent:
+  name: sodium
+  type: Mass
+  description: The number of milligrams of sodium.
+  unit: mg
+sugarContent:
+  name: sugar
+  type: Mass
+  description: The number of grams of sugar.
+  unit: g
+transFatContent:
+  name: trans fat
+  type: Mass
+  description: The number of grams of trans fat.
+  unit: g
+unsaturatedFatContent:
+  name: unsaturated fat
+  type: Mass
+  description: The number of grams of unsaturated fat.
+  unit: g

@@ -1,0 +1,22 @@
+{% if page.nutrition %}
+<!-- nutritional information -->
+<h4 class="blue mt0 mb2 xs-center">Nutritional Information
+{% if page.nutrition['servingSize'] != nil %}
+({{ page.nutrition['servingSize'] }})
+{% endif %}</h4>
+<div class="flex flex-wrap" itemprop="nutrition" itemscope itemtype="http://schema.org/NutritionInformation">
+{% assign nutrients = page.nutrition %}
+{% for nutrient in nutrients  %}
+  {% if nutrient.first == 'servingSize' %}{% continue %}{% endif %}
+  {% assign itemprop = nutrient.first %}
+  {% assign name = site.data.nutrients[itemprop].name %}
+  {% assign value = nutrient.last %}
+  {% assign unit = site.data.nutrients[itemprop].unit %}
+  <div  class="rounded center border border-1 border-gray sm-col sm-col-2 lg-col-1 mr1 mb1">
+    <h5 class="bg-gray white m0 p1 capitalize">{{ name  }}</h5>
+    <p itemprop="{{ itemprop }}">{{ value }}{{ unit }}</p>
+  </div>
+  {% endfor %}
+</div>
+<!-- end nutritional information -->
+{% endif %}
