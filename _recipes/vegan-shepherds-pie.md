@@ -1,12 +1,12 @@
 ---
 
 layout: recipe
-title:  "Vegetarian Shepherds Pie"
-image: vegetarian-shepherds-pie.jpg
-yield: 4-6 portions
+title:  "Vegan Shepherd's Pie"
+image: vegan-shepherds-pie.jpg
+yield: 6-8 portions
 categories:
-cuisines:
-diets: [Vegetarian]
+cuisines: [British]
+diets: [Vegetarian,Vegan]
 
 ingredients:
   - 2 medium red onions
