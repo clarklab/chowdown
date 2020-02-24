@@ -13,7 +13,7 @@
   {% assign value = nutrient.last %}
   {% assign unit = site.data.nutrients[itemprop].unit %}
   <div  class="rounded center border border-gray col-2 nutrient">
-    <h5 class="bg-darken-2">{{ name }}</h5>
+    <h5 class="bg-gray white">{{ name }}</h5>
     <p itemprop="{{ itemprop }}">{{ value }}{{ unit }}</p>
   </div>
   {% endfor %}
