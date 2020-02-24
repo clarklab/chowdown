@@ -50,15 +50,23 @@ layout: default
       {% endif %}
 
       {% if page.ingredients %}
-      <h4 class="blue mt0 mb2 xs-center">Ingredients</h4>
+      {% assign servings = page.servings | default: 1 %}
+      <h4 class="blue mt0 mb2 xs-center">Ingredients for <input id="servings-count" class="servings-input" data-base-servings="{{ servings }}" type="number" step="0.5" min="0.5" max="1000" autocomplete="off" value="{{ servings }}" /> servings</h4>
       <ul itemprop="ingredients">
         <!-- list ingredients that make up recipe -->
         {% for ingredient in page.ingredients %}
-        <li itemprop="recipeIngredient">{{ ingredient | markdownify }}</li>
+          {% assign parts = ingredient | split:"|" %}
+          {% assign parts_count = parts | size %}
+          {% if parts_count == 1 %}
+        <li itemprop="recipeIngredient" data-quantity="" data-unit="" data-text="{{ parts[0] }}">{{ parts[0] | markdownify }}</li>
+          {% elsif parts_count == 2 %}
+        <li itemprop="recipeIngredient" data-quantity="{{ parts[0] }}" data-unit="" data-text="{{ parts[1] }}">{{ parts[0] | append: " " | append: parts[1] | markdownify }}</li>
+          {% else %}
+        <li itemprop="recipeIngredient" data-quantity="{{ parts[0] }}" data-unit="{{ parts[1] }}" data-text="{{ parts[2] }}">{{ parts[0] | append: " " | append: parts[1] | append: " " | append: parts[2] | markdownify }}</li>
+          {% endif %}
         {% endfor %}
       </ul>
       {% endif %}
-
     </div>
 
     <div class="sm-col sm-col-6 lg-col-6">
@@ -103,7 +111,15 @@ layout: default
       <h4 class="blue regular xs-center">Ingredients</h4>
         <ul class="ingredients" itemprop="ingredients">
         {% for item in recipe.ingredients %}
-        <li itemprop="ingredient">{{ item | markdownify }}</li>
+          {% assign parts = item | split:"|" %}
+          {% assign parts_count = parts | size %}
+          {% if parts_count == 1 %}
+        <li itemprop="ingredient" data-quantity="" data-unit="" data-text="{{ parts[0] }}">{{ parts[0] | markdownify }}</li>
+          {% elsif parts_count == 2 %}
+        <li itemprop="ingredient" data-quantity="{{ parts[0] }}" data-unit="" data-text="{{ parts[1] }}">{{ parts[0] | append: " " | append: parts[1] | markdownify }}</li>
+          {% else %}
+        <li itemprop="ingredient" data-quantity="{{ parts[0] }}" data-unit="{{ parts[1] }}" data-text="{{ parts[2] }}">{{ parts[0] | append: " " | append: parts[1] | append: " " | append: parts[2] | markdownify }}</li>
+          {% endif %}
         {% endfor %}
       </ul>
 
@@ -154,6 +170,88 @@ layout: default
     $('html, body').animate({scrollTop: y-height-16}, 200);
   });
 
+  function numberToPretty(inNum) {
+    let wholeNumber = Math.trunc(inNum);
+    if (wholeNumber == 0) {
+        wholeNumber = "";
+    }
+
+    let fraction = inNum % 1;
+
+    let fracRep;
+    if (Math.abs(fraction) < 0.0001) {
+        fracRep = ''
+    } else if (Math.abs(fraction - 1 / 2) < 0.0001) {
+        fracRep = " &frac12;";
+    } else if (Math.abs(fraction - 1 / 4) < 0.0001) {
+        fracRep = " &frac14;";
+    } else if (Math.abs(fraction - 3 / 4) < 0.0001) {
+        fracRep = " &frac34;";
+    } else if (Math.abs(fraction - 1 / 3) < 0.0001) {
+        fracRep = " &frac13;";
+    } else if (Math.abs(fraction - 2 / 3) < 0.0001) {
+        fracRep = " &frac23;";
+    } else if (Math.abs(fraction - 1 / 8) < 0.0001) {
+        fracRep = " &frac18;";
+    } else if (Math.abs(fraction - 3 / 8) < 0.0001) {
+        fracRep = " &frac38;";
+    } else if (Math.abs(fraction - 5 / 8) < 0.0001) {
+        fracRep = " &frac58;";
+    } else if (Math.abs(fraction - 7 / 8) < 0.0001) {
+        fracRep = " &frac78;";
+    } else if (Math.abs(fraction - 1 / 6) < 0.0001) {
+        fracRep = " &frac16;";
+    } else if (Math.abs(fraction - 5 / 6) < 0.0001) {
+        fracRep = " &frac56;";
+    } else if (Math.abs(fraction - 1 / 9) < 0.0001) {
+        fracRep = " <sup>1</sup>&frasl;<sub>9</sub>";
+    } else if (Math.abs(fraction - 2 / 9) < 0.0001) {
+        fracRep = " <sup>2</sup>&frasl;<sub>9</sub>";
+    } else if (Math.abs(fraction - 4 / 9) < 0.0001) {
+        fracRep = " <sup>4</sup>&frasl;<sub>9</sub>";
+    } else if (Math.abs(fraction - 5 / 9) < 0.0001) {
+        fracRep = " <sup>5</sup>&frasl;<sub>9</sub>";
+    } else if (Math.abs(fraction - 7 / 9) < 0.0001) {
+        fracRep = " <sup>7</sup>&frasl;<sub>9</sub>";
+    } else if (Math.abs(fraction - 8 / 9) < 0.0001) {
+        fracRep = " <sup>8</sup>&frasl;<sub>9</sub>";
+    } else {
+        fracRep = '' + fraction.toFixed(3);
+    }
+
+    return wholeNumber + fracRep;
+  }
+
+  function calculateIngredients(scale) {
+    $('li[itemprop=recipeIngredient]').each(function(index, elem) {
+      let quantity = $(elem).data('quantity');
+      if (quantity == '') {
+        return;
+      }
+
+      let unit = $(elem).data('unit');
+      let text = $(elem).data('text');
+
+      let info = '' + numberToPretty(scale * quantity) + ' ';
+      if (unit != '') {
+        info += unit + ' ';
+      }
+      info += text;
+
+      $(elem).children('p').html(info);
+    });
+  }
+
+  $('#servings-count').change(function() {
+    let servings = $(this).val();
+    let baseServings = $(this).data('base-servings');
+    let scale = servings / baseServings;
+
+    calculateIngredients(scale);
   });
 
+  calculateIngredients(1);
+
+  });
+  
 </script>
