@@ -40,7 +40,7 @@ layout: default
     <div class="sm-col sm-col-6 lg-col-6">
       <!-- check if it's a component-based recipe -->
       {% if page.components %}
-      <h4 class="blue mt0 mb2 xs-center">Components</h4>
+      <h4 class="blue mt0 mb2 xs-center">{{ site.translation[site.language].components }}</h4>
       <ul>
         <!-- list components that make up recipe -->
         {% for component in page.components %}
@@ -51,7 +51,7 @@ layout: default
 
       {% if page.ingredients %}
       {% assign servings = page.servings | default: 1 %}
-      <h4 class="blue mt0 mb2 xs-center">Ingredients for <input id="servings-count" class="servings-input" data-base-servings="{{ servings }}" type="number" step="0.5" min="0.5" max="1000" autocomplete="off" value="{{ servings }}" /> servings</h4>
+      <h4 class="blue mt0 mb2 xs-center">{{ site.translation[site.language].ingredients }} {{ site.translation[site.language].for }} <input id="servings-count" class="servings-input" data-base-servings="{{ servings }}" type="number" step="0.5" min="0.5" max="1000" autocomplete="off" value="{{ servings }}" /> {{ site.translation[site.language].servings }}</h4>
       <ul itemprop="ingredients">
         <!-- list ingredients that make up recipe -->
         {% for ingredient in page.ingredients %}
@@ -70,7 +70,7 @@ layout: default
     </div>
 
     <div class="sm-col sm-col-6 lg-col-6">
-      <h4 class="blue mt0 mb2 xs-center">Directions</h4>
+      <h4 class="blue mt0 mb2 xs-center">{{ site.translation[site.language].directions }}</h4>
       <ul itemprop="recipeInstructions">
         {% for direction in page.directions %}
         <li>{{ direction | markdownify }}</li>
@@ -85,7 +85,7 @@ layout: default
   {% if page.components %}
 
   <div class="components bg-darken-2 p2 mt3 mb3 center">
-    &darr; This is a <strong class="blue">component-based recipe</strong> (fancy talk for making the dish in pieces, then assembling). &darr;
+    &darr; {{ site.translation[site.language].component_based }} &darr;
   </div>
 
   <div class="clearfix mxn2">
@@ -108,7 +108,7 @@ layout: default
         {% endif %}
       {% endfor %}
 
-      <h4 class="blue regular xs-center">Ingredients</h4>
+      <h4 class="blue regular xs-center">{{ site.translation[site.language].ingredients }}</h4>
         <ul class="ingredients" itemprop="ingredients">
         {% for item in recipe.ingredients %}
           {% assign parts = item | split:"|" %}
@@ -123,7 +123,7 @@ layout: default
         {% endfor %}
       </ul>
 
-      <h4 class="blue regular xs-center">Steps</h4>
+      <h4 class="blue regular xs-center">{{ site.translation[site.language].directions }}</h4>
         <ul itemprop="instructions">
         {% for item in recipe.directions %}
         <li>{{ item | markdownify }}</li>
@@ -140,7 +140,7 @@ layout: default
 <!-- end components -->
 
   {% for category in page.categories %}
-    <p class="clearfix">Category: <span itemprop="recipeCategory">{{ category }}</span></p>
+    <p class="clearfix">{{ site.translation[site.language].category }}: <span itemprop="recipeCategory">{{ category }}</span></p>
   {% endfor %}
 
   </article>
