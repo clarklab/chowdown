@@ -26,6 +26,8 @@ translation:
   en:
     components: "Components"
     ingredients: "Ingredients"
+    for: "for"
+    servings: "servings"
     directions: "Directions"
     category: "Category"
     nutritional_information: "Nutritional Information"
@@ -36,6 +38,8 @@ translation:
   de:
     components: "Komponenten"
     ingredients: "Zutaten"
+    for: "für"
+    servings: "Portionen"
     directions: "Zubereitung"
     category: "Kategorie"
     nutritional_information: "Nährwertangaben"

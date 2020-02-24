@@ -1,21 +1,22 @@
 ---
 
 layout: recipe
-title:  "Banana Bread"
+title: "Banana Bread"
 image: banana-bread.jpg
 imagecredit: https://flic.kr/p/7HZmzn
 tags: breakfast, baking
+servings: 1
 
 ingredients:
-- 4 bananas
-- 1/2 cup butter
-- 1/2 cup sugar
-- 2 eggs
-- 2 cups flour
-- 1/2 tsp baking soda
-- 1 tsp baking powder
+- 4|banana(s)
+- 0.5|cup(s)|butter
+- 0.5|cup(s)|sugar
+- 2|egg(s)
+- 2|cup(s)|flour
+- 0.5|tsp|baking soda
+- 1|tsp|baking powder
 - pinch salt
-- 1/4 cup nuts (we like pecans)
+- 0.25|cup(s)|nuts (we like pecans)
 
 directions:
 - Beat the eggs, then cream with the butter and sugar
