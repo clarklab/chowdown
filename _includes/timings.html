@@ -1,0 +1,16 @@
+<div class="center">
+  {% if page.preptime %}
+  <div class="inline m1">
+      <svg class="gray" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 512 512" fill="currentColor"><circle cx="256" cy="256" r="256"/><rect x="246.21" y="52.09" width="19.58" height="214.26" rx="9.79" fill="#fff"/><rect x="290.06" y="228.55" width="19.58" height="143.63" rx="9.79" transform="translate(724.26 300.72) rotate(135)" fill="#fff"/></svg>
+      <span class="h4 blue caps">Prep</span> <span class="nowrap">{{page.preptime | humanize_duration}}</span>
+      <meta itemprop="prepTime" content="{{page.preptime}}">
+  </div>
+  {% endif %}
+  {% if page.cooktime %}
+  <div class="inline m1">
+      <svg class="gray" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 512 512" fill="currentColor"><circle cx="256" cy="256" r="256"/><rect x="246.21" y="52.09" width="19.58" height="214.26" rx="9.79" fill="#fff"/><rect x="290.06" y="228.55" width="19.58" height="143.63" rx="9.79" transform="translate(724.26 300.72) rotate(135)" fill="#fff"/></svg>
+      <span class="h4 blue caps">Cook</span> <span class="nowrap">{{page.cooktime | humanize_duration}}</span>
+      <meta itemprop="cookTime" content="{{page.cooktime}}">
+  </div>
+  {% endif %}
+</div>
