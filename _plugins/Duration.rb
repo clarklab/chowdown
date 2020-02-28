@@ -4,7 +4,7 @@ require 'active_support/duration'
 module Jekyll
   module Duration
     def humanize_duration(isoduration)
-      ActiveSupport::Duration.parse(isoduration).inspect
+      ActiveSupport::Duration.parse(isoduration.upcase).inspect
     end
   end
 end
