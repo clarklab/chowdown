@@ -101,6 +101,8 @@ layout: default
         {% endif %}
       {% endfor %}
 
+      {% include timings.html recipe=recipe %}
+
       <h4 class="blue regular xs-center">{{ site.translation[site.language].ingredients }}</h4>
         <ul class="ingredients" itemprop="ingredients">
         {% for item in recipe.ingredients %}
