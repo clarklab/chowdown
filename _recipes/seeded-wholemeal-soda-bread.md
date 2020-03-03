@@ -6,6 +6,7 @@ image: seeded-wholemeal-soda-bread.jpg
 <!-- imagecredit: Rue -->
 categories: [Vegetarian]
 tags: [baking, bread]
+cuisines: [Irish]
 
 ingredients:
   - 450g wholemeal flour, plus extra for dusting
