@@ -2,7 +2,7 @@
 
 A simple, plaintext recipe database for hackers
 
-[http://chowdown.io](http://chowdown.io)
+forked from [http://chowdown.io](http://chowdown.io)
 
 # Getting Started
 
