@@ -4,6 +4,7 @@ layout: recipe
 title:  "Blackbean and Beetroot Burgers"
 image: blackbean-beetroot-burgers.jpg
 <!-- imagecredit: Rue -->
+yield: ~12 burgers
 diets: [Vegetarian]
 
 ingredients:
@@ -28,3 +29,5 @@ directions:
   - Fry in a skillet at a med-high heat for about 3-4mins per side, or until lightly browned.
 
 ---
+
+I call these my "Beetburgers". They are tasty and make a great quick lunch from freezer to plate within ten minutes.

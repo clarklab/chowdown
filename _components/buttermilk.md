@@ -4,6 +4,7 @@ layout: recipe
 title:  "Buttermilk (yoghurt)"
 <!-- image: graham-cracker-crust.jpg -->
 imagecredit: Rue
+tags: [milk]
 
 ingredients:
 - 150 ml live yoghurt
