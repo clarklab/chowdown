@@ -9,6 +9,7 @@ tags: [baking, bread]
 cuisines: [Irish]
 
 ingredients:
+  - 400ml Buttermilk
   - 450g wholemeal flour, plus extra for dusting
   - 75g seed mix
   - 1 tsp bicarbonate of soda
@@ -18,7 +19,7 @@ components:
   - Buttermilk (yoghurt)
 
 directions:
-  - Heat oven to 200C/180C fan/gas 6
+  - Heat oven to 200°C/180°C fan
   - line a baking sheet with baking parchment.
   - Put the flour, seeds, bicarbonate of soda and a pinch of salt in a large bowl and mix to combine.
   - Stir the treacle into the yogurt mixture

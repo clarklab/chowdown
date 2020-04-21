@@ -1,12 +1,11 @@
 ---
-
 layout: recipe
-title:  "Asparagus and Cheese Frittata"
+title: "Asparagus and Cheese Frittata"
 image: asparagus-cheese-frittata.jpg
 <!-- imagecredit: Rue -->
 yield: 1 frittata
 categories: [breakfast, lunch]
-cuisines: Mediterranean
+cuisines: [Mediterranean]
 diets: [Vegetarian, LowLactose]
 tags: [bupa]
 
@@ -32,5 +31,4 @@ nutrition:
   carbohydrateContent: 9
   fiberContent: 3
   proteinContent: 22
-
 ---

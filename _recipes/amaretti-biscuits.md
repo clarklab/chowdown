@@ -1,13 +1,11 @@
 ---
-
 layout: recipe
-title:  "Amaretti Biscuits"
+title: "Amaretti Biscuits"
 image: amaretti-biscuits.jpg
 yield: 30 biscuits
-categories: [snacks]
+categories: [snack]
 cuisines: [Mediterranean]
-diets: [Vegetarian,GlutenFree]
-
+diets: [Vegetarian, GlutenFree]
 
 ingredients:
   - 250g ground almonds
@@ -33,6 +31,6 @@ nutrition:
   carbohydrateContent: 9
   fiberContent: 3
   proteinContent: 22
-
 ---
-Amaretti Biscuits are a light and crunchy Italian biscuit with the flavours of almond.  So easy to make, crisp on the outside and chewy in the middle and they’re naturally gluten-free too.  Whip up a batch for a great edible present.
+
+Amaretti Biscuits are a light and crunchy Italian biscuit with the flavours of almond. So easy to make, crisp on the outside and chewy in the middle and they’re naturally gluten-free too. Whip up a batch for a great edible present.
