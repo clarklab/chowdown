@@ -19,7 +19,7 @@ layout: default
   {% for tag in allTags %}
   {% unless tag == "" %}
   <div class="sm-col sm-col-6 md-col-6 lg-col-4 xs-px1 xs-mb2">
-    <h2><a name="{{ tag }}"></a>{{ tag | capitalize }}</h2>
+    <h2><a name="{{ tag | downcase }}"></a>{{ tag | capitalize }}</h2>
     <ul>
       {% for recipe in site.recipes %}
       {% if recipe.tags contains tag %}<li><a href="{{ recipe.url }}">{{ recipe.title }}</a></li>{% endif %}
