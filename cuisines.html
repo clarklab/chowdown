@@ -4,7 +4,7 @@ layout: default
 
 {% assign allTags = "" %}
 {% for recipe in site.recipes %}
-{% if recipe.cuisines %}
+{% if recipe.cuisines and recipe.cuisines != empty %}
 {% assign thisTags = recipe.cuisines | join:'|' | append:'|' %}
 {% assign allTags = allTags | append:thisTags %}
 {% endif %}
@@ -12,12 +12,12 @@ layout: default
 {% assign allTags = allTags | split:'|' | sort | uniq %}
 
 <div class="container">
+  {% include tag-navigation.html %}
   <h1>Cuisines</h1>
   {% include cuisine.html cuisines=allTags %}
 
   <div class="clearfix">
   {% for cuisine in allTags %}
-  {% unless cuisine == "" %}
   <div class="sm-col sm-col-6 md-col-6 lg-col-4 xs-px1 xs-mb2">
     <h2><a name="{{ cuisine | downcase }}"></a>{{ cuisine | capitalize }}</h2>
     <ul>
@@ -25,8 +25,8 @@ layout: default
       {% if recipe.cuisines contains cuisine %}<li><a href="{{ recipe.url }}">{{ recipe.title }}</a></li>{% endif %}
       {% endfor %}
     </ul>
+    <a href="#top" class="button button-transparent h6 block">&#8679; top</a>
   </div>
-  {% endunless %}
   {% endfor %}
   </div>
 </div>

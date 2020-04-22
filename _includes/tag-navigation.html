@@ -1,0 +1,9 @@
+{% assign current = page.url | split:'.' %}
+{% assign current = current[0] %}
+<nav class="mt4">
+  Browse by
+  <a href="/diets" class="button button-transparent {% if current == '/diets' %}is-active{% endif %}">Diet</a>
+  <a href="/categories" class="button button-transparent {% if current == '/categories' %}is-active{% endif %}">Category</a>
+  <a href="/cuisines" class="button button-transparent {% if current == '/cuisines' %}is-active{% endif %}">Cuisine</a>
+  <a href="/tags" class="button button-transparent {% if current == '/tags' %}is-active{% endif %}">Tag</a>
+</nav>
