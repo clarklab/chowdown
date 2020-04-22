@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+{% assign allTags = "" %}
+{% for recipe in site.recipes %}
+{% if recipe.diets %}
+{% assign thisTags = recipe.diets | join:'|' | append:'|' %}
+{% assign allTags = allTags | append:thisTags %}
+{% endif %}
+{% endfor %}
+{% assign allTags = allTags | split:'|' | sort | uniq %}
+
+<div class="container">
+  <h1>Diets</h1>
+  {% include diet.html diets=allTags %}
+
+  <div class="clearfix">
+  {% for diet in allTags %}
+  {% unless diet == blank %}
+  <div class="sm-col sm-col-6 md-col-6 lg-col-4 xs-px1 xs-mb2">
+    {% assign dietKey = diet | append:"Diet" %}
+    <h2><a name="{{ diet | downcase }}"></a>{{ diet }}
+    <sup class="h5" title="{{ site.data.diets[dietKey].description }}">&#9432;</sup></h2>
+    <ul>
+      {% for recipe in site.recipes %}
+      {% if recipe.diets contains diet %}<li><a href="{{ recipe.url }}">{{ recipe.title }}</a></li>{% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+  {% endunless %}
+  {% endfor %}
+  </div>
+</div>
