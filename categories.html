@@ -12,21 +12,23 @@ layout: default
 {% assign allTags = allTags | split:'|' | sort | uniq %}
 
 <div class="container">
-  {% include tag-navigation.html %}
-  <h1>Categories</h1>
-  {% include category.html categories=allTags %}
+  <article class="post-content px2">
+    {% include tag-navigation.html %}
+    <h1>Categories</h1>
+    {% include category.html categories=allTags %}
 
-  <div class="clearfix">
-  {% for category in allTags %}
-  <div class="sm-col sm-col-6 md-col-6 lg-col-4 xs-px1 xs-mb2">
-    <h2><a name="{{ category | downcase }}"></a>{{ category | capitalize }}</h2>
-    <ul>
-      {% for recipe in site.recipes %}
-      {% if recipe.categories contains category %}<li><a href="{{ recipe.url }}">{{ recipe.title }}</a></li>{% endif %}
-      {% endfor %}
-    </ul>
-    <a href="#top" class="button button-transparent h6 block">&#8679; top</a>
-  </div>
-  {% endfor %}
-  </div>
+    <div class="clearfix">
+    {% for category in allTags %}
+    <div class="sm-col sm-col-6 md-col-6 lg-col-4 xs-px1 xs-mb2">
+      <h2><a name="{{ category | downcase }}"></a>{{ category | capitalize }}</h2>
+      <ul>
+        {% for recipe in site.recipes %}
+        {% if recipe.categories contains category %}<li><a href="{{ recipe.url }}">{{ recipe.title }}</a></li>{% endif %}
+        {% endfor %}
+      </ul>
+      <a href="#top" class="button button-transparent h6 block">&#8679; top</a>
+    </div>
+    {% endfor %}
+    </div>
+  </article>
 </div>
