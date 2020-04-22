@@ -2,10 +2,9 @@
 layout: recipe
 title: "Banana Bread with Walnuts"
 image: banana-bread-with-walnuts.jpg
-<!-- imagecredit: -->
+# imagecredit:
 yield: 12 slices
 categories: [snack, bread, cake]
-cuisines: []
 diets: [Vegetarian]
 tags: baking
 

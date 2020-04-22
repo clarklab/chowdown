@@ -2,8 +2,8 @@
 
 layout: recipe
 title:  "Almond Milk"
-<!-- image: focaccia.jpg -->
-<!-- imagecredit: Rue -->
+# image: focaccia.jpg
+# imagecredit: Rue
 diets: [Vegan, LowLactose]
 tags: [milk]
 yield: ~4 cups

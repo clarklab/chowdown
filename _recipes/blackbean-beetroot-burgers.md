@@ -3,9 +3,10 @@
 layout: recipe
 title:  "Blackbean and Beetroot Burgers"
 image: blackbean-beetroot-burgers.jpg
-<!-- imagecredit: Rue -->
+# imagecredit: Rue
 yield: ~12 burgers
-diets: [Vegetarian]
+diets: [Vegetarian,Vegan]
+tags: [freeze,]
 
 ingredients:
   - 400g cooked black beans
@@ -30,4 +31,4 @@ directions:
 
 ---
 
-I call these my "Beetburgers". They are tasty and make a great quick lunch from freezer to plate within ten minutes.
+I call these **Beetburgers**. They are tasty and make a great quick lunch from freezer to plate within ten minutes.

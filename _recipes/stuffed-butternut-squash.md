@@ -4,9 +4,9 @@ layout: recipe
 title:  "Stuffed Butternut Squash"
 image: stuffed-butternut-squash.jpg
 yield: 1 portion
-categories:
-cuisines:
-diets: [Vegetarian,LactoseFree,GlutenFree]
+# categories:
+# cuisines:
+diets: [Vegetarian,GlutenFree]
 tags: [bupa]
 
 ingredients:

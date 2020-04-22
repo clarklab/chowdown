@@ -2,7 +2,7 @@
 
 layout: recipe
 title:  Spiced Biscotti
-<!-- image: spiced-biscotti.jpg -->
+# image: spiced-biscotti.jpg
 yield: ~12 biscuits
 categories: [snack]
 cuisines: [Italian,Mediterranean]

@@ -2,7 +2,7 @@
 layout: recipe
 title: "Asparagus and Cheese Frittata"
 image: asparagus-cheese-frittata.jpg
-<!-- imagecredit: Rue -->
+# imagecredit: Rue
 yield: 1 frittata
 categories: [breakfast, lunch]
 cuisines: [Mediterranean]

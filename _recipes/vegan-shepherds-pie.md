@@ -4,7 +4,7 @@ layout: recipe
 title:  "Vegan Shepherd's Pie"
 image: vegan-shepherds-pie.jpg
 yield: 6-8 portions
-categories:
+categories: [dinner]
 cuisines: [British]
 diets: [Vegetarian,Vegan]
 

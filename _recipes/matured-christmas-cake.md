@@ -6,7 +6,7 @@ image: matured-christmas-cake.jpg
 yield: 1 cake
 categories: [snack, pudding]
 diets: [Vegetarian]
-tags: [christmas]
+tags: [christmas,cake]
 
 ingredients:
   - 1kg mixed dried fruit (use a mix of raisins, sultanas, currants, cherries, cranberries, prunes or figs)
