@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Chocolate Orange Hot Cross Buns
-# image: seeded-wholemeal-soda-bread.jpg
+image: choc-orange-hot-cross-buns.jpg
 # imagecredit: Rue
 categories: [Vegetarian]
 tags: [baking]
