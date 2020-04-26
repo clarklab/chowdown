@@ -1,0 +1,67 @@
+#!/usr/bin/env ruby
+
+require 'getoptlong'
+require 'pathname'
+require 'fileutils'
+
+opts = GetoptLong.new(
+  [ '--help',   '-h', GetoptLong::NO_ARGUMENT ],
+  [ '--recipe', '-r', GetoptLong::REQUIRED_ARGUMENT ],
+  [ '--book',   '-b', GetoptLong::OPTIONAL_ARGUMENT ]
+)
+
+def help
+  puts <<-EOF
+chowdown OPTION NAME
+
+-h, --help:
+show help
+
+--recipe NAME, -r NAME:
+create new recipe
+
+--book NAME:
+create new book
+
+NAME
+The name of the page you want to create
+  EOF
+end
+
+class Recipe
+  RECIPEPATH = Pathname('_recipes/')
+  TEMPLATE = 'template.md'
+
+  def initialize(name)
+    @name = name
+  end
+
+  def filename
+    @filename ||= Pathname(
+        @name.gsub(/[[:space:]]/, '-')
+            .gsub(/[^[:alnum:]-]/, '')
+            .downcase + '.md'
+      )
+  end
+
+  def create!
+    if RECIPEPATH.join(filename).exist?
+      puts "That recipe already exists"
+    else
+      FileUtils.cp(RECIPEPATH.join(TEMPLATE), RECIPEPATH.join(filename))
+      puts "Go cook!"
+    end
+  end
+end
+
+
+opts.each do |opt, arg|
+  case opt
+    when '--help'
+      help()
+    when '--recipe'
+      Recipe.new(arg).create!
+    when '--book'
+      new_book(arg)
+  end
+end
