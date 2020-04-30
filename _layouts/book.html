@@ -20,4 +20,21 @@ layout: default
     {% endfor %}
     </div>
   </aside>
+
+  <aside class="px2 clearfix">
+    <div class="components bg-darken-2 p2 mt3 mb3 center">
+      More books
+      {% assign author = site.data.people[page.author] %}
+      {% if author %}
+      by <span class="blue">{{ author.name }}</span>
+      {% endif %}
+    </div>
+    <div class="p2">
+    {% for book in site.books %}
+      {% if book.author == page.author %}
+        {% include book-preview.html book=book %}
+      {% endif %}
+    {% endfor %}
+    </div>
+  </aside>
 </div>
