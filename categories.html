@@ -18,17 +18,21 @@ layout: default
     {% include category.html categories=allTags %}
 
     <div class="clearfix">
-    {% for category in allTags %}
-    <div class="sm-col sm-col-6 md-col-6 lg-col-4 xs-px1 xs-mb2">
-      <h2><a name="{{ category | downcase }}"></a>{{ category | capitalize }}</h2>
-      <ul>
-        {% for recipe in site.recipes %}
-        {% if recipe.categories contains category %}<li><a href="{{ recipe.url }}">{{ recipe.title }}</a></li>{% endif %}
-        {% endfor %}
-      </ul>
-      <a href="#top" class="button button-transparent h6 block">&#8679; top</a>
-    </div>
-    {% endfor %}
+      {% unless allTags[0] %}
+      <p>No recipes are marked as being for a specific category.</p>
+      {% endunless %}
+
+      {% for category in allTags %}
+      <div class="sm-col sm-col-6 md-col-6 lg-col-4 xs-px1 xs-mb2">
+        <h2><a name="{{ category | downcase }}"></a>{{ category | capitalize }}</h2>
+        <ul>
+          {% for recipe in site.recipes %}
+          {% if recipe.categories contains category %}<li><a href="{{ recipe.url }}">{{ recipe.title }}</a></li>{% endif %}
+          {% endfor %}
+        </ul>
+        <a href="#top" class="button button-transparent h6 block">&#8679; top</a>
+      </div>
+      {% endfor %}
     </div>
   </article>
 </div>
