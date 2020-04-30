@@ -4,17 +4,17 @@
   <div class="inline-block xs-m1 sm-m2">
     <svg class="gray align-middle" xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem" viewBox="0 0 512 512" fill="currentColor"><circle cx="256" cy="256" r="256"/><rect x="246.21" y="52.09" width="19.58" height="214.26" rx="9.79" fill="#fff"/><rect x="290.06" y="228.55" width="19.58" height="143.63" rx="9.79" transform="translate(724.26 300.72) rotate(135)" fill="#fff"/></svg>
     <span class="blue caps align-middle">Prep</span>
-    <span class="nowrap align-middle" id="prepTime" data-iso8601="{{ thisRecipe.preptime }}"></span>
+    <span class="nowrap align-middle" id="prepTime" data-iso8601="{{ thisRecipe.preptime | upcase }}"></span>
   </div>
-  <meta itemprop="prepTime" content="{{ thisRecipe.preptime }}">
+  <meta itemprop="prepTime" content="{{ thisRecipe.preptime | upcase }}">
   {% endif %}
   {% if thisRecipe.cooktime %}
   <div class="inline-block xs-m1 sm-m2">
     <svg class="gray align-middle" xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem" viewBox="0 0 512 512" fill="currentColor"><circle cx="256" cy="256" r="256"/><rect x="246.21" y="52.09" width="19.58" height="214.26" rx="9.79" fill="#fff"/><rect x="290.06" y="228.55" width="19.58" height="143.63" rx="9.79" transform="translate(724.26 300.72) rotate(135)" fill="#fff"/></svg>
     <span class="h4 blue caps align-middle">Cook</span>
-    <span class="nowrap align-middle" id="cookTime" data-iso8601="{{ thisRecipe.cooktime }}"></span>
+    <span class="nowrap align-middle" id="cookTime" data-iso8601="{{ thisRecipe.cooktime | upcase }}"></span>
   </div>
-  <meta itemprop="cookTime" content="{{ thisRecipe.cooktime }}">
+  <meta itemprop="cookTime" content="{{ thisRecipe.cooktime | upcase }}">
   {% endif %}
 </div>
 {% assign thisRecipe = nil %}
