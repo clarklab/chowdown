@@ -1,0 +1,12 @@
+{% assign booklist = site.books | where: 'id', page.books %}
+
+{% if booklist.first %}
+<aside class="books clearfix">
+  <div class="components bg-darken-2 p2 mt3 mb3 center">
+    This recipe appears in these books
+  </div>
+  {% for book in booklist %}
+  {% include book-preview.html book=book %}
+  {% endfor %}
+</aside>
+{% endif %}
