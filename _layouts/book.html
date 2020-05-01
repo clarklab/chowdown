@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{% assign pageAuthor = site.data.people[page.author] %}
 
 <div class="container">
   <article class="post-content px2 clearfix">
@@ -24,9 +25,8 @@ layout: default
   <aside class="px2 clearfix">
     <div class="components bg-darken-2 p2 mt3 mb3 center">
       Books
-      {% assign author = site.data.people[page.author] %}
-      {% if author %}
-      by <span class="blue">{{ author.name }}</span>
+      {% if pageAuthor %}
+      by <span class="blue">{{ pageAuthor.name }}</span>
       {% endif %}
     </div>
     <div class="p2">
