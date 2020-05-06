@@ -2,40 +2,59 @@
 
 require 'pathname'
 
-REGISTRY = {}
-
 class Options
+  attr_reader :action, :target, :name
+
   def initialize(action, target, name)
-    available_actions = {new: 'build', delete: 'destroy'}
-    @action = available_actions.fetch(action.to_sym, 'build')
+    @action = action
     @target = target
-    @name   = name
+    @name = name
   end
 
   def self.parse(opts)
-    action = opts.shift
-    target = opts.shift
-    name   = opts.shift
+    available_actions = { new: 'build', delete: 'destroy' }
+    available_targets = REGISTRY.keys
+
+    action = available_actions.fetch(opts.shift.to_sym)
+    target = opts.shift.to_sym
+    target = available_targets.include?(target) ? target : nil
+    name   = opts.shift || 'Example'
     self.new(action, target, name)
+  rescue => e
+    self.show_usage
   end
 
-  def execute
-    puts "Chowdown..."
-    template
-      .new(@name)
-      .send(@action)
-  end
-
-  def template
-    Template.lookup(@target.to_sym)
+  def self.show_usage
+    puts "·C·H·O·W·D·O·W·N·"
+    puts "Usage:"
+    puts " #{Pathname(__FILE__).basename} ACTION PAGE NAME"
+    puts " ACTION is one of: new, delete"
+    puts " PAGE is one of: #{REGISTRY.keys.join(', ')}"
+    puts " TITLE is the title of the page you are creating."
+    puts " eg:\n   #{Pathname(__FILE__).basename} new recipe \"Grandma's Cookies\""
   end
 end
 
+class Chowdown
+  def self.execute(opts)
+    return if opts.nil?
+    @target = opts.target
+    # puts opts.inspect
+    puts "·C·H·O·W·D·O·W·N·"
+    template
+      .new(opts.name)
+      .send(opts.action)
+  end
+
+  def self.template
+    Template.lookup(@target)
+  end
+end
 
 class Template
-  @@template = 'recipe.template'
+  @@template = 'template.template'
 
-  def initialize(title = 'Example')
+  def initialize(title)
     @title = title
   end
 
@@ -52,10 +71,10 @@ class Template
   end
 
   def file_exists?
-    new_path.exist?
+    target_file.exist?
   end
 
-  def new_path
+  def target_file
     targetpath.join(filename)
   end
 
@@ -68,52 +87,47 @@ class Template
     new_contents['{TITLE}'] = @title
     new_contents['{IMAGENAME}'] = filename.sub_ext('.jpg').to_s
 
-    if new_path.exist?
-      puts "\nThat one already exists, try another name."
-      puts "Tried to create: #{new_path}"
+    if target_file.exist?
+      puts "That one already exists, try another name."
+      puts "Tried to create: #{target_file}"
     else
-      new_path.open('w+') {|file| file.write(new_contents) }
+      target_file.open('w+') {|file| file.write(new_contents) }
 
-      puts "Created: #{new_path}\n  Use the same naming structure for any images.\n  eg: 'images/#{filename.basename.sub_ext('.jpg')}'"
+      puts "Created: #{target_file}\n  Use the same naming structure for any images.\n  eg: 'images/#{filename.basename.sub_ext('.jpg')}'"
     end
   end
 
   def destroy
-    if new_path.exist?
-      new_path.delete
-      puts "Deleting: #{new_path}"
+    if target_file.exist?
+      target_file.delete
+      puts "Deleting: #{target_file}"
     else
-      puts "Can't delete: #{new_path}\nIt does not exist."
+      puts "Can't delete: #{target_file}\nIt does not exist."
     end
   end
 
   def method_missing(m, *args, &block)
-    puts 'Usage:'
-    puts " #{Pathname(__FILE__).basename} ACTION PAGE NAME"
-    puts " ACTION is one of: new, delete"
-    puts " PAGE is one of: #{REGISTRY.keys.join(', ')}"
-    puts " TITLE is the title of the page you are creating."
-    puts "eg:\n chowdown new recipe 'Grandma\'s Cookies'"
+    puts ['* method:', m, args]
+    Options.show_usage
   end
 
   def self.register(name, klass)
     REGISTRY[name] = klass
   end
   def self.lookup(name)
-    REGISTRY[name]
+    REGISTRY[name.to_s.to_sym]
   end
 end
 
 # NullTemplate
-class NullTemplate < Template
-  def build; err(:build); end
-  def destroy; err(:destroy); end
-end
-REGISTRY.default = NullTemplate
+class NullTemplate < Template; end
 
+REGISTRY = Hash.new(NullTemplate)
 
 # Recipe template
 class Recipe < Template
+  @@template = 'recipe.template'
+
   def targetpath
     @targetpath ||= Pathname('_recipes')
   end
@@ -122,6 +136,6 @@ Template.register(:recipe, Recipe)
 
 
 
-
+# Load the options and execute
 options = Options.parse(ARGV)
-options.execute
+Chowdown.execute(options)
