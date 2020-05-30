@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+DESTINATION=${1:-/Volumes/share/chowdown}
+BASEURL=${1:-http://hatouch.local}
+
+echo "Building site to " . $DESTINATION
+
+jekyll build -d $DESTINATION -b $BASEURL --trace
