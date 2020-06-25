@@ -16,9 +16,9 @@ or to check if you've got it installed already:
 
 Clone or download this repo. Navigate to the folder in terminal (or iTerm, etc), and then run:
 
-```jekyll serve```
+```jekyll serve --host=0.0.0.0```
 
-With default settings, you should be able to view the site locally at `http://127.0.0.1:4000/`
+You should be able to view the site remotely using the IP address of your server at `http://[Server IP]:4000/`
 
 # Writing a Recipe
 
