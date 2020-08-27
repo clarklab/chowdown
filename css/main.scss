@@ -19,7 +19,7 @@ ul li input{position: absolute; top:5px; left:0; opacity:0.5;}
 
 .search input{border-radius:5px; border:2px solid #eee; box-shadow:0 0 14px rgba(#007FFF,0.1); width:100%; padding:1.5rem}
 .search input:focus{outline:none; border:2px solid #007FFF;}
-.search{transition:.3s ease height; height:90vh; display:flex; flex-direction: column; justify-content:center;}
+.search{transition:.3s ease height; height:15vh; display:flex; flex-direction: column; justify-content:center;}
 
 .hero{height:150px;}
 .post h1{margin-top:6rem}
@@ -47,7 +47,3 @@ a:hover .image{opacity:0.2;}
 .site-title:hover{bottom:-14px;}
 .recipes .sm-col{border-bottom:3px solid white}
 }
-
-.border-1 { border-width: 1px; }
-.border-1:active { border-width: 1px; }
-.capitalize { text-transform: capitalize; }

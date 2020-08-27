@@ -8,37 +8,20 @@
 
   <link href="{{ "/css/bass.css" | prepend: site.baseurl }}" rel="stylesheet">
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl }}" />
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.4/hammer.min.js"></script>
   
   <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/icons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/icons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/icons/favicon-16x16.png">
-  <link rel="manifest" href="{{ site.baseurl }}/manifest.json">
+  <link rel="manifest" href="{{ site.baseurl }}/icons/site.webmanifest">
   <link rel="mask-icon" href="{{ site.baseurl }}/icons/safari-pinned-tab.svg" color="#007fff">
   <link rel="shortcut icon" href="{{ site.baseurl }}/icons/favicon.ico">
   <meta name="msapplication-TileColor" content="#007fff">
   <meta name="msapplication-config" content="{{ site.baseurl }}/icons/browserconfig.xml">
   <meta name="theme-color" content="#007fff">
-
-  <script>
-    if ("serviceWorker" in navigator) {
-    if (navigator.serviceWorker.controller) {
-      console.log("An active service worker found, no need to register");
-    } else {
-      // Register the service worker
-      navigator.serviceWorker
-        .register("{{ site.baseurl }}/serviceworker.js", {
-          scope: "./"
-        })
-        .then(function (reg) {
-          console.log("Service worker has been registered for scope: " + reg.scope);
-        });
-    }
-  }
-  </script>
   
   <!-- Twitter Cards -->
   <meta name="twitter:card" content="summary_large_image">
