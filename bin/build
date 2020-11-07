@@ -1,13 +1,14 @@
 #!/usr/bin/env bash
 
 DESTINATION=${1:-/Volumes/share/chowdown}
-BASEURL=${1:-http://hatouch.local}
+BASEURL=${2:-http://chowdown.local}
 
 if ! [ -d "$DESTINATION" ]; then
   echo "Destination does not exist: $DESTINATION"
   exit 1
 fi
 
-echo "Building site to " . $DESTINATION
+echo "Building site to $DESTINATION"
+echo "URL will be $BASEURL"
 
-jekyll build -d $DESTINATION -b $BASEURL --trace
+jekyll build -d $DESTINATION -b $BASEURL --trace --incremental
