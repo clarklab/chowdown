@@ -31,7 +31,7 @@ class Options
     puts " #{Pathname(__FILE__).basename} ACTION PAGE NAME"
     puts " ACTION is one of: new, delete"
     puts " PAGE is one of: #{REGISTRY.keys.join(', ')}"
-    puts " TITLE is the title of the page you are creating."
+    puts " NAME is the title of the page you are creating."
     puts " eg:\n   #{Pathname(__FILE__).basename} new recipe \"Grandma's Cookies\""
   end
 end
