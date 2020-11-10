@@ -3,7 +3,7 @@ layout: recipe
 title:  {TITLE}
 image: {IMAGENAME}
 # imagecredit:
-# categories: [appetiser, entree, breakfast, snack, lunch, tiffin, dinner, supper]
+# courses: [appetiser, entree, breakfast, snack, lunch, tiffin, dinner, supper]
 # cuisines: [Mediterranean, Irish, British, Mexican, French]
 # diets: [Diabetic, GlutenFree, Halal, Hindu, Kosher, LowCalorie, LowFat, LowLactose, LowSalt, Vegan, Vegetarian]
 # yield: 4 slices
@@ -25,9 +25,9 @@ available. This text is for the freeform description of your recipe.
 
 Most things conform to the [Recipe schema](https://schema.org/Recipe). Here are some useful shortcuts:
 
-### Categories
+### Courses
 
-Usually refer to the [type of meal](https://schema.org/recipeCategory).
+Refer to the [type of meal](https://schema.org/recipeCategory).
 
 
 ### Cuisines
