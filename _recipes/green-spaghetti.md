@@ -3,7 +3,7 @@
 layout: recipe
 title:  "Green Spaghetti"
 image: green-spaghetti.jpg
-tags: mains, pasta
+tags: mains, pasta, veg
 
 ingredients:
 - dried spaghetti
