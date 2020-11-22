@@ -20,4 +20,4 @@ directions:
 
 ---
 
-This recipe [popped up](https://www.nigella.com/recipes/salt-and-vinegar-potatoes) via Google auto suggestion, probably because I love chips, and it's a super pairing for a nice roast or bird.
+This recipe [popped up](https://www.nigella.com/recipes/salt-and-vinegar-potatoes) via Google auto suggestion, probably because I love chips, and it's a super pairing for a nice roast or bird. Adjust your amount of potatoes and oil/butter to your serving size and taste.
