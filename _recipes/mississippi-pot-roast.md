@@ -20,4 +20,4 @@ directions:
 
 ---
 
-This is the recipe that rocked reddit, coming our way via [Today](https://www.today.com/today/amp/tdna199419) (believe it or not). It takes just minutes with almost no prep (use a slow cooker liner for no cleanup), and the leftovers can be used for sandwiches or nachos or eggs.
+This is the recipe that rocked reddit, coming our way via [Today](https://www.today.com/today/amp/tdna199419) (believe it or not). It takes just minutes with almost no prep (use a slow cooker liner for no cleanup), and the leftovers can be used for sandwiches or nachos or eggs. If you like a thicker gravy, combine the dripping with flour/starch, or just enjoy the thinner jus.
