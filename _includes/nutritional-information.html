@@ -17,7 +17,7 @@
   {% assign colour = 'gray' %}
   {% if value <= low %}{% assign colour = 'olive' %}{% endif %}
   {% if value >= high %}{% assign colour = 'orange' %}{% endif %}
-  <div  class="xrounded center border border-1 border-{{ colour }} sm-col sm-col-2 lg-col-2 mr1 mb1">
+  <div  class="rounded center border border-1 border-{{ colour }} sm-col sm-col-2 lg-col-2 mr1 mb1">
     <h5 class="bg-{{ colour }} white m0 p1 capitalize">{{ name  }}</h5>
     <p itemprop="{{ itemprop }}">{{ value }}{{ unit }}</p>
   </div>
