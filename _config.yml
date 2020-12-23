@@ -1,13 +1,13 @@
 # Site settings
 title: Chowdown
-email: your-email@domain.com
+email: r@demonr.at
 description: The plain text recipe database for hackers
-baseurl: "https://chowdown.io"
+baseurl: "https://essen.ema.gay"
 language: "en"
 lang_direction: "ltr"
 color: "#007FFF"
-twitter_username: clarklab
-github_username:  clarklab
+twitter_username: metasploink
+github_username:  ssh-rsa
 
 # Build settings
 markdown: kramdown
