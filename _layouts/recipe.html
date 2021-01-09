@@ -127,6 +127,7 @@ layout: default
     <p class="clearfix">{{ site.translation[site.language].category }}: <span itemprop="recipeCategory">{{ category }}</span></p>
   {% endfor %}
 
+  {% include related-books.html recipe=page %}
   </article>
 
 </div>

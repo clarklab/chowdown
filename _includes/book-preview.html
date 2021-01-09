@@ -1,0 +1,32 @@
+{% assign thisbook = include.book %}
+
+<div class="col sm-col-12 md-col-12 lg-col-6 sm-p2" itemscope itemtype="http://schema.org/Book">
+  <meta itemprop="bookFormat" content="EBook"/>
+  <meta itemprop="genre" content="cooking"/>
+
+  <div class="col sm-col-12 md-col-2 lg-col-3">
+    <img src="/images/{{ thisbook.cover }}" itemprop="image" />
+  </div>
+
+  <div class="col sm-col-12 md-col-10 lg-col-9 px2">
+    <div class="">
+      <h3 class="h1 mt0" itemprop="name">{{ thisbook.title }}</h3>
+      {% if thisbook.author %}
+        {% assign author = site.data.people[thisbook.author] %}
+        <h4 class="gray h5">by {{ author.name }}</h4>
+      {% endif %}
+      <p class="italic" itemprop="description">{{ thisbook.description }}</p>
+      <p class="h5" itemprop="abstract">
+        {{ thisbook.covernotes }}
+      </p>
+
+      {% unless page.url == thisbook.url %}
+      <a class="button button-transparent blue" href="{{ thisbook.url }}">Read on...</a>
+      {% endunless %}
+    </div>
+  </div>
+
+</div>
+
+{% assign author = nil %}
+{% assign thisbook = nil %}
