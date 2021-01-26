@@ -15,7 +15,17 @@ echo "URL will be $BASEURL"
 echo "Go ahead with build?"
 select yn in "Yes" "No"; do
   case $yn in
-    Yes ) jekyll build -d $DESTINATION -b $BASEURL --trace --incremental; break;;
+    Yes ) echo "Ok."; break;;
     No ) echo "Exiting."; exit;;
   esac
 done
+
+echo "Incremental or full?"
+select choice in "Incremental" "Full"; do
+  case $choice in
+    Incremental ) INCREMENTAL="--incremental"; break;;
+    Full ) INCREMENTAL=""; break;;
+  esac
+done
+
+jekyll build -d $DESTINATION -b $BASEURL --trace $INCREMENTAL
