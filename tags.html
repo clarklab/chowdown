@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+{% assign allTags = "" %}
+{% for recipe in site.recipes %}
+{% if recipe.tags and recipe.tags != empty %}
+{% assign thisTags = recipe.tags | join:'|' | append:'|' %}
+{% assign allTags = allTags | append:thisTags %}
+{% endif %}
+{% endfor %}
+{% assign allTags = allTags | split:'|' | sort | uniq %}
+
+<div class="container">
+  <article class="post-content px2">
+    {% include tag-navigation.html %}
+    <h1>Tags</h1>
+    {% include tag.html tags=allTags %}
+
+    <div class="clearfix">
+      {% unless allTags[0] %}
+      <p>No recipes have any tags yet.</p>
+      {% endunless %}
+
+      {% for tag in allTags %}
+      <div class="sm-col sm-col-6 md-col-6 lg-col-4 xs-px1 xs-mb2">
+        <h2><a name="{{ tag | downcase }}"></a>{{ tag }}</h2>
+        <ul>
+          {% for recipe in site.recipes %}
+          {% if recipe.tags contains tag %}<li><a href="{{ recipe.url }}">{{ recipe.title }}</a></li>{% endif %}
+          {% endfor %}
+        </ul>
+        <a href="#top" class="button button-transparent h6 block">&#8679; top</a>
+      </div>
+      {% endfor %}
+    </div>
+  </article>
+</div>

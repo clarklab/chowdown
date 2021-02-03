@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+{% assign allTags = "" %}
+{% for recipe in site.recipes %}
+{% if recipe.diets and recipe.diets != empty %}
+{% assign thisTags = recipe.diets | join:'|' | append:'|' %}
+{% assign allTags = allTags | append:thisTags %}
+{% endif %}
+{% endfor %}
+{% assign allTags = allTags | split:'|' | sort | uniq %}
+
+<div class="container">
+  <article class="post-content px2">
+    {% include tag-navigation.html %}
+    <h1>Diets</h1>
+    {% include diet.html diets=allTags %}
+
+    <div class="clearfix">
+      {% unless allTags[0] %}
+      <p>No recipes are marked as being for a specific diet.</p>
+      {% endunless %}
+
+      {% for diet in allTags %}
+      <div class="sm-col sm-col-6 md-col-6 lg-col-4 xs-px1 xs-mb2">
+        {% assign dietKey = diet | append:"Diet" %}
+        <h2 class="capitalize"><a name="{{ diet | downcase }}"></a>{{ site.data.diets[dietKey].name }}
+        <sup class="h5" style="cursor: help; text-transform: none;" title="{{ site.data.diets[dietKey].description }}">&#9432;</sup></h2>
+        <ul>
+          {% for recipe in site.recipes %}
+          {% if recipe.diets contains diet %}<li><a href="{{ recipe.url }}">{{ recipe.title }}</a></li>{% endif %}
+          {% endfor %}
+        </ul>
+        <a href="#top" class="button button-transparent h6 block">&#8679; top</a>
+      </div>
+      {% endfor %}
+    </div>
+  </article>
+</div>
