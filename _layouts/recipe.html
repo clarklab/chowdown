@@ -22,6 +22,7 @@ layout: default
 <!-- call up the main recipe title and content -->
   <header class="post-header">
     <h1 class="post-title center m1 sm-mt3" itemprop="name">{{ page.title }}</h1>
+    {% include yield.html recipe=page %}
   </header>
 
   <div class="px2 mt3 clearfix">
