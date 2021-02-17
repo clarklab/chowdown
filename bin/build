@@ -12,19 +12,20 @@ fi
 echo "Building site ($BRANCH) to $DESTINATION"
 echo "URL will be $BASEURL"
 
-echo "Go ahead with build?"
-select yn in "Yes" "No"; do
-  case $yn in
-    Yes ) echo "Ok."; break;;
-    No ) echo "Exiting."; exit;;
-  esac
-done
+# echo "Go ahead with build?"
+# select yn in "Yes" "No"; do
+#   case $yn in
+#     Yes ) echo "Ok."; break;;
+#     No ) echo "Exiting."; exit;;
+#   esac
+# done
 
 echo "Incremental or full?"
-select choice in "Incremental" "Full"; do
+select choice in "Incremental" "Full" "Quit"; do
   case $choice in
     Incremental ) INCREMENTAL="--incremental"; break;;
     Full ) INCREMENTAL=""; break;;
+    Quit ) echo "Exiting."; exit;;
   esac
 done
 
