@@ -2,7 +2,7 @@
 title: Chowdown
 email: your-email@domain.com
 description: The plain text recipe database for hackers
-baseurl: "https://chowdown.io"
+baseurl: ""
 language: "en"
 lang_direction: "ltr"
 color: "#007FFF"
