@@ -1,13 +1,13 @@
 # Site settings
-title: Chowdown
-email: your-email@domain.com
-description: The plain text recipe database for hackers
+title: Recipes
+email: admin@saathoff.us
+description: The plain text recipe database
 baseurl: "https://recipes.saathoff.us"
 language: "en"
 lang_direction: "ltr"
 color: "#007FFF"
-twitter_username: clarklab
-github_username:  clarklab
+twitter_username: cjthedj97
+github_username:  cjthedj97
 
 # Build settings
 markdown: kramdown
