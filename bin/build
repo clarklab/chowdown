@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+
+DESTINATION=${1:-/Volumes/share/chowdown}
+BASEURL=${2:-http://chowdown.local}
+BRANCH=$(git branch --show-current)
+
+if ! [ -d "$DESTINATION" ]; then
+  echo "Destination does not exist: $DESTINATION"
+  exit 1
+fi
+
+echo "Building site ($BRANCH) to $DESTINATION"
+echo "URL will be $BASEURL"
+
+# echo "Go ahead with build?"
+# select yn in "Yes" "No"; do
+#   case $yn in
+#     Yes ) echo "Ok."; break;;
+#     No ) echo "Exiting."; exit;;
+#   esac
+# done
+
+echo "Incremental or full?"
+select choice in "Incremental" "Full" "Quit"; do
+  case $choice in
+    Incremental ) INCREMENTAL="--incremental"; break;;
+    Full ) INCREMENTAL=""; break;;
+    Quit ) echo "Exiting."; exit;;
+  esac
+done
+
+jekyll build -d $DESTINATION -b $BASEURL --trace $INCREMENTAL
