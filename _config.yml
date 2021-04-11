@@ -2,11 +2,11 @@
 title: Recipes
 email: admin@saathoff.us
 description: The plain text recipe database
-baseurl: "https://recipes.saathoff.us"
+baseurl: ""
 language: "en"
 lang_direction: "ltr"
 color: "#007FFF"
-twitter_username: cjthedj97
+twitter_username: 
 github_username:  cjthedj97
 
 # Build settings
