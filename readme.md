@@ -16,7 +16,7 @@ or to check if you've got it installed already:
 
 Clone or download this repo. Navigate to the folder in terminal (or iTerm, etc), and then run:
 
-```jekyll serve```
+```jekyll serve --baseurl ''```
 
 With default settings, you should be able to view the site locally at `http://127.0.0.1:4000/`
 
