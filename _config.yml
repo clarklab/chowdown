@@ -2,7 +2,7 @@
 title: Recipes
 email: your-email@domain.com
 description: Recipes
-baseurl: ""
+baseurl: "https://adamgil.es/chowdown"
 language: "en"
 lang_direction: "ltr"
 color: "#007FFF"
