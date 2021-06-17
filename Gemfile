@@ -5,4 +5,4 @@ group :jekyll_plugins do
   # gem "jekyll-xxx", "~> x.y"
 end
 
-gem kramdown
+gem install kramdown
