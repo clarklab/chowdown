@@ -1,5 +1,4 @@
 ---
-
 layout: recipe
 title:  "Cauliflower Cacciatore"
 image: cauliflower-cacciatore.jpg
