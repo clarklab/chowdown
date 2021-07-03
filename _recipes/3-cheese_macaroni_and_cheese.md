@@ -27,5 +27,7 @@ directions:
 ---
 
 Featured in: Dinners Dinners Dives
+
 Yields: 6 serving
+
 Total Time: 35
