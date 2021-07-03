@@ -4,7 +4,6 @@ title: "3-Cheese Macaroni and Cheese"
 imagecredit: https://www.foodnetwork.com/recipes/3-cheese-macaroni-and-cheese-recipe--48199
 
 ingredients:
-- Deselect All
 - tablespoon salt plus more for pasta water
 - pound large elbow macaroni
 - 6 tablespoons butter
