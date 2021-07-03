@@ -1,3 +1,4 @@
+---
 layout: recipe
 title:  "Blackened Chicken Pasta"
 image: blackened_chicken_pasta.jpeg
@@ -25,5 +26,9 @@ directions:
 - Taste and add more Creole seasoning until it's just right. If you are brave enough to toss all the ingredients in the pan, do it! 
 
 ---
+
+Featured in: Dinners Dinners Dives
+
 Yields: 6 serving(s)
+
 Total Time: 40
