@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title:_"3-Cheese Macaroni and Cheese"
+title: "3-Cheese Macaroni and Cheese"
 imagecredit: https://www.foodnetwork.com/recipes/3-cheese-macaroni-and-cheese-recipe--48199
 
 ingredients:
