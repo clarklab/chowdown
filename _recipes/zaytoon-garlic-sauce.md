@@ -15,8 +15,6 @@ directions:
 - Add the potatoes, mayonnaise, garlic cloves, lemon salt, 1 tablespoon salt and 1 cup ice to a 20-cup food processor. Process until smooth and creamy.
 
 ---
-Featured in: Dinners Dinners Dives
 
 Yields: 15 serving(s)
 
-Total Time: 10
