@@ -35,5 +35,5 @@
 #             %3((t(((((((t((t((t((t(tt((t(t((t@                           
 #           %7t((t((t((((tt((((((((t(tt(t((t(((#C   
 
-User-agent: Twitterbot
-Disallow:
+User-agent: *
+Disallow: /
