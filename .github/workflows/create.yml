@@ -1,0 +1,48 @@
+name: Create chowdown image for ARM
+
+on:
+  push:
+    branches: [ publish ]
+  pull_request:
+    branches: [ publish ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Set environment variables
+      run: |
+        IMG=chowdown
+        echo "::set-env name=BUILD_VER::1.0.$GITHUB_RUN_NUMBER"
+        echo "::set-env name=IMG::${IMG}"
+        echo "::set-env name=IMAGE::ghcr.io/${{ github.repository_owner }}/${IMG}"
+        echo "::set-env name=BUILD_DATE::$(date +'%Y-%m-%d %H:%M:%S')"
+        echo "::set-env name=GIT_SHA::$(echo ${{ github.sha }} | cut -c1-7)"
+        echo "::set-env name=GIT_REF::$(git symbolic-ref -q --short HEAD || git describe --tags --exact-match)"
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v1
+      with: 
+        registry: ghcr.io
+        username: ${{ secrets.DOCKER_USERNAME }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
+    - name: Build and push the Docker image
+      uses: docker/build-push-action@v2
+      with:
+        labels: |
+          org.opencontainers.image.authors=${{ github.repository_owner }}
+          org.opencontainers.image.created=${{ env.BUILD_DATE }}
+          org.opencontainers.image.description=Created from commit ${{ env.GIT_SHA }} and ref ${{ env.GIT_REF }}
+          org.opencontainers.image.ref.name=${{ env.GIT_REF }}
+          org.opencontainers.image.revision=${{ github.sha }}
+          org.opencontainers.image.source=https://github.com/${{ github.repository }}
+          org.opencontainers.image.version=${{ env.BUILD_VER }}
+        tags: |
+          ${{ env.IMAGE }}:latest
+          ${{ env.IMAGE }}:${{ env.GIT_REF }}
+          ${{ env.IMAGE }}:${{ env.GIT_SHA }}
+          ${{ env.IMAGE }}:${{ env.BUILD_VER }}
+        push: true
+        secrets: |
+            GIT_AUTH_TOKEN=${{ secrets.DOCKER_PASSWORD }}
