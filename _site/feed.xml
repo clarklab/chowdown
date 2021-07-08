@@ -5,12 +5,12 @@
     <description>The plain text recipe database for hackers</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 08 Jul 2021 08:53:17 +0100</pubDate>
-    <lastBuildDate>Thu, 08 Jul 2021 08:53:17 +0100</lastBuildDate>
+    <pubDate>Thu, 08 Jul 2021 15:04:21 +0100</pubDate>
+    <lastBuildDate>Thu, 08 Jul 2021 15:04:21 +0100</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
-        <title>Banana Bread</title>
+        <title>Updated Banana Bread</title>
         <description>&lt;p&gt;From Angie’s mom&lt;/p&gt;
 </description>
         <link>/recipes/banana-bread.html</link>
