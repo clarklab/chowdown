@@ -31,5 +31,5 @@ jobs:
           org.opencontainers.image.created=${{ env.BUILD_DATE }}
           org.opencontainers.image.source=https://github.com/darrylcauldwell/chowdown
         tags: |
-          ${{ env.IMAGE }}/chowdown:latest
+          chowdown:latest
         push: true
