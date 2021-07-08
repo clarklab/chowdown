@@ -39,7 +39,7 @@ jobs:
           org.opencontainers.image.source=https://github.com/${{ github.repository }}
           org.opencontainers.image.version=${{ env.BUILD_VER }}
         tags: |
-          {{ IMAGE }}:latest
+          darrylcauldwell/chowdown:latest
         push: true
         secrets: |
             GIT_AUTH_TOKEN=${{ secrets.DOCKER_PASSWORD }}
