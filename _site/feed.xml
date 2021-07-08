@@ -5,159 +5,20 @@
     <description>The plain text recipe database for hackers</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 08 Jul 2021 15:04:21 +0100</pubDate>
-    <lastBuildDate>Thu, 08 Jul 2021 15:04:21 +0100</lastBuildDate>
+    <pubDate>Thu, 08 Jul 2021 16:37:52 +0100</pubDate>
+    <lastBuildDate>Thu, 08 Jul 2021 16:37:52 +0100</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
-        <title>Updated Banana Bread</title>
-        <description>&lt;p&gt;From Angie’s mom&lt;/p&gt;
+        <title>Summer greens, leek and lentil gratin</title>
+        <description>&lt;p&gt;Adapted from Dirty Vegan Another Bit ‘Rainbow Chard, Leek and Lentil Gratin’.  Give yourself at least 1hr ideally 1.5hr between starting and serving.&lt;/p&gt;
 </description>
-        <link>/recipes/banana-bread.html</link>
-        <guid isPermaLink="true">/recipes/banana-bread.html</guid>
+        <link>/recipes/greens-gratin.html</link>
+        <guid isPermaLink="true">/recipes/greens-gratin.html</guid>
         
         <category>breakfast,</category>
         
         <category>baking</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Broccoli Beer Cheese Soup</title>
-        <description>&lt;p&gt;This recipe is inspired by one of my favorites, Gourmand’s Beer Cheese Soup, which uses Shiner Bock. Feel free to use whatever you want, then go to &lt;a href=&quot;http://lovethysandwich.com&quot;&gt;Gourmand’s&lt;/a&gt; to have the real thing.&lt;/p&gt;
-</description>
-        <link>/recipes/broccoli-cheese-soup.html</link>
-        <guid isPermaLink="true">/recipes/broccoli-cheese-soup.html</guid>
-        
-        <category>sides,</category>
-        
-        <category>soups</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Cauliflower Cacciatore</title>
-        <description>&lt;p&gt;We first discovered this dish at &lt;a href=&quot;https://www.thelinehotel.com/austin/food-drink/&quot;&gt;Arlo Grey&lt;/a&gt; in Downtown Austin, and since, it’s taken on a life of its own. We’ve cooked it a number of times and it’s slowly evolved (mainly to become easier to cook, if you can believe it). It’s one of our favorite vegetarian dishes and can easily swing vegan (just replace the dairy with something like hummus).&lt;/p&gt;
-
-&lt;p&gt;It’s vegetables that eat like a full-on meat lasagna. Dang.&lt;/p&gt;
-</description>
-        <link>/recipes/cauliflower-cacciatore.html</link>
-        <guid isPermaLink="true">/recipes/cauliflower-cacciatore.html</guid>
-        
-        <category>mains,</category>
-        
-        <category>veg</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Crispy Carrots</title>
-        <description>&lt;p&gt;This is another recipe we saw on Jamie Oliver’s TV show, and we can’t stop making it. It’s perfect for parties, and pairs well with any rich dip (we’ve been doing greek yogurt topped with hot sauce and tahini). We’ve also rolled things other than carrots, changed the flavors, made news dips— go wild!&lt;/p&gt;
-</description>
-        <link>/recipes/crispy-carrots.html</link>
-        <guid isPermaLink="true">/recipes/crispy-carrots.html</guid>
-        
-        <category>veg,</category>
-        
-        <category>party</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Crockpot Buffalo Chicken</title>
-        <description>&lt;p&gt;This is a party favorite, perfect for a Super Bowl or a game night. It takes a long time, but like most slow cooker recipes, is easy as hell. Bonus: guests love it.&lt;/p&gt;
-</description>
-        <link>/recipes/crockpot-buffalo-chicken.html</link>
-        <guid isPermaLink="true">/recipes/crockpot-buffalo-chicken.html</guid>
-        
-        <category>mains,</category>
-        
-        <category>grill,</category>
-        
-        <category>party</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Downtown Marinade</title>
-        <description>&lt;p&gt;This is my go-to marinade for everything from steaks to shrimp to fajitas to pork. Seriously, if I’m cooking or grilling meat, there’s a good chance this is what it’s soaking in. It’s perfect for “street meat” aka cart or truck, like tacos and wraps and kebabs and skewers and everything in between. Start with this base, add spice or herb as desired.&lt;/p&gt;
-</description>
-        <link>/recipes/downtown-chowdown-marinade.html</link>
-        <guid isPermaLink="true">/recipes/downtown-chowdown-marinade.html</guid>
-        
-        <category>party,</category>
-        
-        <category>meat</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Falafel-Hummus Plate</title>
-        <description>&lt;p&gt;I first ate this 2019 at a restaurant in Brussels where I was together with my sister.
-It’s an easy, very delicious plate that can be served in many different variations.&lt;/p&gt;
-</description>
-        <link>/recipes/falafel-hummus-plate.html</link>
-        <guid isPermaLink="true">/recipes/falafel-hummus-plate.html</guid>
-        
-        <category>vegetarian,</category>
-        
-        <category>fast,</category>
-        
-        <category>chickpeas</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Green Chile Stew</title>
-        <description>&lt;p&gt;This is a simple one, consisting of a pre-made soup mix and whatever you’ve got around the kitchen (or campsite). Feel free to sub/swap/switch anything in the ingredient list— anything’s fair game!&lt;/p&gt;
-</description>
-        <link>/recipes/green-chile-stew.html</link>
-        <guid isPermaLink="true">/recipes/green-chile-stew.html</guid>
-        
-        <category>sides,</category>
-        
-        <category>soups</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Green Spaghetti</title>
-        <description>&lt;p&gt;We saw this on Jamie Oliver’s TV show and made it that night. He calls for &lt;strong&gt;cavolo nero&lt;/strong&gt; as the greens, but dinosaur kale or spinach or any dark leafy green will do. The bigger the green, the easier it is to fish out of the boiling water, so keep that in mind.&lt;/p&gt;
-
-&lt;p&gt;Start to finish this whole recipe takes about 10 minutes, but it’s pretty rapid fire once you get stated. Have plates and an appetite standing by.&lt;/p&gt;
-</description>
-        <link>/recipes/green-spaghetti.html</link>
-        <guid isPermaLink="true">/recipes/green-spaghetti.html</guid>
-        
-        <category>mains,</category>
-        
-        <category>pasta,</category>
-        
-        <category>veg</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Jalapeno Cornbread</title>
-        <description>&lt;p&gt;This corny cornbread pairs perfectly with chili or a bowl of stew. Add corn to the batter and you’ll never go back.&lt;/p&gt;
-</description>
-        <link>/recipes/jalapeno-cornbread.html</link>
-        <guid isPermaLink="true">/recipes/jalapeno-cornbread.html</guid>
-        
-        <category>sides,</category>
-        
-        <category>bread,</category>
-        
-        <category>spicy</category>
         
         
       </item>
