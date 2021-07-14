@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Chowdown</title>
-    <description>The plain text recipe database for hackers</description>
+    <title>The Veggie Chef</title>
+    <description>A collection of recipes we use at home</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 14 Jul 2021 12:18:14 +0100</pubDate>
-    <lastBuildDate>Wed, 14 Jul 2021 12:18:14 +0100</lastBuildDate>
+    <pubDate>Wed, 14 Jul 2021 13:08:41 +0100</pubDate>
+    <lastBuildDate>Wed, 14 Jul 2021 13:08:41 +0100</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>

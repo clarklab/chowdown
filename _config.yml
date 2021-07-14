@@ -1,13 +1,11 @@
 # Site settings
-title: Chowdown
+title: The Veggie Chef
 email: your-email@domain.com
-description: The plain text recipe database for hackers
+description: A collection of recipes we use at home
 baseurl: 
 language: "en"
 lang_direction: "ltr"
 color: "#007FFF"
-twitter_username: clarklab
-github_username:  clarklab
 
 # Build settings
 markdown: kramdown
