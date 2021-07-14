@@ -5,9 +5,23 @@
     <description>The plain text recipe database for hackers</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 08 Jul 2021 16:37:52 +0100</pubDate>
-    <lastBuildDate>Thu, 08 Jul 2021 16:37:52 +0100</lastBuildDate>
+    <pubDate>Wed, 14 Jul 2021 12:18:14 +0100</pubDate>
+    <lastBuildDate>Wed, 14 Jul 2021 12:18:14 +0100</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Simple Flatbread</title>
+        <description>&lt;p&gt;This recipe serves provides three portions.&lt;/p&gt;
+</description>
+        <link>/recipes/flatbread.html</link>
+        <guid isPermaLink="true">/recipes/flatbread.html</guid>
+        
+        <category>dinner,</category>
+        
+        <category>indian</category>
+        
+        
+      </item>
     
       <item>
         <title>Summer greens, leek and lentil gratin</title>
@@ -19,6 +33,20 @@
         <category>breakfast,</category>
         
         <category>baking</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Naan</title>
+        <description>&lt;p&gt;This recipe serves provides three portions.&lt;/p&gt;
+</description>
+        <link>/recipes/naan.html</link>
+        <guid isPermaLink="true">/recipes/naan.html</guid>
+        
+        <category>dinner,</category>
+        
+        <category>indian</category>
         
         
       </item>

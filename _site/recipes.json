@@ -2,7 +2,17 @@
 
 [
     {
+        "title": "Simple Flatbread",
+        "image": "/images/flatbread.jpg"
+    },
+
+    {
         "title": "Summer greens, leek and lentil gratin",
         "image": "/images/greens-gratin.jpg"
+    },
+
+    {
+        "title": "Naan",
+        "image": "/images/naan.jpg"
     }
 ]

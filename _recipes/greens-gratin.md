@@ -34,6 +34,16 @@ directions:
 - 30m before serving add potatoes to the oven
 - 10m before serving add breadcrumbs to top of gratin dish and add to oven
 
+nutrition:
+    calories: 504
+    carbohydrateContent: 87
+    fatContent: 6.6
+    proteinContent: 26
+    saturatedFatContent: 0.9
+    servingSize: Per portion
+    sodiumContent: 246
+    sugarContent: 10
+
 ---
 
 Adapted from Dirty Vegan Another Bit 'Rainbow Chard, Leek and Lentil Gratin'.  Give yourself at least 1hr ideally 1.5hr between starting and serving.
