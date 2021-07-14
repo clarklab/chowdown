@@ -5,9 +5,23 @@
     <description>A collection of recipes we use at home</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 14 Jul 2021 13:08:41 +0100</pubDate>
-    <lastBuildDate>Wed, 14 Jul 2021 13:08:41 +0100</lastBuildDate>
+    <pubDate>Wed, 14 Jul 2021 14:37:00 +0100</pubDate>
+    <lastBuildDate>Wed, 14 Jul 2021 14:37:00 +0100</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Coconut Dhal</title>
+        <description>&lt;p&gt;This recipe serves provides six portions.&lt;/p&gt;
+</description>
+        <link>/recipes/coconut-dhal.html</link>
+        <guid isPermaLink="true">/recipes/coconut-dhal.html</guid>
+        
+        <category>dinner,</category>
+        
+        <category>indian</category>
+        
+        
+      </item>
     
       <item>
         <title>Simple Flatbread</title>
