@@ -5,9 +5,21 @@
     <description>A collection of recipes we use at home</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 14 Jul 2021 14:37:00 +0100</pubDate>
-    <lastBuildDate>Wed, 14 Jul 2021 14:37:00 +0100</lastBuildDate>
+    <pubDate>Sat, 17 Jul 2021 06:50:23 +0100</pubDate>
+    <lastBuildDate>Sat, 17 Jul 2021 06:50:23 +0100</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Banana Loaf Cake</title>
+        <description>&lt;p&gt;This recipe serves provides one loaf cake.&lt;/p&gt;
+</description>
+        <link>/recipes/banana-loaf.html</link>
+        <guid isPermaLink="true">/recipes/banana-loaf.html</guid>
+        
+        <category>snack</category>
+        
+        
+      </item>
     
       <item>
         <title>Coconut Dhal</title>
@@ -61,6 +73,20 @@
         <category>dinner,</category>
         
         <category>indian</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Margarita Pizza</title>
+        <description>&lt;p&gt;This recipe serves provides three pizzas.&lt;/p&gt;
+</description>
+        <link>/recipes/pizza.html</link>
+        <guid isPermaLink="true">/recipes/pizza.html</guid>
+        
+        <category>dinner,</category>
+        
+        <category>italian</category>
         
         
       </item>

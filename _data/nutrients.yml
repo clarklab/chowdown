@@ -18,7 +18,7 @@ cholesterolContent:
   name: cholesterol
   type: Mass
   description: The number of milligrams of cholesterol.
-  unit: g
+  unit: mg
 fatContent:
   name: fat
   type: Mass

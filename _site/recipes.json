@@ -2,6 +2,11 @@
 
 [
     {
+        "title": "Banana Loaf Cake",
+        "image": "/images/banana-loaf.jpg"
+    },
+
+    {
         "title": "Coconut Dhal",
         "image": "/images/coconut-dhal.jpg"
     },
@@ -19,5 +24,10 @@
     {
         "title": "Naan",
         "image": "/images/naan.jpg"
+    },
+
+    {
+        "title": "Margarita Pizza",
+        "image": "/images/pizza.jpg"
     }
 ]
