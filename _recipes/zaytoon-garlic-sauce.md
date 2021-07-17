@@ -16,5 +16,6 @@ directions:
 
 ---
 
-Yields: 15 serving(s)
+[Source](https://www.foodnetwork.com/recipes/zaytoon-garlic-sauce-3877355)
 
+Yields: 15 serving(s)

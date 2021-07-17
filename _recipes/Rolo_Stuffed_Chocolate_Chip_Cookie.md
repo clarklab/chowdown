@@ -25,3 +25,5 @@ directions:
 - Bake 11 to 13 minutes or until light brown (centers will be soft). Cool 2 minutes; remove from cookie sheet to cooling rack.
 
 ---
+
+[Source](https://www.keyingredient.com/recipes/853675047/rolo-stuffed-chocolate-chip-cookie/)

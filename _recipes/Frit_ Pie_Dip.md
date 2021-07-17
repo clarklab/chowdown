@@ -1,6 +1,7 @@
 ---
 
 layout: recipe
+title:  "Frito Pie Dip"
 imagecredit: https://www.taketwotapas.com/frito-pie-dip/
 
 ingredients:
@@ -21,10 +22,10 @@ directions:
 
 ---
 
+[Source](https://www.taketwotapas.com/frito-pie-dip/)
+
 | Prep Time | Cook Time |
 | -------- | -------- |
 | 5 minutes     | 25 minutes     |
 
 Yield: serves 8
-
-
