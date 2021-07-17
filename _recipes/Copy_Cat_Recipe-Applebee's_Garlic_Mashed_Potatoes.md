@@ -4,6 +4,7 @@ layout: recipe
 title:  "Copy Cat Recipe - Applebee's Garlic Mashed Potatoes"
 imagecredit: https://www.budgetsavvydiva.com/2012/05/copy-cat-recipe-applebees-garlic-mashed-potatoes/
 
+ingredients:
 - 2 lbs red potatoes
 - 1/2 cup milk
 - 1/4 cup heavy cream
