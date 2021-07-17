@@ -3,7 +3,7 @@ layout: recipe
 title: "Idaho Sunrise: Baked Egg in a Baked Potato"
 image: idaho-sunrise.jpg
 imagecredit: https://lmld.org/idaho-sunrise-baked-egg-in-a-baked-potato/
-tags: potato, eggs, cheese, chives
+tags: potato, eggs, cheese, chives, breakfast
 
 ingredients:
 - 1 baked potato

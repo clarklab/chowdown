@@ -2,6 +2,7 @@
 layout: recipe
 title: "Rolo Stuffed Chocolate Chip Cookie"
 imagecredit: https://www.keyingredient.com/recipes/853675047/rolo-stuffed-chocolate-chip-cookie/
+tags: dessert
 
 ingredients:
 - 1 1/2 cups unsalted butter, softened
