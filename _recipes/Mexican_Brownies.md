@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: "Mexican Brownies"
-image: Mexican Brownies.jpeg
+image: Mexican_Brownies.jpeg
 imagecredit: https://www.foodnetwork.com/recipes/aaron-sanchez/aaron-sanchezs-mexican-brownies-recipe-1972919
 tags: dessert
 
