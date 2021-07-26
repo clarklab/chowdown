@@ -32,4 +32,5 @@ If casserole is refrigerated overnight, remove from fridge 30 minutes before bak
 Evaporated milk can be substituted with 1 1/3 cups milk.
 
 Total Time: 1 hour 15 minutes
+
 Servings: 8 servings
