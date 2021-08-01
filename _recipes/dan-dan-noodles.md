@@ -6,9 +6,8 @@ title:  "Dan Dan Noodles"
 tags: noodles, chinese
 
 ingredients:
-- 150ml Chili oil
+- 75ml Chili oil
 - Crispy Chili sauce
-- Fresh Birds Eye Chili
 - Wheat noodles
 - ~200g Minced Pork
 - 2 heads of Pak Choy
@@ -26,17 +25,15 @@ ingredients:
 - Spring Onions
 
 directions:
-- _Oil_
-    - Mix the chili oil, some chili sauce, and the birds eye chili together.
-        - If you're feeling fancy, you could (lightly) fry the birds eye chili in the oil first
-        - You could also add a bit of Sichuan peppercorn powder
 - _Meat_
     - Medium heat, brown the pork in the neutral oil
     - Add the 2 tsp hoisin sauce, 2 tsp shaoxing wine, 1tsp dark soy sauce, and 0.5tsp of the five spice powder
     - Cook until the liquid has evaporated
 - _Sauce_
     - Just mix together (and adjust as you like);
-        - 2 tsp tahini
+        - 75ml chili oil
+        - some crispy chili sauce, (1 tsp?)
+        - 2 tbsp tahini
         - 3 tbsp light soy sauce
         - 1 tsp sugar
         - 0.25 tsp five spice powder
