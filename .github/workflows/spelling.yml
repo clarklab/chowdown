@@ -2,10 +2,12 @@ defaults:
   run:
     working-directory: _recipes
 
-name: Spell checking
-on:
+name: Spell checking 
+  on:
   repository_dispatch:
-  workflow_dispatch::
+  workflow_dispatch:
+  pull_request_target:
+  push:
     paths:
     - '**.js'
     - '**.vue'
