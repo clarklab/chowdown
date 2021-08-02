@@ -1,17 +1,32 @@
-# .github/workflows/check_spelling.yml
-name: Check Spelling
+ 
+name: Spell checking
 on:
-  repository_dispatch:
-  workflow_dispatch:
-  pull_request:
-    paths:
-    - '**.md'
+  pull_request_target:
+  push:
+  issue_comment:
+    types: [created]
+
 jobs:
   spelling:
+    name: Spell checking
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - name: checkout-merge
+      if: "contains(github.event_name, 'pull_request')"
+      uses: actions/checkout@v2
       with:
-        ref: ${{ github.head_ref }}
-    - name: Check Spelling
-      uses: UnicornGlobal/spellcheck-github-actions@master
+        ref: refs/pull/${{github.event.pull_request.number}}/merge
+    - name: checkout
+      if: ${{ github.event_name == 'push' ||
+        (
+          contains(github.event.comment.body, '@check-spelling-bot apply')
+        ) }}
+      uses: actions/checkout@v2
+    - uses: check-spelling/check-spelling@main
+      id: spelling
+      if: ${{ github.event_name != 'issue_comment' ||
+        (
+          contains(github.event.comment.body, '@check-spelling-bot apply')
+        ) }}
+      with:
+        experimental_apply_changes_via_bot: 1
