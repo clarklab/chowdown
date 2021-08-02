@@ -1,3 +1,2 @@
 # Spellcheck only .md files
-(?:^|/).md$
 \.md$
