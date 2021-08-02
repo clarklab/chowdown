@@ -1,4 +1,7 @@
- 
+defaults:
+  run:
+    working-directory: _recipes
+
 name: Spell checking
 on:
   repository_dispatch:
