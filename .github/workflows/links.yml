@@ -3,8 +3,8 @@ name: Links
 on:
   repository_dispatch:
   workflow_dispatch:
-  schedule:
-    - cron: "00 18 * * *"
+  pull_request_target:
+  push:
 
 jobs:
   linkChecker:
