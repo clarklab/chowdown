@@ -4,11 +4,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-    - '**.js'
-    - '**.vue'
-    - '**.txt'
-    - '**.html'
-    - '**.md'
+    - '_recipes/*.md'
 jobs:
   spelling:
     runs-on: ubuntu-latest
