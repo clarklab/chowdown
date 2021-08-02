@@ -13,7 +13,7 @@ ingredients:
 - dash hot sauce (like Texas Champagne or Yellowbird)
 
 directions:
-- Mix everythiing in a large zip bag (or bowl)
+- Mix everything in a large zip bag (or bowl)
 - Toss meat and let sit (from 1-36hr)
 
 ---
