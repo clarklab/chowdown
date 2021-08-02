@@ -1,0 +1,2 @@
+# Spellcheck only .md files
+\.md$
