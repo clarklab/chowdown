@@ -6,7 +6,7 @@ matrix:
     mode: en
   dictionary:
     wordlists:
-    - wordlist.txt
+    - assets/wordlist.txt
     output: wordlist.dic
     encoding: utf-8
   pipeline:
