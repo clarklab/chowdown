@@ -6,8 +6,6 @@ on:
 
   pull_request:
     paths:
-    - '**.txt'
-    - '**.html'
     - '**.md'
 jobs:
   spelling:
