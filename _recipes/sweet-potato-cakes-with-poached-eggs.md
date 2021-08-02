@@ -17,7 +17,7 @@ ingredients:
 
 directions:
 - peel and grate sweet potatoes, squeeze excess moisture.
-- combine with flour, parsley, 4 egg whites, half the harissa and some salt in abowl until the mixture sticks together
+- combine with flour, parsley, 4 egg whites, half the harissa and some salt in a bowl until the mixture sticks together
 - shape into 8 potato cakes
 - using a little oil, fry the potato cakes for 2-3 mins each side until golden brown and crisp. Keep warm.
 - poach the eggs for 2-3 mins, the yolks should be runny. Drain on kitchen paper.
