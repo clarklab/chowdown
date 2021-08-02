@@ -1,2 +1,3 @@
 # Spellcheck only .md files
 (?:(?i).md)
+^\_recipes/
