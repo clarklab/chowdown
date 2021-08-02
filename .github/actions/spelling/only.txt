@@ -1,2 +1,2 @@
 # Spellcheck only .md files
-\.md$
+_recipes/
