@@ -1,0 +1,39 @@
+- name: Check spelling
+  # You may pin to the exact commit or the version.
+  # uses: check-spelling/check-spelling@436362fc6b588d9d561cbdb575260ca593c8dc56
+  uses: check-spelling/check-spelling@v0.0.19
+  with:
+    # The GITHUB_TOKEN secret
+    GITHUB_TOKEN: # default is ${{ github.token }}
+    # Container for spelling configuration
+    bucket: # optional
+    # Folder/Branch within bucket containing spelling configuration
+    project: # optional
+    # Spelling configuration directory
+    config: # optional, default is .github/actions/spelling
+    # Directory root to check for spelling (note that bucket/project/config are independent of this)
+    experimental_path: # optional, default is .
+    # Location of dictionary (if you aren't providing one in your repository)
+    dictionary_url: # optional, default is https://raw.githubusercontent.com/check-spelling/check-spelling/dictionary-\$DICTIONARY_VERSION/dict.txt
+    # Version of the dictionary (only used if the url includes $DICTIONARY_VERSION)
+    dictionary_version: # optional, default is 20200211
+    # Debug
+    debug: # optional
+    # (Experimental) Allow users to quote-reply to the bot comment to update the PR
+    experimental_apply_changes_via_bot: # optional, default is 0
+    # Number of CPUs available for running checks
+    experimental_parallel_jobs: # optional, default is 2
+    # Post comment with report
+    post_comment: # optional, default is 1
+    # Capture unknown words (should be added to expect.txt) as an output
+    capture_output_unknown_words: # optional, default is 
+    # Capture stale words (should be removed from expect.txt) as an output
+    capture_output_stale_words: # optional, default is 
+    # Capture skipped files (could be added to excludes.txt) as an output
+    capture_output_skipped_files: # optional, default is 
+    # Shortest word
+    shortest_word: # optional, default is 3
+    # Longest word
+    longest_word: # optional, default is 
+    # If set, commit updates to expect automatically with this note
+    experimental_commit_note: # optional, default is 
