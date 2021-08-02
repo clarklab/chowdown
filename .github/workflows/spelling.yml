@@ -1,7 +1,3 @@
-defaults:
-  run:
-    working-directory: _recipes
-
 name: Spell checking 
   on:
   repository_dispatch:
@@ -17,6 +13,9 @@ name: Spell checking
 jobs:
   spelling:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: _recipes
     steps:
     - uses: actions/checkout@v2
       with:
