@@ -1,2 +1,2 @@
 # Spellcheck only .md files
-_recipes/\.md$
+(?:^|/).md$
