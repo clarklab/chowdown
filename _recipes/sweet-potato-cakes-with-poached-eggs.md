@@ -16,7 +16,7 @@ ingredients:
 - olive oil
 
 directions:
-- peel and grate sweet potatos, squeeze excess moisture.
+- peel and grate sweet potatoes, squeeze excess moisture.
 - combine with flour, parsley, 4 egg whites, half the harissa and some salt in abowl until the mixture sticks together
 - shape into 8 potato cakes
 - using a little oil, fry the potato cakes for 2-3 mins each side until golden brown and crisp. Keep warm.
