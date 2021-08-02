@@ -1,10 +1,11 @@
 # .github/workflows/check_spelling.yml
 name: Check Spelling
 on:
+  repository_dispatch:
+  workflow_dispatch:
+
   pull_request:
     paths:
-    - '**.js'
-    - '**.vue'
     - '**.txt'
     - '**.html'
     - '**.md'
