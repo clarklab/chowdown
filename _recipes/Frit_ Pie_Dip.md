@@ -24,12 +24,9 @@ directions:
 
 
 
-| Prep Time | Cook Time |
-| -------- | -------- |
-| 5 minutes     | 25 minutes     |
+| Prep Time | Cook Time | Yields |
+| -------- | -------- | -------- |
+| 5 minutes | 25 minutes | 8 Servings |
 
 
 [Source](https://www.taketwotapas.com/frito-pie-dip/)
-
-
-Yield: serves 8
