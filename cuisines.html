@@ -23,16 +23,22 @@ layout: default
       {% endunless %}
 
       {% for cuisine in allTags %}
-      <div class="sm-col sm-col-6 md-col-6 lg-col-4 xs-px1 xs-mb2">
+      <div data-tagged="{{ cuisine }}">
         <h2><a name="{{ cuisine | downcase }}"></a>{{ cuisine | capitalize }}</h2>
-        <ul>
-          {% for recipe in site.recipes %}
-          {% if recipe.cuisines contains cuisine %}<li><a href="{{ recipe.url }}">{{ recipe.title }}</a></li>{% endif %}
-          {% endfor %}
-        </ul>
-        <a href="#top" class="button button-transparent h6 block">&#8679; top</a>
+        {% for recipe in site.recipes %}
+        {% if recipe.cuisines contains cuisine %}
+        <div class="sm-col sm-col-6 md-col-6 lg-col-4 xs-px1 xs-mb2">
+            <a class="block relative bg-blue" href="{{ recipe.url | prepend: site.baseurl }}">
+              <div class="image ratio bg-cover"{% for image in recipe.image %} style="background-image:url({{recipe.baseurl}}/images/{{ image }});"{% endfor %}></div>
+              <h4 class="title p2 m0 absolute bold white bottom-0 left-0">{{ recipe.title }}</h4>
+            </a>
+        </div>
+        {% endif %}
+        {% endfor %}
       </div>
       {% endfor %}
     </div>
   </article>
 </div>
+
+<script src="/js/tag-browse.js" charset="utf-8" defer></script>
