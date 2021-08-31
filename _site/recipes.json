@@ -39,5 +39,15 @@
     {
         "title": "Margarita Pizza",
         "image": "/images/pizza.jpg"
+    },
+
+    {
+        "title": "Vegetable Makhanawala",
+        "image": "/images/veg-makhanawala.jpg"
+    },
+
+    {
+        "title": "Vegan Chocolate Cake",
+        "image": "/images/vegan-chocolate-cake.jpg"
     }
 ]

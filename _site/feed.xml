@@ -5,8 +5,8 @@
     <description>A collection of recipes we use at home</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 03 Aug 2021 08:23:20 +0100</pubDate>
-    <lastBuildDate>Tue, 03 Aug 2021 08:23:20 +0100</lastBuildDate>
+    <pubDate>Tue, 31 Aug 2021 15:34:50 +0100</pubDate>
+    <lastBuildDate>Tue, 31 Aug 2021 15:34:50 +0100</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -115,6 +115,32 @@
         <category>dinner,</category>
         
         <category>italian</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Vegetable Makhanawala</title>
+        <description>&lt;p&gt;This recipe serves around four adults.&lt;/p&gt;
+</description>
+        <link>/recipes/veg-makhanawala.html</link>
+        <guid isPermaLink="true">/recipes/veg-makhanawala.html</guid>
+        
+        <category>dinner</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Vegan Chocolate Cake</title>
+        <description>&lt;p&gt;This recipe serves around eight adults.&lt;/p&gt;
+</description>
+        <link>/recipes/vegan-choclolate-cake.html</link>
+        <guid isPermaLink="true">/recipes/vegan-choclolate-cake.html</guid>
+        
+        <category>desert,</category>
+        
+        <category>vegan</category>
         
         
       </item>
