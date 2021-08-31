@@ -32,16 +32,16 @@ directions:
 - When ready to serve add the al-dente vegetables, caster sugar, double cream and coriander and cook for 2-3 minutes
 
 nutrition:
-    servingSize: Per portion
-    calories: 912
-    fatContent: 28
-    saturatedFatContent: 13
-    cholesterolContent: 91
-    sodiumContent: 1873
-    carbohydrateContent: 96
-    fiberContent: 7.9
-    sugarContent: 11
-    proteinContent: 69
+    servingSize: Per adult portion
+    calories: 293
+    fatContent: 12
+    saturatedFatContent: 6.3
+    cholesterolContent: 25
+    sodiumContent: 1025
+    carbohydrateContent: 38
+    fiberContent: 6.7
+    sugarContent: 6.1
+    proteinContent: 8.3
 
 ---
 

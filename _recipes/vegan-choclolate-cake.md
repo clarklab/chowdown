@@ -34,16 +34,15 @@ directions:
 
 
 nutrition:
-    servingSize: Per portion
-    calories: 912
-    fatContent: 28
-    saturatedFatContent: 13
-    cholesterolContent: 91
-    sodiumContent: 1873
-    carbohydrateContent: 96
-    fiberContent: 7.9
-    sugarContent: 11
-    proteinContent: 69
+    servingSize: Per adult portion
+    calories: 526
+    fatContent: 22
+    saturatedFatContent: 15
+    sodiumContent: 20
+    carbohydrateContent: 87
+    fiberContent: 5.3
+    sugarContent: 48
+    proteinContent: 7
 
 ---
 
