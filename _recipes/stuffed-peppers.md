@@ -22,6 +22,6 @@ directions:
 
 ---
 
-We found these during Happy Hour at Chiso's Grill in Bee Cave, Tx. We've since tweaked the recipe a bit. This recipe is just a starting point, add/remove anything you want (like more hot sauce if you're into that). Sometimes I order the [peppers on Amazon](https://amzn.to/2MGUnam). My favorite hot sauces are Franks Red Hot, Jardine's Texas Champagne, and of course, [Yellowbird](https://amzn.to/2Pw4LAv).
+We found these during Happy Hour at Chiso's Grill in Bee Cave, Tx. We've since tweaked the recipe a bit. This recipe is just a starting point, add/remove anything you want (like more hot sauce if you're into that).
 
 Fun fact: Peppedew Peppers are basically a new thing. They are the brand name of piquante peppers, which were discovered in South Africe in just 1993. Hat tip to [Wikipedia](https://en.wikipedia.org/wiki/Peppadew) for the schooling.
