@@ -32,7 +32,7 @@ jobs:
         push: true
         tags: |
           ghcr.io/darrylcauldwell/chowdown:latest
-          ghcr.io/darrylcauldwell/chowdown:1.7
+          ghcr.io/darrylcauldwell/chowdown:1.8
 
     - name: Image digest
       run: echo ${{ steps.docker_build.outputs.digest }}
