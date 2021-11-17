@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Veggie Chef</title>
+    <description>A collection of recipes we use at home</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 17 Nov 2021 18:21:03 +0000</pubDate>
+    <lastBuildDate>Wed, 17 Nov 2021 18:21:03 +0000</lastBuildDate>
+    <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Banana Loaf Cake</title>
+        <description>&lt;p&gt;This recipe serves provides one loaf cake.&lt;/p&gt;
+</description>
+        <link>/recipes/banana-loaf.html</link>
+        <guid isPermaLink="true">/recipes/banana-loaf.html</guid>
+        
+        <category>snack</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Coconut Dhal</title>
+        <description>&lt;p&gt;This recipe serves provides six portions.&lt;/p&gt;
+</description>
+        <link>/recipes/coconut-dhal.html</link>
+        <guid isPermaLink="true">/recipes/coconut-dhal.html</guid>
+        
+        <category>dinner,</category>
+        
+        <category>indian</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Simple Flatbread</title>
+        <description>&lt;p&gt;This recipe serves provides three portions.&lt;/p&gt;
+</description>
+        <link>/recipes/flatbread.html</link>
+        <guid isPermaLink="true">/recipes/flatbread.html</guid>
+        
+        <category>dinner,</category>
+        
+        <category>indian</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Summer greens, leek and lentil gratin</title>
+        <description>&lt;p&gt;Adapted from Dirty Vegan Another Bit ‘Rainbow Chard, Leek and Lentil Gratin’.  Give yourself at least 1hr ideally 1.5hr between starting and serving.&lt;/p&gt;
+</description>
+        <link>/recipes/greens-gratin.html</link>
+        <guid isPermaLink="true">/recipes/greens-gratin.html</guid>
+        
+        <category>breakfast,</category>
+        
+        <category>baking</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Lentil and vegetable curry</title>
+        <description>&lt;p&gt;This recipe serves provides three portions.&lt;/p&gt;
+</description>
+        <link>/recipes/lentil-veg-curry.html</link>
+        <guid isPermaLink="true">/recipes/lentil-veg-curry.html</guid>
+        
+        <category>dinner,</category>
+        
+        <category>indian</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Lily Non-Carne</title>
+        <description>&lt;p&gt;This recipe serves provides eleven portions.&lt;/p&gt;
+</description>
+        <link>/recipes/lily-non-carne.html</link>
+        <guid isPermaLink="true">/recipes/lily-non-carne.html</guid>
+        
+        <category>lunch,</category>
+        
+        <category>indian</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Naan</title>
+        <description>&lt;p&gt;This recipe serves provides three portions.&lt;/p&gt;
+</description>
+        <link>/recipes/naan.html</link>
+        <guid isPermaLink="true">/recipes/naan.html</guid>
+        
+        <category>dinner,</category>
+        
+        <category>indian</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Margarita Pizza</title>
+        <description>&lt;p&gt;This recipe serves provides three pizzas.&lt;/p&gt;
+</description>
+        <link>/recipes/pizza.html</link>
+        <guid isPermaLink="true">/recipes/pizza.html</guid>
+        
+        <category>dinner,</category>
+        
+        <category>italian</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Vegetarian Cottage Pie</title>
+        <description>&lt;p&gt;This recipe serves provides three adults.&lt;/p&gt;
+</description>
+        <link>/recipes/veg-cottage-pie.html</link>
+        <guid isPermaLink="true">/recipes/veg-cottage-pie.html</guid>
+        
+        <category>dinner</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Vegetable Makhanawala</title>
+        <description>&lt;p&gt;This recipe serves around four adults.&lt;/p&gt;
+</description>
+        <link>/recipes/veg-makhanawala.html</link>
+        <guid isPermaLink="true">/recipes/veg-makhanawala.html</guid>
+        
+        <category>dinner</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

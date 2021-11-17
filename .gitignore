@@ -1,3 +1,19 @@
-/.c9
-/_site/
-/.jekyll-cache/
+# Jekyll specific 
+# _site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
