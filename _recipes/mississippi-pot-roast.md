@@ -15,7 +15,7 @@ ingredients:
 
 directions:
 - In your slow cooker, add the roast and top with both packet mixes, a stick of butter (sliced into a few chunks), and a jar (or 2) of pepperoncini peppers (the more the better, drained)
-- Cook for 8 hours on low
+- Cook for 6-8 hours on low
 - Serve with salt & vinegar potatoes 
 
 ---
