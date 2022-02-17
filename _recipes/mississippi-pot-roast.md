@@ -11,10 +11,10 @@ ingredients:
 - 1 packet ranch mix
 - 1 packet au jus gravy mix
 - 1 stick butter
-- 1 jar pepperoncinis 
+- 1 jar pepperoncinis (or 2)
 
 directions:
-- In your slow cooker, add the roast and top with both packet mixes, a stick of butter (sliced into a few chunks), and a jar of pepperoncini peppers (the more the better, drained)
+- In your slow cooker, add the roast and top with both packet mixes, a stick of butter (sliced into a few chunks), and a jar (or 2) of pepperoncini peppers (the more the better, drained)
 - Cook for 8 hours on low
 - Serve with salt & vinegar potatoes 
 
