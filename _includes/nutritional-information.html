@@ -12,8 +12,13 @@
   {% assign name = site.data.nutrients[itemprop].name %}
   {% assign value = nutrient.last %}
   {% assign unit = site.data.nutrients[itemprop].unit %}
-  <div  class="rounded center border border-1 border-gray sm-col sm-col-2 lg-col-1 mr1 mb1">
-    <h5 class="bg-gray white m0 p1 capitalize">{{ name  }}</h5>
+  {% assign low = site.data.nutrients[itemprop].low %}
+  {% assign high = site.data.nutrients[itemprop].high %}
+  {% assign colour = 'gray' %}
+  {% if value <= low %}{% assign colour = 'olive' %}{% endif %}
+  {% if value >= high %}{% assign colour = 'orange' %}{% endif %}
+  <div  class="rounded center border border-1 border-{{ colour }} sm-col sm-col-2 lg-col-2 mr1 mb1">
+    <h5 class="bg-{{ colour }} white m0 p1 capitalize">{{ name  }}</h5>
     <p itemprop="{{ itemprop }}">{{ value }}{{ unit }}</p>
   </div>
   {% endfor %}

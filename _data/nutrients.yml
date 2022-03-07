@@ -24,6 +24,8 @@ fatContent:
   type: Mass
   description: The number of grams of fat.
   unit: g
+  low: 3
+  high: 17.5
 fiberContent:
   name: fiber
   type: Mass
@@ -39,16 +41,22 @@ saturatedFatContent:
   type: Mass
   description: The number of grams of saturated fat.
   unit: g
+  low: 1.5
+  high: 5
 sodiumContent:
   name: sodium
   type: Mass
   description: The number of milligrams of sodium.
   unit: mg
+  low: 140
+  high: 400
 sugarContent:
   name: sugar
   type: Mass
   description: The number of grams of sugar.
   unit: g
+  low: 5
+  high: 22.5
 transFatContent:
   name: trans fat
   type: Mass
