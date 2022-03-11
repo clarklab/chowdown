@@ -1,0 +1,20 @@
+{% assign thisRecipe = include.recipe %}
+{% assign bookIds = thisRecipe.books %}
+
+{% if thisRecipe.books %}
+<aside class="books clearfix">
+  <div class="components bg-darken-2 p2 mt3 mb3 center">
+    This recipe appears in these books
+  </div>
+  {% for book in site.books %}
+    {% for thisRecipeBookId in thisRecipe.books %}
+      {% assign bookId = thisRecipeBookId | prepend: "/books/" %}
+      {% if book.id == bookId %}
+        {% include book-preview.html book=book %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+</aside>
+{% endif %}
+
+{% assign booklist = nil %}

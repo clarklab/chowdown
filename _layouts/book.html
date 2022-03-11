@@ -1,0 +1,40 @@
+---
+layout: default
+---
+{% assign pageAuthor = site.data.people[page.author] %}
+
+<div class="container">
+  <article class="post-content px2 clearfix">
+    {{ content }}
+  </article>
+
+  <aside class="px2 clearfix">
+    <div class="components bg-darken-2 p2 mt3 mb3 center">
+      Recipes in this book
+    </div>
+    {% assign bookid = page.id | split: '/' | last %}
+    <div class="p2">
+    {% for recipe in site.recipes %}
+      {% if recipe.books contains bookid %}
+        {% include recipe-preview.html recipe=recipe %}
+      {% endif %}
+    {% endfor %}
+    </div>
+  </aside>
+
+  <aside class="px2 clearfix">
+    <div class="components bg-darken-2 p2 mt3 mb3 center">
+      Other books
+      {% if pageAuthor %}
+      by <span class="blue">{{ pageAuthor.name }}</span>
+      {% endif %}
+    </div>
+    <div class="p2">
+    {% for book in site.books %}
+      {% if book.author == page.author and book.id != page.id %}
+        {% include book-preview.html book=book %}
+      {% endif %}
+    {% endfor %}
+    </div>
+  </aside>
+</div>
