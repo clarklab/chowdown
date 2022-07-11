@@ -29,12 +29,20 @@ layout: default
   </div>
 
   <div class="mt3 clearfix">
-    <div class="sm-col sm-col-12 lg-col-12">
+    <div class="sm-col sm-col-6 lg-col-6">
       {% include nutritional-information.html %}
+    </div>
+    <div class="sm-col sm-col-6 lg-col-6 mt3">
+      <div class="flex-wrap">
+        {% include cuisine.html cuisines=page.cuisines %}
+        {% include course.html courses=page.courses %}
+        {% include diet.html diets=page.diets %}
+        {% include tag.html tags=page.tags %}
+      </div>
     </div>
   </div>
 
-  <!-- call up recipe and directions -->
+<!-- call up recipe and directions -->
   <div class="clearfix mt3">
 
     <div class="sm-col sm-col-6 lg-col-6">
@@ -122,10 +130,6 @@ layout: default
 
   {% endif %}
 <!-- end components -->
-
-  {% for category in page.categories %}
-    <p class="clearfix">{{ site.translation[site.language].category }}: <span itemprop="recipeCategory">{{ category }}</span></p>
-  {% endfor %}
 
   </article>
 

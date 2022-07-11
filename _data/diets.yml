@@ -1,0 +1,34 @@
+# See https://schema.org/RestrictedDiet#enumbers
+DiabeticDiet:
+  name: diabetic
+  description: A diet appropriate for people with diabetes.
+GlutenFreeDiet:
+  name: gluten free
+  description: A diet exclusive of gluten.
+HalalDiet:
+  name: halal
+  description: A diet conforming to Islamic dietary practices.
+HinduDiet:
+  name: hindu
+  description: A diet conforming to Hindu dietary practices, in particular, beef-free.
+KosherDiet:
+  name: kosher
+  description: A diet conforming to Jewish dietary practices.
+LowCalorieDiet:
+  name: low-calorie
+  description: A diet focused on reduced calorie intake.
+LowFatDiet:
+  name: low-fat
+  description: A diet focused on reduced fat and cholesterol intake.
+LowLactoseDiet:
+  name: low-lactose
+  description: A diet appropriate for people with lactose intolerance.
+LowSaltDiet:
+  name: low-salt
+  description: A diet focused on reduced sodium intake.
+VeganDiet:
+  name: vegan
+  description: A diet exclusive of all animal products.
+VegetarianDiet:
+  name: vegetarian
+  description: A diet exclusive of animal meat.

@@ -1,0 +1,10 @@
+{% if include.cuisines %}
+{% for cuisine in include.cuisines %}
+<span title="Cuisine" class="button button-outline h5 bg-gray white border-1 mb1 capitalize nowrap" itemprop="recipeCuisine" data-tag-type="cuisine" data-tag-name="{{ cuisine }}">
+  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 512 512" fill="currentColor">
+    <path d="M89 421h334v91H89zM408 49c-20 0-39 6-56 16a104 104 0 00-192 0 104 104 0 10-71 191v135h334V256a104 104 0 00-15-207z"/>
+  </svg>
+  <a href="/cuisines.html#{{ cuisine }}" class="white" rel="tag">{{ cuisine }}</a>
+</span>
+{% endfor %}
+{% endif %}

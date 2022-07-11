@@ -1,0 +1,12 @@
+{% if include.tags %}
+<span itemprop="keywords">
+{% for tag in include.tags %}
+  <div title="{{ tag }}" class="button button-outline h5 bg-gray white border-1 mb1 capitalize nowrap" data-tag-type="tag" data-tag-name="{{ tag }}">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 512 512" fill="currentColor">
+      <path d="M469 501c17-1 31-15 32-33l8-177c1-9-3-19-9-26L247 13a35 35 0 00-49 0L13 198a34 34 0 000 49l252 253c7 6 17 10 26 10l178-9zm-90-65a41 41 0 1158-57 41 41 0 01-58 57z"/>
+    </svg>
+    <a href="/tags.html#{{ tag }}" rel="tag" class="white">{{ tag }}</a>
+  </div>
+{% endfor %}
+</span>
+{% endif %}

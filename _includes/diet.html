@@ -1,0 +1,13 @@
+{% for diet in include.diets %}
+{% unless diet == empty %}
+{% assign itemprop = diet | append:"Diet" %}
+{% assign name = site.data.diets[itemprop].name %}
+<span title="Diet" class="button button-outline h5 bg-gray white border-1 mb1 capitalize nowrap" data-tag-type="diet" data-tag-name="{{ diet }}"><link itemprop="suitableForDiet" href="http://schema.org/{{ itemprop }}"/>
+  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 512 512" fill="currentColor">
+    <path d="M502 108c-12-58-32-98-32-99-4-7-12-11-19-8a471 471 0 00-175 116 326 326 0 0142 72c10 23 16 47 20 72l67-162a15 15 0 0128 11l-91 221a462 462 0 01-34 161 525 525 0 00122-89c27-28 47-58 61-91 13-32 20-68 21-107 1-31-3-64-10-97zm0 0"/>
+    <path d="M291 201c-6-14-14-29-22-42A472 472 0 0056 0c-6 0-11 3-14 9A485 485 0 000 205c1 39 8 75 21 107 14 33 34 63 61 91a507 507 0 00162 107L95 147a15 15 0 1128-11l150 362c7-16 24-58 34-112 12-70 7-132-15-185zm0 0"/>
+  </svg>
+  <a href="/diets.html#{{ name }}" class="white" rel="tag">{{ name }}</a>
+</span>
+{% endunless %}
+{% endfor %}
