@@ -1,0 +1,142 @@
+#!/usr/bin/env ruby
+
+require 'pathname'
+VERSION = Pathname(__FILE__).join('../../VERSION').read
+
+class Options
+  attr_reader :action, :target, :name
+
+  def initialize(action, target, name)
+    @action = action
+    @target = target
+    @name = name
+  end
+
+  def self.parse(opts)
+    available_actions = { new: 'build', delete: 'destroy' }
+    available_targets = REGISTRY.keys
+
+    action = available_actions.fetch(opts.shift.to_sym)
+    target = opts.shift.to_sym
+    target = available_targets.include?(target) ? target : nil
+    name   = opts.shift || 'Example'
+    self.new(action, target, name)
+  rescue => e
+    self.show_usage
+  end
+
+  def self.show_usage
+    puts "Chowdown v#{VERSION}"
+    puts "Usage:"
+    puts " #{Pathname(__FILE__).basename} ACTION PAGE NAME"
+    puts " ACTION is one of: new, delete"
+    puts " PAGE is one of: #{REGISTRY.keys.join(', ')}"
+    puts " NAME is the title of the page you are creating."
+    puts " eg:\n   #{Pathname(__FILE__).basename} new recipe \"Grandma's Cookies\""
+  end
+end
+
+class Chowdown
+  def self.execute(opts)
+    return if opts.nil?
+    @target = opts.target
+    # puts opts.inspect
+    puts "Chowdown v#{VERSION}"
+    template
+      .new(opts.name)
+      .send(opts.action)
+  end
+
+  def self.template
+    Template.lookup(@target)
+  end
+end
+
+class Template
+  @@template = 'template.template'
+
+  def initialize(title)
+    @title = title
+  end
+
+  def targetpath
+    @targetpath ||= Pathname('.')
+  end
+
+  def filename
+    Pathname(
+        @title.gsub(/[[:space:]]/, '-')
+            .gsub(/[^[:alnum:]-]/, '')
+            .downcase + '.md'
+      )
+  end
+
+  def file_exists?
+    target_file.exist?
+  end
+
+  def target_file
+    targetpath.join(filename)
+  end
+
+  def template_path
+    Pathname('./bin').join(@@template)
+  end
+
+  def build
+    new_contents = template_path.read
+    new_contents['{TITLE}'] = @title
+    new_contents['{IMAGENAME}'] = filename.sub_ext('.jpg').to_s
+
+    if target_file.exist?
+      puts "That one already exists, try another name."
+      puts "Tried to create: #{target_file}"
+    else
+      target_file.open('w+') {|file| file.write(new_contents) }
+
+      puts "Created: #{target_file}\n  Use the same naming structure for any images.\n  eg: 'images/#{filename.basename.sub_ext('.jpg')}'"
+    end
+  end
+
+  def destroy
+    if target_file.exist?
+      target_file.delete
+      puts "Deleting: #{target_file}"
+    else
+      puts "Can't delete: #{target_file}\nIt does not exist."
+    end
+  end
+
+  def method_missing(m, *args, &block)
+    puts ['* method:', m, args]
+    Options.show_usage
+  end
+
+  def self.register(name, klass)
+    REGISTRY[name] = klass
+  end
+  def self.lookup(name)
+    REGISTRY[name.to_s.to_sym]
+  end
+end
+
+# NullTemplate
+class NullTemplate < Template; end
+
+REGISTRY = Hash.new(NullTemplate)
+
+# Recipe template
+class Recipe < Template
+  @@template = 'recipe.template'
+
+  def targetpath
+    @targetpath ||= Pathname('_recipes')
+  end
+end
+Template.register(:recipe, Recipe)
+
+
+
+# Load the options and execute
+options = Options.parse(ARGV)
+Chowdown.execute(options)
