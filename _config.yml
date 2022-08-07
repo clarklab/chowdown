@@ -2,7 +2,8 @@
 title: Baker-Barg Family Recipes
 email: recipes@ben.community
 description: This is a way to process grief :)
-baseurl: ""
+url: "https://ben.community"
+baseurl: "/family-recipes"
 language: "en"
 lang_direction: "ltr"
 color: "#007FFF"
