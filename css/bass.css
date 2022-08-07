@@ -1,11 +1,14 @@
 
-@import url('https://rsms.me/inter/inter-ui.css');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+html {
+    font-size: 24px
+}
 
 body, button { margin: 0 }
 
 button, input, select, textarea {
   font-family: inherit;
-  font-size: 100%;
 }
 
 img { max-width: 100% }
@@ -122,13 +125,12 @@ td { vertical-align: top }
 
 
 body {
-  font-family: 'Inter UI', Helvetica, sans-serif;
+  font-family: 'Crimson Text', serif;
   line-height: 1.5;
-  font-size: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Inter UI', Helvetica, sans-serif;
+  font-family: 'Crimson Text', serif;
   font-weight: bold;
   line-height: 1.1;
   margin-top: 1em;
