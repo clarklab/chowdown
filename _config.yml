@@ -1,13 +1,12 @@
 # Site settings
-title: Chowdown
-email: your-email@domain.com
-description: The plain text recipe database for hackers
-baseurl: "https://chowdown.io"
+title: Baker-Barg Family Recipes
+email: hi@ben.community
+description: This is a way to process grief :)
+baseurl: ""
 language: "en"
 lang_direction: "ltr"
 color: "#007FFF"
-twitter_username: clarklab
-github_username:  clarklab
+github_username:  bargbb
 
 # Build settings
 markdown: kramdown
