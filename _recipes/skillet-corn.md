@@ -18,7 +18,7 @@ directions:
   skillet and tilt the pan so that the oil coats the sides and bottom. Place the skillet in
   the oven for 30 minutes.
 - Meanwhile, cut the kernels from the cobs and place in a large bowl. Using the sharp edge
-  of a wide, heavy knife, scrape the cobs thoroughly so that the pul and jice run into the
+  of a wide, heavy knife, scrape the cobs thoroughly so that the pulp and juice run into the
   bown. (You should have about 7 cups.) Add the salt, cream and flour, and mix well.
 - Pour the sticky corn mixture into the scorching hot skillet, and press down with a
   spatula to flatten and compact it. Bake until the edges begin to brown and the top is
