@@ -32,12 +32,16 @@ directions:
 
 ---
 
-Serves 8. Inspired by a recipe by [Lee
-Bailey](https://www.nytimes.com/2003/10/17/nyregion/lee-bailey-expert-on-cooking-and-entertaining-is-dead-at-76.html).
+From the New York Times:
 
-*From Ben*: I'm pretty sure this one is from the New York Times magazine. I remember my
-mom making this on summer evenings, and the rich yellow-brown color of the carmelized
-corn. I've tried to replicate this recipe from memory for several years (I never read the
-original recipe), and it's never been quite the same (because I forgot that this sits in
-the oven, and that the skillet needs to be scorching before you add the corn). Now I'm
-excited to try it again!
+> Serves 8. Inspired by a recipe by [Lee
+> Bailey](https://www.nytimes.com/2003/10/17/nyregion/lee-bailey-expert-on-cooking-and-entertaining-is-dead-at-76.html).
+
+From Ben: 
+
+> I'm pretty sure this one is from the New York Times magazine. I remember my mom
+> making this on summer evenings, and the rich yellow-brown color of the carmelized
+> corn. I've tried to replicate this recipe from memory for several years (I never
+> read the original recipe), and it's never been quite the same (because I forgot
+> that this sits in the oven, and that the skillet needs to be scorching before you
+> add the corn). Now I'm excited to try it again!
