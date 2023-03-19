@@ -1,8 +1,6 @@
-# Chowdown
+# [Food](https://adamgil.es/food/)
 
-A simple, plaintext recipe database for hackers
-
-[http://chowdown.io](http://chowdown.io)
+A simple repo of recipes, forked from [http://chowdown.io](http://chowdown.io).
 
 # Getting Started
 
