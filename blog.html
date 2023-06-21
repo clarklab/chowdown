@@ -6,6 +6,9 @@ layout: default
 
 	<h2>Billets</h2>
 
+  {% if site.posts.size == 0 %}
+  <p>Désolé, il n’y à rien à voir ici pour le moment…</p>
+  {% endif %}
 
   {% for post in site.posts %}
   <div class="post mb4">
