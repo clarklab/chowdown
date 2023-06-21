@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
+title: "À propos"
 permalink: /about/
 ---
 
-Chowdown, a plain text recipe database for hackers
+La cuisine de Jiminy, des recettes Fitness & Pâtisserie
