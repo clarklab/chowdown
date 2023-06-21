@@ -48,7 +48,7 @@ translation:
     ingredients: "Ingrédients"
     directions: "Instructions"
     category: "Catégorie"
-    nutritional_information: "Informations nutritionnelles théoriques"
+    nutritional_information: "Informations nutritionnelles (théoriques)"
     component_based: 'Cette recette est <strong class="blue">composée de plusieurs étapes</strong>.'
     search: "Recherche"
     blog: "Blog"
