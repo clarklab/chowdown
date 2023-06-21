@@ -1,13 +1,13 @@
 # Site settings
-title: Chowdown
-email: your-email@domain.com
-description: The plain text recipe database for hackers
-baseurl: "https://chowdown.io"
-language: "en"
+title: La cuisine de Jiminy
+email: panozpublishingteam@gmail.com
+description: "Des recettes Fitness & Pâtisserie"
+baseurl: "/index.html"
+language: "fr"
 lang_direction: "ltr"
 color: "#007FFF"
-twitter_username: clarklab
-github_username:  clarklab
+twitter_username: JiminyPan
+github_username:  JayPanoz
 
 # Build settings
 markdown: kramdown
@@ -43,3 +43,13 @@ translation:
     search: "Suche"
     blog: "Blog"
     subscribe: "Abonnieren"
+  fr:
+    components: "Composantes"
+    ingredients: "Ingrédients"
+    directions: "Instructions"
+    category: "Catégorie"
+    nutritional_information: "Informations nutritionnelles théoriques"
+    component_based: 'Cette recette est <strong class="blue">composée de plusieurs étapes</strong>.'
+    search: "Recherche"
+    blog: "Blog"
+    subscribe: "Vous abonner"
