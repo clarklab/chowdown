@@ -2,7 +2,7 @@
 
 layout: recipe
 title: "Banoffee Special"
-image: banoffee-Special/banoffee-1.jpg
+image: Banoffee-Special/banoffee-1.jpg
 tags: special, sans cuisson, cacao, banane, dulce de leche, sans four
 
 ingredients:
@@ -33,7 +33,7 @@ Les <i lang="en">Specials</i> sont des épiques avec peu d’ingrédients, sans 
 
 Le Banoffee Special est la rencontre entre la banane et le goût caramel sous toutes ses formes. Pour une garniture hyper coulante, on utilise ici de la confiture de lait (<i lang="es">dulce de leche</i>).
 
-![Le fourrage au beurre de cacahuète](../images/banoffee-Special/banoffee-2.jpg)
+![Le fourrage au beurre de cacahuète](../images/Banoffee-Special/banoffee-2.jpg)
 
 Le double glaçage est une idée de décoration, vous pouvez également zapper cette étape et faire un rappel avec quelques tranches de bananes et une cuillerée/traînée de confiture de lait juste avant de servir, ou ajouter du croquant avec quelques miettes des mêmes biscuits que ceux utilisées pour la pâte, partir sur un caramel, etc. À vous de jouer.  
 
