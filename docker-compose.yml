@@ -4,13 +4,13 @@ services:
   chowdown:
     image: jekyll/jekyll
     restart: always
-    container_name: chowdown
+    container_name: cuisine
     command: jekyll serve --force_polling
     ports:
       - "80:4000"
     volumes:
       - .:/srv/jekyll
-      - /opt/docker/chowdown/data/components:/srv/jekyll/_components
-      - /opt/docker/chowdown/data/images:/srv/jekyll/_images
-      - /opt/docker/chowdown/data/posts:/srv/jekyll/_posts
-      - /opt/docker/chowdown/data/recipes:/srv/jekyll/_recipes
+      - /opt/docker/cuisine/data/components:/srv/jekyll/_components
+      - /opt/docker/cuisine/data/images:/srv/jekyll/_images
+      - /opt/docker/cuisine/data/posts:/srv/jekyll/_posts
+      - /opt/docker/cuisine/data/recipes:/srv/jekyll/_recipes
