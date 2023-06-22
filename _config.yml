@@ -49,7 +49,7 @@ translation:
     directions: "Instructions"
     category: "Catégorie"
     nutritional_information: "Informations nutritionnelles (théoriques)"
-    component_based: 'Cette recette est <strong class="blue">composée de plusieurs préparations</strong>.'
+    component_based: 'Cette recette est composée <strong class="blue">d’une ou plusieurs préparations</strong>.'
     search: "Recherche"
     blog: "Blog"
     subscribe: "S’abonner"
