@@ -2,7 +2,7 @@
 
 layout: recipe
 title: "Peanut Butter Special"
-image: PB-special/pbs-1.jpg
+image: PB-Special/pbs-1.jpg
 tags: special, sans cuisson, speculoos, beurre de cacahuète, chocolat, sans four
 
 ingredients:
@@ -28,6 +28,6 @@ Les <i lang="en">Specials</i> sont des épiques avec peu d’ingrédients, sans 
 
 Le Peanut Butter Special peut se concevoir comme la rencontre entre un fond de cheesecake et une <i lang="en">cup</i> au beurre de cacahuète Reese’s géante.
 
-![Le fourrage au beurre de cacahuète](../images/PB-special/pbs-2.jpg)
+![Le fourrage au beurre de cacahuète](../images/PB-Special/pbs-2.jpg)
 
 Conservation&nbsp;: 5–7 jours dans une boîte hermétique au frigo.

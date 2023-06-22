@@ -2,8 +2,8 @@
 
 layout: recipe
 title: "Em’s Blueberry Special"
-image: EmBB-special/embbs-1.jpg
-tags: special, sans cuisson, speculoos, beurre de cacahuète, chocolat, sans four
+image: EmBB-Special/embbs-1.jpg
+tags: special, sans cuisson, speculoos, beurre de cacahuète, myrtille, chocolat blanc, sans four
 
 ingredients:
 - 40–50g de chocolat blanc
@@ -31,6 +31,6 @@ Les <i lang="en">Specials</i> sont des épiques avec peu d’ingrédients, sans 
 
 Le Special à la myrtille c’est une crust à cheesecake qui accueille un beurre de myrtille et une énorme couche de chocolat blanc décorée de beurre de cacahuète. On l’accompagne d’une belle boule de glace, par exemple celle au <a href="glace-yaourt.html">yaourt sans sorbetière</a>.
 
-![Le fourrage au beurre de myrtille](../images/EmBB-special/embbs-2.jpg)
+![Le fourrage au beurre de myrtille](../images/EmBB-Special/embbs-2.jpg)
 
 Conservation&nbsp;: 5–7 jours dans une boîte hermétique au frigo.
