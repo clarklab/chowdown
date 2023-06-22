@@ -6,9 +6,11 @@ image: pbb-brookie/pbb1.jpg
 tags: snack, brookie, goûter, beurre de cacahuète
 
 directions:
+- Préchauffez votre four à 180°C.
 - Versez la pâte à brownie dans votre moule et assurez-vous que la pâte soit bien tassée. 
 - Par dessus, venez ajouter votre pâte à cookie. La pâte est très collante donc n'hésitez pas à huiler/mouiller vos ustensiles ou vos doigts pour qu'elles soit plus facile à manipuler. Vous pouvez déposer des petites boules par dessus la pâte à brownie pour peu que vous ne laissiez pas trop d'espace entre chaque, pas besoin d'avoir une couche parfaitement lisse. Cette pâte va en effet s'étaler d'elle-même à la cuisson. 
-- Enfournez 15–20 min à 180°C ou jusqu'à ce que la lame d'un couteau ressorte légèrement humide (si vous souhaitez un coeur coulant), puis laissez refroidir avant de démouler. 
+- Enfournez 15–20 min ou jusqu'à ce que la lame d'un couteau ressorte légèrement humide (si vous souhaitez un coeur coulant)
+- Laissez refroidir avant de démouler. 
 
 components:
 - Banana Brownie
