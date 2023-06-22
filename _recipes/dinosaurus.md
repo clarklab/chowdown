@@ -16,7 +16,8 @@ directions:
 - Préchauffez le four à 180°C.
 - Abaissez la pâte sur 5 mm d'épaisseur puis découpez des dinosaures avec l’aide d’un emporte-pièce.
 - Déposez les biscuits sur une plaque de cuisson. Si ça vous tente, vous pouvez dessiner la bouche, les yeux, écailles, etc.
-- Badigeonnez les biscuits dinosaures de lait puis enfournez pour 15-20 minutes dans un four préchauffé à 180°C ou jusqu'à ce que les bords soient légèrement dorés.
+- Badigeonnez les biscuits dinosaures de lait. 
+- Enfournez pour 15-20 minutes ou jusqu'à ce que les bords soient légèrement dorés.
 - Mettez les biscuits sur une grille et laissez les refroidir. 
 - Une fois les dinosaures à température ambiante, faites fondre le chocolat au bain-marie ou au micro-ondes.
 - Badigeonnez un côté de chaque biscuit avec du chocolat noir fondu puis placez-les sur une feuille de papier sulfurisé afin que le chocolat puisse figer.
