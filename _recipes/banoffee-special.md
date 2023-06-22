@@ -8,8 +8,6 @@ tags: special, sans cuisson, cacao, banane, dulce de leche, sans four
 ingredients:
 - 150g confiture de lait/dulce de leche
 - 2 bananes mûres coupées en tranches
-- 100g de yaourt grec
-- 20g de sucre glace ou 15g de miel
 
 components:
 - Cocoa Crust
