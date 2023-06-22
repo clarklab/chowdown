@@ -16,7 +16,8 @@ ingredients:
 - 20g noisettes concassées
 
 directions:
-- Mélangez le beurre de cacahuète, le chocolat fondu, et les sucres jusqu'à l'obtention d'une pâte parfaitement lisse. - Ajoutez l'œuf et continuez à mélanger. 
+- Mélangez le beurre de cacahuète, le chocolat fondu, et les sucres jusqu'à l'obtention d'une pâte parfaitement lisse.
+- Ajoutez l'œuf et continuez à mélanger. 
 - Incorporez la farine, puis les pépites de chocolat blanc et noisettes concassées. 
 - Laissez reposer au frais au moins 15 minutes. 
 - Préchauffez le four à 190°C. 
