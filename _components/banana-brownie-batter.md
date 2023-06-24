@@ -1,7 +1,7 @@
 ---
 
 layout: recipe
-title:  "Banana Brownie"
+title:  "Pâte à brownie banane"
 image: banana-brownie.jpg
 
 ingredients:
