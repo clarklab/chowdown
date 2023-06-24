@@ -13,8 +13,8 @@ directions:
 - Laissez refroidir avant de démouler. 
 
 components:
-- Banana Brownie
-- Peanut Butter Cookie
+- Pâte à brownie banane
+- Pâte à cookie PB
 
 ---
 

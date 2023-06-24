@@ -1,7 +1,7 @@
 ---
 
 layout: recipe
-title:  "Peanut Butter Cookie"
+title:  "Pâte à cookie PB"
 image: PB-cookie.jpg
 
 ingredients:
