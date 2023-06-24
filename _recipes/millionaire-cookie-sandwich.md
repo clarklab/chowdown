@@ -3,7 +3,7 @@
 layout: recipe
 title: "Millionaire Cookie Sandwich"
 image: millionnaire-sandwich/millionnaire-sandwich-1.jpg
-tags: snack, biscuit, avoine, cacao, beurre, shortbread
+tags: snack, biscuit, épeautre, beurre, shortbread, caramel, ganache, chocolat noir, muscovado, cookie
 
 components:
 - Ganache chocolat noir
@@ -45,4 +45,4 @@ Quant au chocolat de la ganache, n’hésite pas à prendre le plus riche en cac
 
 ![Le biscuit est d’une richesse assez exceptionnelle quand on prend le temps de le déguster, car on découvre différents niveaux de saveurs en bouche.](../images/millionnaire-sandwich/millionnaire-sandwich-2.jpg)
 
-Conservation&nbsp; 5–7 jours dans une boîte à biscuit avec du papier cuisson pour absorber l’humidité.
+Conservation&nbsp;: 5–7 jours dans une boîte à biscuit avec du papier cuisson pour absorber l’humidité.
