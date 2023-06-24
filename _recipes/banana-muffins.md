@@ -11,6 +11,7 @@ ingredients:
 - 35g de sucre de canne complet 
 - 1 banane mûre 
 - 1 œuf
+- 5cl de lait d’amande fermenté
 - 50g de chocolat noir
 - Extrait de vanille 
 - ½ cuillère à café de bicarbonate alimentaire 
@@ -37,7 +38,7 @@ directions:
 
 La banane est un ingrédient magique en cuisine puisqu’elle permet de remplacer plusieurs ingrédients à la fois e.g. sucre, œuf…
 
-Dans cette recette, on utilise en plus du lait d’amande fermenté et du bicarbonate pour apporter un maximum de volume et de moelleux sans avoir à doubler voire tripler le mélange du sucre et de l’œuf.
+Dans cette recette, on utilise en plus du lait d’amande fermenté et du bicarbonate pour apporter un maximum de volume et de moelleux sans avoir à doubler voire tripler le mélange du sucre et de l’œuf. Vous pouvez néanmoins utiliser du fromage blanc ou yaourt grec à la place si vous ne souhaitez pas en préparer ou en acheter.
 
 Vous pouvez utiliser des pépites de chocolat plutôt que de découper des morceaux – elles tiendront mieux à la cuisson – voire mélanger les 2 – on obtiendra alors une double texture avec des flaques liquides et pépites solides.
 

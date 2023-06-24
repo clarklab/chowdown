@@ -17,6 +17,6 @@ directions:
 
 ---
 
-Le lait fermenté, également connu sous le nom de lait Ribot ou <i lang="en">buttermilk</i>, est très utilisé dans la cuisine américaine. Associé au bicarbonate alimentaire, il permet d’obtenir une texture hyper moelleuse et riche en bouche.
+Le lait fermenté, également connu sous le nom de lait Ribot, babeurre, ou <i lang="en">buttermilk</i>, est très utilisé dans la cuisine américaine. Associé au bicarbonate alimentaire, il permet d’obtenir une texture hyper moelleuse et riche en bouche.
 
 Bien que vous pouvez en acheter au supermarché, la recette est très simple en soi&nbsp;: il suffit en effet de laisser le jus de citron ou vinaigre agir pour “cailler” le lait ou boisson végétale.
