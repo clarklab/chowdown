@@ -3,7 +3,7 @@
 layout: recipe
 title:  "Overnight oats"
 image: overnight-oats/overnight-oats-1.jpg
-tags: petit déjeuner, avoine, froid, sans cuisson, lendemain, fruits rouges, yaourt
+tags: petit déjeuner, avoine, froid, sans cuisson, lendemain, fruits rouges, yaourt, healthy
 
 ingredients:
 - 35–40g de flocons ou son avoine
@@ -32,7 +32,7 @@ directions:
 
 Les <i lang="en">overnight oats</i>, ce sont des flocons ou du son d’avoine trempés la veille pour le petit déjeuner du lendemain. C’est le petit déjeuner parfait pour enchaîner sur une grosse journée ou une sortie sportive.
 
-On peut éventuellement le voir comme la version froide et sans prise de tête du porridge&nbsp;: zéro cuisson et une liberté totale sur les ingrédients&nbsp;!
+On peut éventuellement le voir comme la version froide et sans prise de tête du porridge&nbsp;: zéro cuisson et une liberté totale sur les ingrédients&nbsp;! Pour dire la vérité, c’est même le petit déjeuner qui a accompagné mon rééquilibrage alimentaire et a contribué à atteindre la meilleure forme de ma vie.
 
 ![On peut ajouter de tout, n’hésitez pas à privilégier quelques graines pour amener du croquant et rendre le bol plus intéressant](../images/overnight-oats/overnight-oats-2.jpg)
 
