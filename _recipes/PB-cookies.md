@@ -26,7 +26,9 @@ directions:
 
 ---
 
-Un cookie sans beurre mais très fort en cacahuète. Ici on utilise du beurre de cacahuète chunky (avec des cacahuètes concassées) comme raccourci, mais tu peux aussi utiliser une autre purée d’oléagineux (amande, tahin, cajou) et mixer avec des morceaux de fruits secs (amande, noisettes, cerneaux, etc.).
+Un cookie sans beurre mais très fort en cacahuète. Là on est vraiment sur du cookie à mâcher, pas sur quelque chose de croquant.
+
+Ici on utilise du beurre de cacahuète chunky (avec des cacahuètes concassées) comme raccourci, mais tu peux aussi utiliser une autre purée d’oléagineux (amande, tahin, cajou) et mixer avec des morceaux de fruits secs (amande, noisettes, cerneaux, etc.).
 
 Évidemment la base, c’est d’amener un fort contraste avec du chocolat – si possible ton préféré –, comme pour les produits Reese’s. 
 
