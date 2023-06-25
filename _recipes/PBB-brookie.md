@@ -20,6 +20,6 @@ components:
 
 Un mélange absolument décadent entre brownie fondant et cookie à mâcher.
 
-Conservation : 3-5 jours à température ambiante dans une boîte hermétique à l'abri de la lumière et de la chaleur. Ou congélateur pour 2–3 mois. 
-
 ![L’intérieur est tellement gooey que le brookie se délie entre les lèvres.](../images/pbb-brookie/pbb6.jpg)
+
+Conservation : 3-5 jours à température ambiante dans une boîte hermétique à l'abri de la lumière et de la chaleur. Ou congélateur pour 2–3 mois. 
