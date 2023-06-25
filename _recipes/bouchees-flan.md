@@ -2,7 +2,7 @@
 
 layout: recipe
 title: "Bouchées de flan patissier"
-image: bouchees-flan/bouchees-flan-1.jpg
+image: Bouchees-flan/bouchees-flan-1.jpg
 tags: snack, crème patissière, flan, bouchée, sans gluten, sans four
 
 ingredients:
@@ -33,6 +33,6 @@ Version snack/bouchée du flan patissier sans pâte – une crème patissière d
 
 L’un de ces principaux intérêts, c’est que la recette se réalise sans four et qu’il suffit d’un fouet et d’une casserole. Par contre il faudra prévoir un temps de prise au frigo.
 
-![Bon en gros c’est la crème patissière sous forme de bouchée solide, rien de plus, rien de moins. Mais si tu aimes le flan patissier, tu vas adorer.](../images/bouchees-flan/bouchees-flan-2.jpg)
+![Bon en gros c’est la crème patissière sous forme de bouchée solide, rien de plus, rien de moins. Mais si tu aimes le flan patissier, tu vas adorer.](../images/Bouchees-flan/bouchees-flan-2.jpg)
 
 Conservation&nbsp;: 48 heures au frigo. Pas de congélation.
