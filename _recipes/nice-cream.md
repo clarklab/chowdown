@@ -25,4 +25,4 @@ La texture est celle d’une crème glacée ni trop solide ni trop liquide, just
 
 Le résultat doit être bien crémeux et onctueux. Ça ne devrait pas donner l’impression d’être une ersatz de crème glacée vendue 7&nbsp;€ en supermarché. Et puis l’intérêt c’est aussi de faire ses propres parfums et mélanges, avec de la <i lang="en">cookie dough</i>, ou des rubans de caramel, du cacao, des pépites de chocolat, du beurre de cacahuète, etc.
 
-![Là clairement on peut voir que c’est une mousse très fragile et aérée, pas comme la mousse comme tu la vois en cuisine généralement. D’où le terme d’écume.](../images/nice-cream/nice-cream-2.jpg)
+![Vous pouvez aussi simplement accompagner votre nice cream nature d’une poignée de fruits rouges, noix, etc.](../images/nice-cream/nice-cream-2.jpg)
