@@ -36,4 +36,4 @@ Le sucre glace est un détail important dans le sens où il va apporter un croqu
 
 ![Le biscuit reste ultra craquant tout en amenant des fibres et protéines par rapport au shortbread classique.](../images/cacao-son/cacao-son-2.jpg)
 
-Conservation&nbsp; 7–10 jours dans une boîte à biscuit avec du papier cuisson pour absorber l’humidité.
+Conservation&nbsp;: 7–10 jours dans une boîte à biscuit avec du papier cuisson pour absorber l’humidité.
