@@ -31,4 +31,4 @@ Des cookies à mâcher, et pas à croquer.
 
 ![Chunks de chocolat blanc et noisettes pour le croc, beurre de cacahuète pour la mâche](../images/pbwc-cookie/pbwc2.jpg)
 
-Conservation 4-5 jours dans une boîte hermétique à l'abri de la lumière et la chaleur.
+Conservation&nbsp;: 4-5 jours dans une boîte hermétique à l'abri de la lumière et la chaleur.

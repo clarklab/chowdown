@@ -25,7 +25,7 @@ directions:
 - Ajoutez-en la moitié à la crème en continuant à battre puis ajoutez la moitié de fromage blanc. 
 - Rebelote avec les autres moitiés en continuant à battre jusqu'à l'obtention d'une pâte bien lisse. Attention, on ne veut pas trop la travailler – on risque en effet d'obtenir une pâte trop dense après cuisson –, il faut la travailler juste ce qu'il faut pour que ces ingrédients soient incorporés. 
 - Versez la préparation dans un moule aux empreintes graissées.
-- Nettoyez et essuyez les myrtilles puis répartissez-les sur la pâte en appuyant légèrement dessus pour bien les ancrer tout en laissant une marge de 1cm de chaque côté. Pour éviter qu'elles ne tombent au fond, vous pouvez les fariner avant de les répartir. 
+- Nettoyez et essuyez les myrtilles puis répartissez-les sur la pâte en appuyant légèrement dessus pour bien les ancrer tout en laissant une marge de 1cm de chaque côté. Pour éviter qu’elles ne tombent au fond, vous pouvez les fariner avant de les répartir. 
 - Sortez la pâte à crumble et répartissez-la par dessus. Tassez-le très légèrement pour qu'il se tienne mieux une fois cuit en prenant soin de ne pas écraser les myrtilles.
 - Enfournez pendant 35–45 minutes ou jusqu'à ce qu'un cure-dent ressorte quasiment sec, avec quelques flocons de mie.
 - Laissez refroidir à la sortie du four avant de démouler. Dans l'idéal il faut que votre moule soit à température ambiante. Les cakes vont continuer à cuire donc soyez très prudent lors du démoulage, ils seront encore un peu mou et vont durcir en refroidissant, en particulier le crumble.
