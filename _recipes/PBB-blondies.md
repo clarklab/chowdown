@@ -3,7 +3,7 @@
 layout: recipe
 title: "PB&B Blondies"
 image: PBB-blondies/PBB-blondies-1.jpg
-tags: snack, cookie, biscuit, chocolat blanc, beurre de cacahuète, noisette
+tags: snack, blondie, brownie, chocolat, beurre de cacahuète, fleur de sel, banane, dégoulinant, gooey
 
 ingredients:
 - 1 banane mûre

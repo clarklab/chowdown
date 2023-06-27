@@ -43,6 +43,6 @@ On peut entrevoir ces <i lang="en">plumcakes</i> dinosaure comme le croisement e
 
 Pour encore plus le marquer, vous pouvez utiliser uniquement de l’huile d’olive au lieu d’un mélange neutre+olive. Et pour rappeler le biscuit, vous pouvez même napper le dessous du <i lang="en">plumcake</i> de chocolat.
 
-![Le nappage chocolat bien épais au pinceau, pour amener un peu de texture en plus](../images/dino-plumcake/dino-plumcake-2.jpg)
+![La mie est un peu plus costaud que celle du plumcake classique. C‘est dû à la farine de seigle.](../images/dino-plumcake/dino-plumcake-2.jpg)
 
 Conservation&nbsp;: 3–5 jours dans une boîte hermétique à l'abri de la chaleur et de la lumière, 2–3 mois au congélateur.
