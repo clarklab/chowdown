@@ -14,6 +14,8 @@ ingredients:
 - ½ cuillère à café de sel
 - 1.5L d’eau
 - 40g de bicarbonate alimentaire
+- gros sel
+- poignée de noix de pécan concassées (facultatif)
 
 components:
 - Glaçage cacao
