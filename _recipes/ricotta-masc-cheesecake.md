@@ -16,7 +16,7 @@ ingredients:
 directions:
 - Tapissez un moule à charnière avec votre crust/pâte sablée, en prenant bien soin de la presser et tasser pour que celle-ci soit compacte et solide après refroidissement.
 - Réservez au moins 30 minutes au réfrigérateur pour faire durcir cette base.
-- Pendant que votre pâte est au frais, mélangez dans une assiette creuse la ricotta et le mascarpone avec le sucre glace. Battez vigoureusement jusqu’à l’obtention d’un appareil bien lisse et aérien.
+- Pendant que votre pâte est au frais, mélangez la ricotta et le mascarpone avec le sucre glace. Battez vigoureusement jusqu’à l’obtention d’un appareil bien lisse et aérien.
 - Retirez votre pâte du réfrigérateur et étalez votre mélange ricotta-mascarpone sur la pâte.
 - Remettez le tout au frais pour au moins 2h ou, encore mieux, toute une nuit.
 - Ajoutez vos toppings préférés.
