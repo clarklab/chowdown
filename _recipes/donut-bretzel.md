@@ -45,6 +45,8 @@ Le bretzel c’est très bon nature, c’est également délicieux en sandwich, 
 
 Pour la glaçage on joue la valeur sûre&nbsp;: chocolat noir/cacao et gros sel. Ça existe sous forme de tablette de chocolat, c’est simple, basique, et on sait que ça fonctionne. Mais il y en a plein d’autres qui peuvent se tenter&nbsp;: caramel, beurre de cacahuète, et sirop d’érable devraient tout aussi bien fonctionner que le chocolat noir. Et les plus aventureux pourront tenter des choses beaucoup plus originales ou contrastées.
 
+Note&nbsp;: Si tu préfères une pâte à donut un peu plus aérée pour réaliser ces bretzels, il suffit d’ajouter un œuf à la pâte. Le reste fonctionne de la même façon.
+
 ![Si vous savez la flemme, même pas besoin de faire la forme de bretzel. La forme de donut avec ou sans trou, petit pain ou barre fonctionne très bien aussi, et permet de s’amuser sur la décoration.](../images/donut-bretzel/donut-bretzel-2.jpg)
 
 Conservation&nbsp;: 3–5 jours dans une boîte à l’abri de la lumière et de la chaleur ou emballé dans un torchon comme le pain. 2–3 mois au congélateur.
