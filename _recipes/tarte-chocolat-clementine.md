@@ -10,7 +10,7 @@ ingredients:
 - quartiers d’une clémentine ou mandarine
 - 1 blanc d’œuf
 - 25g de chocolat noir aux écorces d’orange pour la crème pâtissière au chocolat
-- extrait de fleur d’oranger (facultatif)
+- extrait de fleur d’oranger pour la crème pâtissière au chocolat (facultatif)
 
 components:
 - Pâte sucrée
