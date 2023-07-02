@@ -7,8 +7,7 @@ tags: tarte, cacao, fruit, orange, crème pâtissière, huile d’olive, chocola
 
 ingredients:
 - 1 pâte sucrée au cacao
-- jus et zestes d’1 orange ou 2 mandarines
-- 1 crème de fruit
+- jus et zestes d’1 orange ou 2 mandarines pour préparer 1 curd d’orange
 - 1 blanc d’œuf
 - 20g de chocolat noir
 
@@ -18,7 +17,7 @@ components:
 
 directions:
 - Foncez la pâte dans un moule beurré et réservez au réfrigérateur.
-- Lavez, pressez et zestez votre orange, réservez quelques zestes pour la décoration et réparez votre crème de fruit.
+- Lavez, pressez et zestez votre orange, réservez quelques zestes pour la décoration et préparez votre crème de fruit.
 - Préchauffez le four à 180°C.
 - Sortez votre moule du réfrigérateur, ajoutez du papier cuisson sur la pâte puis déposez des cailloux ou des billes de cuisson.
 - Faites-la cuire à blanc pendant 10 minutes.
