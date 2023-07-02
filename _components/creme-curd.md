@@ -13,7 +13,7 @@ ingredients:
 
 directions:
 - Pressez le fruit pour obtenir son jus, ou mixez-le pour obtenir une soupe.
-- Passez-la au tamis et complétez avec du lait pour obtenir 20cl (ou un multiple de 20cl).
+- Passez-la au tamis et complétez avec du lait pour obtenir 20cl (ou un multiple de 20cl si vous doublez, triplez, etc. les quantités).
 - Si vous avez des zestes, faites les infuser dans ce mélange froid pendant au moins une heure.
 - Faites bouillir le mélange de lait et de fruit.
 - Travaillez les jaunes d'œufs avec le sucre jusqu’à ce que la pâte s’étire en ruban lorsqu’on la soulève. 
