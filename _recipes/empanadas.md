@@ -13,7 +13,7 @@ ingredients:
 - 1 boîte de thon à la tomate
 - eau
 - 1 échalotte (facultatif)
-- lait pour dorure (facultatif)
+- lait et jaune d’œuf pour dorure (facultatif)
 
 directions:
 - Préchauffez le four à 180°C – ou à la température indiquée sur le paquet de pâte brisée.
@@ -23,7 +23,7 @@ directions:
 - Humidifiez les bords avec de l’eau puis repliez-le pour former un chausson.
 - Pressez les bords pour bien les souder afin qu’ils ne s’écartent pas à la cuisson – vous pouvez utiliser une fourchette.
 - Disposez vos chaussons sur une plaque de cuisson en laissant un peu d’espace entre chaque.
-- À l’aide d’un pinceau, disposez du lait sur le dessus des chaussons.
+- À l’aide d’un pinceau, disposez le mélange de jaune d’œuf et de lait sur le dessus des chaussons.
 - Enfournez pour 15–20 minutes ou jusqu’à ce que les bords soient bien dorés.
 
 ---
