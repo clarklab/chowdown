@@ -28,6 +28,6 @@ directions:
 
 Une quiche rapide à enfourner et hyper réconfortante pour les courtes journées d’hiver.
 
-Note&nbsp;: le jambon cru étant particulièrement salé, on utilise pas de sel dans cette recette.
+Note&nbsp;: le jambon cru étant particulièrement salé, on n'utilise pas de sel dans cette recette.
 
 Conservation&nbsp;: 2–3 jours au réfrigérateur.

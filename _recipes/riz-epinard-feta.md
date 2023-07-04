@@ -27,3 +27,5 @@ directions:
 ---
 
 Un plat assez rapide à réaliser qui joue sur la combinaison entre épinards et feta.
+
+Note&nbsp;: la feta étant particulièrement salée, on n'utilise pas de sel dans cette recette.

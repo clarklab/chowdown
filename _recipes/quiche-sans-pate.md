@@ -29,6 +29,6 @@ directions:
 
 Une quiche rapide à enfourner dont la particularité et de ne pas nécessiter de pâte du tout – on peut donc plus ou moins le concevoir comme un cake cuit dans un moule à tarte, aucune magie là-dedans.
 
-Note&nbsp;: le jambon cru étant particulièrement salé, on utilise pas de sel dans cette recette.
+Note&nbsp;: le jambon cru étant particulièrement salé, on n'utilise pas de sel dans cette recette.
 
 Conservation&nbsp;: 2–3 jours au réfrigérateur.
