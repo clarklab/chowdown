@@ -2,7 +2,7 @@
 
 layout: recipe
 title: "Quiche tomate mozza"
-image: quiche-tomate-mozza/quiche-tomate-mozza-1.jpg
+image: Quiche-tomate-mozza/quiche-tomate-mozza-1.jpg
 tags: quiche, salé, pâte brisée, poulet, tomate, mozza, sans viande
 
 components:
@@ -34,6 +34,6 @@ directions:
 
 Une quiche simple, basique, tomate, mozza. Privilégiez des ingrédients de qualité, notamment du basilic bien frais car c’est lui qui va véritablement sublimer votre quiche.
 
-![On dirait presque un tableau de Van Gogh dans l’assiette.](../images/quiche-tomate-mozza/quiche-tomate-mozza-2.jpg) 
+![On dirait presque un tableau de Van Gogh dans l’assiette.](../images/Quiche-tomate-mozza/quiche-tomate-mozza-2.jpg) 
 
 Conservation&nbsp;: 2–3 jours au réfrigérateur.
