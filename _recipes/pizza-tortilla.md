@@ -10,6 +10,8 @@ ingredients:
 - 2 petites boîtes de thon sauce tomate
 - 1 petite brique de coulis de tomate
 - 1 poignée de tomates-cerises
+- 4 champignons
+- 1/2 oignon
 - 100g de roquette
 - 100g de fromage de chèvre frais/Chevroux
 - huile d’olive
@@ -19,9 +21,11 @@ directions:
 - Préchauffez votre four à la température indiquée sur le paquet de tortillas.
 - Étalez du coulis sur chaque tortilla en prenant bien soin d’avoir une couche homogène.
 - Ajoutez le thon et sa sauce.
+- Émincez l’oignon et distribuez-le sur le thon et sa sauce.
 - Découpez les tomates-cerises en 2 et disposez-les sur chaque tortilla.
-- Ajoutez des petites quenelles de fromage de chèvre (de la taille d’une cuillère à café).
+- Découpez les champignons en tranche et ajoutez-les.
 - Enfournez pour 12–15 minutes ou jusqu’à ce que les bords soient bien croquants.
+- Ajoutez des petites quenelles de fromage de chèvre (de la taille d’une cuillère à café).
 - Poivrez, ajoutez une poignée de roquette puis faites couler un filet d’huile d’olive par dessus et dégustez.
 
 ---
