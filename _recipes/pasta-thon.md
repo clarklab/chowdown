@@ -3,7 +3,7 @@
 layout: recipe
 title: "Salade de pâtes au thon, tomate cerise et maïs"
 image: pasta-thon/pasta-thon-1.jpg
-tags: salade, entrée, sucré-salé, figue, poire, miel, chèvre, fromage frais, roquette, vinaigrette, sucrine, graines
+tags: salade, entrée, plat, accompagnement, thon, pâtes, semoule, farine complète, maïs, tomate cerise, basilic, huile d’olive
 
 ingredients:
 - 100g de pâtes à la semoule de blé ou farine complète
