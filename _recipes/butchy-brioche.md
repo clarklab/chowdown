@@ -6,7 +6,7 @@ image: butchy-brioche/butchy-brioche-1.jpg
 tags: snack, cannelle, brioche, raisins secs, fleur d’oranger, 4 épices
 
 ingredients:
-- 250g de farine T45–T65
+- 250g de farine T45–T55
 - 1 sachet de levure boulangère sèche
 - 100g de crème fraîche épaisse
 - 1 oeuf
