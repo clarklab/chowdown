@@ -11,10 +11,10 @@ ingredients:
 - 1 banane
 - 1 pomme
 - baies/fruits rouges
-- 1 cuillère à café de sucre vanillé ou de cannelle
+- 1 cuillère à café de sucre vanillé ou de 1/2 de cannelle
 
 directions:
-- Lavez, épluchez (si la peau ne se mange pas), et découpez tous les fruits en tranches ou en dés.
+- Lavez, épluchez (si la peau ne se mange pas), et découpez tous les fruits en tranches, en quartiers ou en dés.
 - Mélanger grossièrement à la cuillère dans un tupperware. 
 - Ajoutez le sucre vanillé ou la cannelle. 
 - Agitez 30–60 secondes, comme pour une poudre à boire au shaker. 
