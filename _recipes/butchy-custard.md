@@ -3,7 +3,7 @@
 layout: recipe
 title: "Butchy’s Custard Rolls"
 image: butchy-custard/butchy-custard-1.jpg
-tags: snack, brioche, fraise, roll, roulé, glaçage citron
+tags: snack, brioche, crème pâtissière, pépites de chocolat, roll, roulé, glaçage citron
 
 components: 
 - Brioche Butchy pour Rolls
