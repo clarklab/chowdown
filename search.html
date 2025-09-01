@@ -150,13 +150,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Event listener for toggling filters
   filterButton.addEventListener('click', toggleFilters);
-
-// Event listener for search input bar
-  searchInput.addEventListener('keydown', function (e) {
-    if (e.key === 'Enter') {
-      simpleSearch.search(searchInput.value);
-      showResults();
-    }
 });
 
 
