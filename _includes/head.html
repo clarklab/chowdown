@@ -106,14 +106,14 @@
 </head>
 
 <nav class="w-full md:w-1/4 lg:w-1/5 md:h-full bg-orange-50 fixed md:relative left-0 bottom-0 flex md:flex-col justify-between md:justify-start px-6 py-4 md:p-8 md:gap-4 z-10 shadow-3xl md:shadow-none {% if page.url contains '/recipes/' %}md:hidden{% endif %}">
-      <a href="/" class="flex flex-col md:flex-row items-center gap-0 md:gap-2 {% if page.url == '/' %}text-primary{% endif %}">
+      <a href="{{ site.url }}{{ site.baseurl }}/" class="flex flex-col md:flex-row items-center gap-0 md:gap-2 {% if page.url == '/' %}text-primary{% endif %}">
         <svg class="w-12 md:w-10" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M18 16.25H15V7.5H12V16.25H9V7.5H6V16.25C6 18.9 8.49 21.05 11.625 21.2125V32.5H15.375V21.2125C18.51 21.05 21 18.9 21 16.25V7.5H18V16.25ZM25.5 12.5V22.5H29.25V32.5H33V7.5C28.86 7.5 25.5 10.3 25.5 12.5Z" fill="currentColor" />
         </svg>
         <span class="text-sm md:text-2xl font-medium md:font-gelica">Recipes</span>
       </a>
 
-      <a href="/search" class="flex flex-col md:flex-row items-center gap-0 md:gap-2 {% if page.url == '/search.html' or page.url == '/search/' %}text-primary{% endif %}">
+      <a href="{{ site.url }}{{ site.baseurl }}/search" class="flex flex-col md:flex-row items-center gap-0 md:gap-2 {% if page.url == '/search.html' or page.url == '/search/' %}text-primary{% endif %}">
         <svg class="w-12 md:w-10" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path fill-rule="evenodd" clip-rule="evenodd" d="M13 21.5C13 16.8056 16.8056 13 21.5 13C26.1944 13 30 16.8056 30 21.5C30 23.8248 29.0667 25.9315 27.5544 27.4661C27.5392 27.4801 27.5241 27.4946 27.5093 27.5093C27.4946 27.5241 27.4801 27.5392 27.4661 27.5544C25.9315 29.0667 23.8248 30 21.5 30C16.8056 30 13 26.1944 13 21.5ZM28.502 30.6233C26.5628 32.1139 24.1349 33 21.5 33C15.1487 33 10 27.8513 10 21.5C10 15.1487 15.1487 10 21.5 10C27.8513 10 33 15.1487 33 21.5C33 24.1349 32.1139 26.5628 30.6233 28.502L37.5607 35.4393C38.1464 36.0251 38.1464 36.9749 37.5607 37.5607C36.9749 38.1465 36.0251 38.1465 35.4393 37.5607L28.502 30.6233Z" fill="currentColor" />
         </svg>
