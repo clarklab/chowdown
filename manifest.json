@@ -15,6 +15,6 @@ layout: none
     ],
     "theme_color": "{{ site.color }}",
     "background_color": "{{ site.color }}",
-    "start_url": "",
+    "start_url": "https://mar-vdb.github.io/chowdown_mar/",
     "display": "standalone"
 }
