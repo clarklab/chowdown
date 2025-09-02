@@ -23,7 +23,7 @@ nutrition:
 yield: 2 litres
 
 ingredients:
-- 2 litres whole milk, fresh or UHT
+- 2 litres wholefull fat milk, fresh or UHT
 - 100 gram powdered skimmed milk
 - 85 gram commercial plain or greek style yogurt
 
