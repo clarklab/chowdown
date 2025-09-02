@@ -9,6 +9,7 @@ tags:
 - vegan
 - snacks
 - baking
+- crowdpleaser
 
 nutrition:
   servingSize: per 100g
