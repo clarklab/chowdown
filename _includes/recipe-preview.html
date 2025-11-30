@@ -1,0 +1,7 @@
+{% assign thisrecipe = include.recipe %}
+
+<a class="col col-12 sm-col-4 md-col-4 lg-col-3 button button-transparent blue" href="{{ thisrecipe.url }}">
+  {{ thisrecipe.title }}
+</a>
+
+{% assign thisrecipe = nil %}

@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div class="container">
+
+  <h1>Books</h1>
+  <p>Here's all the lovely books we have.</p>
+
+  <div class="clearfix">
+  {% for book in site.books %}
+  {% include book-preview.html book=book %}
+  {% endfor %}
+  </div>
+
+</div>

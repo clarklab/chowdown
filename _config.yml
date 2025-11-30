@@ -19,6 +19,8 @@ collections:
     output: true
   recipes:
     output: true
+  books:
+    output: true
 
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']
 
