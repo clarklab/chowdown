@@ -76,7 +76,13 @@ layout: default
       <ul itemprop="ingredients" class="flex flex-col gap-2 mb-8">
         <!-- list ingredients that make up recipe -->
         {% for ingredient in page.ingredients %}
+        {% assign _t = ingredient | strip %}
+        {% assign _p = _t | slice: 0, 2 %}
+        {% if _p == "# " %}
+        <li class="recipe-section font-gelica text-primary text-2xl font-semibold mt-6 first:mt-0">{{ _t | remove_first: "# " }}</li>
+        {% else %}
         <li itemprop="recipeIngredient" class="flex items-start gap-3 text-lg leading-loose">{{ ingredient | markdownify }}</li>
+        {% endif %}
         {% endfor %}
       </ul>
       {% endif %}
@@ -87,7 +93,13 @@ layout: default
       <h2 class="uppercase text-primary font-semibold mb-2">{{ site.translation[site.language].directions }}</h2>
       <ul itemprop="recipeInstructions" class="flex flex-col gap-3 mb-8">
         {% for direction in page.directions %}
+        {% assign _t = direction | strip %}
+        {% assign _p = _t | slice: 0, 2 %}
+        {% if _p == "# " %}
+        <li class="recipe-section font-gelica text-primary text-2xl font-semibold mt-6 first:mt-0">{{ _t | remove_first: "# " }}</li>
+        {% else %}
         <li class="flex gap-3 items-start text-lg leading-loose">{{ direction | markdownify }}</li>
+        {% endif %}
         {% endfor %}
       </ul>
     </div>
@@ -174,7 +186,7 @@ layout: default
   const container = document.querySelector(".post-content");
 
   // Select all list items in the unordered list
-  document.querySelectorAll("ul li").forEach(function(li) {
+  document.querySelectorAll("ul li:not(.recipe-section)").forEach(function(li) {
     // Append a checkbox input to each list item
     const checkbox = document.createElement("input");
     checkbox.type = "checkbox";
