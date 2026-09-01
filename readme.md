@@ -32,6 +32,18 @@ They are written in Markdown and contain a few special sections:
  - Directions (a list of steps for the dish)
 - Body content (for intros, stories, written detail)
 
+Within the Ingredients or Directions list, an entry that starts with a `#` and a space renders
+as a section header instead of a list item (no checkbox, not counted as an
+ingredient/step) — useful for recipes with distinct sub-preparations:
+
+```yaml
+ingredients:
+  - "# For the sofrito"
+  - "1/4 cup extra-virgin olive oil"
+  - "# For the paella"
+  - "3/4 cup Bomba rice"
+```
+
 If you need help with Markdown, here's a [handy cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
 # Writing a component recipe
